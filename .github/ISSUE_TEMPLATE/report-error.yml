@@ -1,0 +1,24 @@
+name: Report an error / 纠错
+description: Report outdated facts, broken links, translations, or image rights / 事实、链接、翻译及图片权属问题
+title: "[Correction] "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Robot or section / 机器人或章节
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What needs correction / 需要修改的内容
+      description: Include the language and field. For image rights requests, identify the image and requested action.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and date / 证据与日期
+      description: Link official evidence where possible; distinguish an inaccessible link from a discontinued service.
+    validations:
+      required: true

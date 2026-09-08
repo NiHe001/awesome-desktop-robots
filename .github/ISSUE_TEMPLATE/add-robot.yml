@@ -1,0 +1,35 @@
+name: Add a robot / 推荐机器人
+description: Suggest a desktop robot with official sources / 附官方来源推荐桌面机器人
+title: "[Add robot] "
+body:
+  - type: input
+    id: product
+    attributes:
+      label: Product and developer / 产品和开发者
+      placeholder: Exact model, aliases, organization
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Why it belongs / 收录理由
+      description: Describe tabletop use, actual movement, and the main differentiator.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official sources / 官方来源
+      description: Product, store, manual, repository, SDK, and image URLs; include the date checked.
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: Facts and unknowns / 已知事实和待核实项
+      description: Availability, price and region, AI, movement, licenses, SDK, languages, cloud, subscription, and charging. Use Unknown when unconfirmed.
+  - type: textarea
+    id: image
+    attributes:
+      label: Image provenance / 图片来源
+      description: Original image URL, owner, reuse terms if available, and the pictured model.
