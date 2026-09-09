@@ -16,11 +16,11 @@
 
 ## 信息时效与图例
 
-**最近来源核查：2026-09-08。** 下文价格、商店状态、语言、云服务、订阅及 SDK 信息均在该日对照所附来源核查。引用旧公告时会注明历史日期；**未知（Unknown）**表示当前信息未能确认。购买前请查看所在地区官方商店的配送、税费、套餐内容及结算价。
+**目录更新：2026-09-09。** 每个详细条目单独标注最近核查日期；价格、商店状态、语言、云服务、订阅及 SDK 均属于时效信息。引用旧公告时会注明历史日期；**未知（Unknown）**表示当前信息未能确认。购买前请查看所在地区官方商店的配送、税费、套餐内容及结算价。
 
 - **AI：** 指具体的感知、语音、模型或自适应行为能力。相关声明归属于开发者；本仓库没有实测硬件或独立测量性能。仅有表情动画不足以证明 AI 能力。
-- **开源：** **是**指有明确开放许可的项目；**部分**可能只是 SDK 或软件开放，而硬件仍有限制；**未知**表示没有找到充分的公开许可证据。公开 SDK 不等于整机开源。
-- **供应状态：** “在售”表示官方存在可下单页面，不代表已验证实际交付。预售、有交期的套件和研究原型应分别看待。
+- **开源：** 为保持总览紧凑，开源状态只在下方详细条目中说明。**是**指有明确开放许可的项目；**部分**可能只是 SDK 或软件开放，而硬件仍有限制；**未知**表示没有找到充分的公开许可证据。公开 SDK 不等于整机开源。
+- **供应状态：** “在售”表示官方存在可下单页面，不代表已验证实际交付。“初代已停产”表示原产品已经退出销售；若后续型号只是公布或商店占位，会另行说明。预售、有交期的套件和研究原型应分别看待。
 - **运动：** 说明实际机械运动，区分身体动作和位置移动。国家/地区指开发者或项目所在地，不是工厂或发货地。
 - **证据边界：** 公开文档及页面可访问，不代表购买成功、云服务稳定、SDK 兼容或实际使用可靠。本次没有进行实机测试。
 
@@ -28,22 +28,27 @@
 
 ## 总览对照表
 
-除明确标为历史价格的内容外，所有价格均使用上述核查日期。点击名称跳转到本页详情。
+表格不再重复“开源”一列；完整许可边界请看各机器人详情。价格和供应状态以每个条目的最近核查日期为准。点击名称跳转到本页详情。
 
-| 机器人 | 开发者 | 国家/地区 | 供应状态 | 参考价格 | AI | 运动方式 | 开源 | SDK/API | 云服务/订阅 | 主要用途 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| [EMO](#emo) | LivingAI | 中国 | 在售；标称约 2 周发货 | USD 279；GO HOME USD 369 | 人脸/声源识别、语音 | 双足桌面行走 | 未知 | 未知 | 在线功能；订阅未知 | 可自主活动、游戏和提醒的桌面宠物。 |
-| [AIBI Pocket](#aibi) | LivingAI | 中国 | 在售；标称约 2 周发货 | USD 249 | 人脸识别；离线指令、在线问答 | 原地转动；未见桌面漫游说明 | 未知 | 未知 | 在线问答；订阅未知 | 带相机和提醒功能的便携伙伴。 |
-| [Eilik / 艾力克](#eilik) | Energize Lab | 中国 | 在售 | USD 139.99；AI Station 加 USD 99 | 本体 AI 未确认；底座增加视觉/聊天 | 手臂及身体动作；底座固定 | 未知 | 未知 | 本体离线；底座云服务条款未知 | 以触摸和表情互动为主的桌面伙伴。 |
-| [Ropet KAMOMO](#ropet) | Ropet | 中国 / 美国团队 | Pro 在售；Basic 缺货 | Pro USD 349；Basic USD 299（缺货） | 官方称本地感知及自适应 | 头部/身体动作；底座固定 | 未知 | 未知 | 日常离线；可选云功能；费用未知 | 可更换毛绒和眼睛样式的陪伴宠物。 |
-| [Moflin / モフリン](#moflin) | 卡西欧 | 日本 | 部分地区在售 | 2025 美国首发 USD 429；现价未知 | 官方称语音/触摸自适应反应 | 头部旋转及俯仰；不行走 | 未知 | 未知 | 本地互动；应用服务；费用未知 | 用非语言自适应反应互动的毛绒宠物。 |
-| [BOCCO emo](#bocco-emo) | Yukai Engineering | 日本 | 在售；Wi-Fi 型号 | JPY 52,800，含税 | 语音互动；付费 AI 对话 | 头部/身体动作；底座固定 | 未知 | 公开；附非商业使用条件 | 云服务；基础免费；高级版 JPY 1,700/月 | 家庭留言、提醒和传感器通知。 |
-| [Vector 2.0](#vector) | Anki / Digital Dream Labs | 美国 | 在售；商店标有库存 | 黑色新机 USD 199.99 | 视觉、语音、自主行为 | 履带、举升臂、头部运动 | 部分 | 公开的旧版 Python SDK | 云端语音 USD 11.99/月起 | 带语音服务、可在桌面活动的宠物。 |
-| [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | 中国 | 有在售页面；交期未知 | USD 299；iPhone 另备 | 官方称手机感知及云端助手 | 三轴手机支架；底座固定 | 未知 | 未知 | iPhone + 云端；订阅未知 | 通过可动手机底座提供 AI 工作辅助。 |
-| [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | 法国（Pollen） | 可订购 DIY 套件；交期最长 90 天 | Lite EUR 350；Wireless EUR 435 | 可编程视觉/音频/模型应用 | 六自由度头部、身体旋转、天线 | 部分 | 公开 Python / JavaScript | 取决于应用；模型可能收费 | 用于开发 AI 交互的表达式机器人平台。 |
-| [Stack-chan / ｽﾀｯｸﾁｬﾝ](#stack-chan) | 社区 / M5Stack | 日本 / 中国 | 开源自制；K151 在售 | K151 USD 99；自制成本不固定 | 取决于固件；出厂 AI Agent | 两轴头部/身体转动；底座固定 | 是（社区项目） | 公开 | 取决于固件/模型；费用未知 | 可自定义表情和行为的小型 ESP32 机器人。 |
-| [ELEGNT](#elegnt) | 苹果研究团队 | 美国 | 研究原型；不对外销售 | 不适用 | 该研究未证明自主 AI 能力 | 六轴台灯形机械臂；底座固定 | 未知 | 未公开 | 未知；研究环境 | 研究如何用动作表达注意和意图。 |
-| [Cozmo](#cozmo) | Anki / Digital Dream Labs | 美国 | 历史平台；2.0 标为“即将推出” | 2.0 标价 USD 399.99，缺货 | 视觉、方块识别、编程行为 | 履带、举升臂、头部运动 | 部分 | 公开的旧版 Python SDK | 依赖应用；当前服务条款未知 | 方块游戏和机器人编程入门。 |
+| 机器人 | 开发者 | 国家/地区 | 供应状态 | 参考价格 | AI | 运动方式 | SDK/API | 云服务/订阅 | 主要用途 |
+|---|---|---|---|---|---|---|---|---|---|
+| [EMO](#emo) | LivingAI | 中国 | 在售；标称约 2 周发货 | USD 279；GO HOME USD 369 | 人脸/声源识别、语音 | 双足桌面行走 | 未知 | 在线功能；订阅未知 | 可自主活动、游戏和提醒的桌面宠物。 |
+| [AIBI Pocket](#aibi) | LivingAI | 中国 | 在售；标称约 2 周发货 | USD 249 | 人脸识别；离线指令、在线问答 | 原地转动；未见桌面漫游说明 | 未知 | 在线问答；订阅未知 | 带相机和提醒功能的便携伙伴。 |
+| [Eilik / 艾力克](#eilik) | Energize Lab | 中国 | 在售 | USD 139.99；AI Station 加 USD 99 | 本体 AI 未确认；底座增加视觉/聊天 | 手臂及身体动作；底座固定 | 未知 | 本体离线；底座云服务条款未知 | 以触摸和表情互动为主的桌面伙伴。 |
+| [Ropet KAMOMO](#ropet) | Ropet | 中国 / 美国团队 | Pro 在售；Basic 缺货 | Pro USD 349；Basic USD 299（缺货） | 官方称本地感知及自适应 | 头部/身体动作；底座固定 | 未知 | 日常离线；可选云功能；费用未知 | 可更换毛绒和眼睛样式的陪伴宠物。 |
+| [Moflin / モフリン](#moflin) | 卡西欧 | 日本 | 部分地区在售 | 2025 美国首发 USD 429；现价未知 | 官方称语音/触摸自适应反应 | 头部旋转及俯仰；不行走 | 未知 | 本地互动；应用服务；费用未知 | 用非语言自适应反应互动的毛绒宠物。 |
+| [NICOBO](#nicobo) | Panasonic | 日本 | 日本官方商店在售 | JPY 60,500，含税 | 人脸/情绪感知、语音及自适应行为 | 三轴身体/尾部动作；底座固定 | 未公开 | 需云端基础套餐 JPY 1,100/月 | 用含蓄动作和自造语陪伴用户的“弱机器人”。 |
+| [Miko Mini](#miko-mini) | Miko | 印度 | 地区库存不同；本次美国页面显示缺货 | USD 149 页面促销价 | 人脸/语音识别、儿童对话及学习内容 | 轮式桌面移动和舞蹈 | 未公开 | 需联网；Miko Max 可选，USD 99/年或 14.99/月 | 面向 5–10 岁儿童的对话与学习机器人。 |
+| [BOCCO emo](#bocco-emo) | Yukai Engineering | 日本 | 在售；Wi-Fi 型号 | JPY 52,800，含税 | 语音互动；付费 AI 对话 | 头部/身体动作；底座固定 | 公开；附非商业使用条件 | 云服务；基础免费；高级版 JPY 1,700/月 | 家庭留言、提醒和传感器通知。 |
+| [Vector 2.0](#vector) | Anki / Digital Dream Labs | 美国 | 在售；商店标有库存 | 黑色新机 USD 199.99 | 视觉、语音、自主行为 | 履带、举升臂、头部运动 | 公开的旧版 Python SDK | 云端语音 USD 11.99/月起 | 带语音服务、可在桌面活动的宠物。 |
+| [LOOI](#looi) | TangibleFuture | 中国 / 美国众筹团队 | 官方商店可下单 | USD 239 促销价；手机另备 | 官方称 ChatGPT/Gemini、视觉感知及手势识别 | 轮式底座、俯仰动作；由手机提供“脸” | 未公开 | 云端 AI；完整订阅条款未知 | 把兼容手机变成可移动的桌面伙伴。 |
+| [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | 中国 | 有在售页面；交期未知 | USD 299；iPhone 另备 | 官方称手机感知及云端助手 | 三轴手机支架；底座固定 | 未知 | iPhone + 云端；订阅未知 | 通过可动手机底座提供 AI 工作辅助。 |
+| [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | 法国（Pollen） | 可订购 DIY 套件；交期最长 90 天 | Lite USD 399；Wireless USD 499 | 可编程视觉/音频/模型应用 | 六自由度头部、身体旋转、天线 | 公开 Python / JavaScript | 取决于应用；模型可能收费 | 用于开发 AI 交互的表达式机器人平台。 |
+| [Microduck](#microduck) | Pollen Robotics / Hugging Face | 法国 | 预售；目标 2026 年圣诞节前首批交付 | USD 399 首发价；税费/运费另计 | 50 Hz 板载运动策略；相机及深度感知 | 15 自由度双足行走、起身、踢/抓及可选轮滑 | 开源软件栈；SDK 语言待定 | 核心运动板载；无强制订阅信息 | 可训练、可编程的开源软件双足机器鸭子。 |
+| [Doly](#doly) | Limitbit | 加拿大 | 官方商店可下单 | 官方页显示 USD 562（1 GB / 32 GB） | 官方称本地视觉、语音和行为 | 履带移动、手臂及头部动作 | 公开 Python / C++ | 核心功能本地；不强制订阅 | 基于 Raspberry Pi CM4 的 DIY/开发陪伴机器人。 |
+| [Stack-chan / ｽﾀｯｸﾁｬﾝ](#stack-chan) | 社区 / M5Stack | 日本 / 中国 | 开源自制；K151 在售 | K151 USD 99；自制成本不固定 | 取决于固件；出厂 AI Agent | 两轴头部/身体转动；底座固定 | 公开 | 取决于固件/模型；费用未知 | 可自定义表情和行为的小型 ESP32 机器人。 |
+| [ELEGNT](#elegnt) | 苹果研究团队 | 美国 | 研究原型；不对外销售 | 不适用 | 该研究未证明自主 AI 能力 | 六轴台灯形机械臂；底座固定 | 未公开 | 未知；研究环境 | 研究如何用动作表达注意和意图。 |
+| [Cozmo](#cozmo) | Anki / Digital Dream Labs | 美国 | 初代已停产；2.0 已公布但尚未发售 | 2.0 标价 USD 399.99，缺货 | 视觉、方块识别、编程行为 | 履带、举升臂、头部运动 | 公开的旧版 Python SDK | 依赖应用；当前服务条款未知 | 方块游戏和机器人编程入门。 |
 
 <a id="emo"></a>
 
@@ -363,13 +368,13 @@ FAQ 描述了使用云端图像处理的可选 Dream Sketch 功能，其实际�
 
 ### 官方链接
 
-- **官方网站：** [美国](https://www.casio.com/us/moflin/) · [日本](https://www.casio.com/jp/moflin/)
+- **官方网站：** [美国](https://www.casio.com/us/moflin/) · [日本](https://www.casio.com/jp/moflin/) · [全球企业介绍（备用）](https://world.casio.com/news/2026/0409-moflin/)
 - **官方商店：** [美国银色款](https://www.casio.com/us/moflin/product.PE-M10SR/)
 - **项目仓库：** 未知
-- **文档：** [PE-M10 在线说明书](https://support.casio.com/global/en/moflin/manual/PE-M10_en/)
+- **文档：** [PE-M10 在线说明书](https://support.casio.com/global/en/moflin/manual/PE-M10_en/) · [官方短链接（备用）](https://s.casio.jp/f/10740en/)
 - **SDK/API：** 未知
 - **支持：** [卡西欧 Moflin 支持](https://www.casio.com/us/support/moflin/)
-- **官方视频：** [产品页演示](https://www.casio.com/us/moflin/)
+- **官方视频：** [产品页演示](https://www.casio.com/us/moflin/) · [充电演示](https://youtu.be/eNwrXsdXPUo)
 - **媒体素材：** [官方发售公告和图片](https://www.casio.co.jp/release/2024/1010-moflin/)
 
 ### 主要特点
@@ -380,14 +385,156 @@ FAQ 描述了使用云端图像处理的可选 Dream Sketch 功能，其实际�
 
 ### 注意事项
 
-美元标价明确属于历史价格：本次未从当前产品页面获得可确认的结算价。供应、应用分发、保修和可选护理计划存在地区差异。
+美元标价明确属于历史价格：本次未获得可确认的当前结算价。卡西欧美国、日本商品页受 Akamai 地区和访问策略控制，在部分代理或网络环境中可能显示 `Access Denied`；原地区链接予以保留，并提供企业站和说明书短链接作为备用入口。供应、应用分发、保修和可选护理计划存在地区差异。
 
 ### 信息来源
 
 - [卡西欧产品介绍](https://www.casio.com/us/moflin/)：行为及当前规格。
+- [卡西欧全球企业介绍](https://world.casio.com/news/2026/0409-moflin/)：备用产品介绍。
 - [日本发售公告](https://www.casio.co.jp/release/2024/1010-moflin/)：发售日期和新闻配图。
 - [卡西欧美国首发新闻稿](https://www.prnewswire.com/news-releases/casio-introduces-moflin-the-emotionally-responsive-smart-companion-that-learns-and-evolves-with-you-302558268.html)：历史 USD 429 价格。
-- [官方说明书](https://support.casio.com/global/en/moflin/manual/PE-M10_en/)：操作与应用设置。
+- [官方说明书](https://support.casio.com/global/en/moflin/manual/PE-M10_en/)：操作、规格与应用设置。
+
+[↑ 返回总览](#comparison)
+
+<a id="nicobo"></a>
+
+## NICOBO / ニコボ
+
+<p align="center">
+  <a href="https://ec-plus.panasonic.jp/store/page/NICOBO/"><img src="assets/robots/nicobo.png" width="760" alt="Panasonic NICOBO ニコボ 圆形针织外壳桌面陪伴机器人"></a>
+</p>
+<p align="center"><sub>官方视频画面 © Panasonic · <a href="https://www.youtube.com/watch?v=UteFqDQ5kQs">原图来源</a></sub></p>
+
+> 用细小动作、短句和自造“モコ語”陪伴用户的低存在感“弱机器人”。
+
+### 产品概述
+
+Panasonic 与丰桥技术科学大学 ICD-LAB 合作开发 NICOBO。按照 Panasonic 的说明，它可以感知人脸、声音、触摸和周围声响，并在持续互动中形成词语与行为变化。
+
+NICOBO 不会在桌面移动，也不是通用任务助手。产品面向日本销售，必须使用 Wi-Fi、手机应用和付费基础套餐，因此持续服务费属于使用成本，而不是可有可无的 AI 升级。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | NICOBO / ニコボ；RW-NC1 |
+| 开发者 / 机构 | Panasonic Entertainment & Communication；与丰桥技术科学大学 ICD-LAB 合作研究 |
+| 国家 / 地区 | 日本 |
+| 产品类型 | 商业固定底座陪伴机器人 |
+| 供应状态 | 日本官方商店列为可下单/有货；支付和配送有地区限制 |
+| 首次发布 | 2023 年 5 月开始一般销售 |
+| 参考价格 | JPY 60,500，含税，核查于 2026-09-09 |
+| AI 能力 | Panasonic 称支持人脸/表情识别、语音互动、声源感知及自适应行为 |
+| 运动方式 | 三轴身体旋转/俯仰和尾部动作；底座固定 |
+| 开源 | 仅部分合规组件：Panasonic 提供受相应许可证约束的第三方开源组件源码，并非完整机器人开放平台 |
+| SDK/API | 未公开 |
+| 主要功能 | 通过注视、小动作、逐渐形成的词语和“モコ語”提供陪伴 |
+| 支持语言 | 日语及自造“モコ語”声音 |
+| 网络要求 | 必须连接互联网 Wi-Fi，并使用 iOS/Android 应用 |
+| 云端依赖 | 持续产品功能依赖必选服务套餐 |
+| 订阅 | 基础套餐 JPY 1,100/月必选；Care 套餐 JPY 550/月可选；首年内解约另有费用 |
+| 供电与充电 | 标称使用 3.5–4.5 小时、充电 4–7 小时；附充电巢 |
+| 最近核查 | 2026-09-09 |
+
+### 官方链接
+
+- **官方网站：** [NICOBO](https://ec-plus.panasonic.jp/store/page/NICOBO/)
+- **官方商店：** [产品及购买页面](https://ec-plus.panasonic.jp/store/page/NICOBO/)
+- **项目仓库：** 未公开
+- **文档：** [支持与说明书](https://ec-plus.panasonic.jp/store/page/NICOBO/support/)
+- **SDK/API：** 未公开
+- **支持：** [NICOBO 支持](https://ec-plus.panasonic.jp/store/page/NICOBO/support/)
+- **官方视频：** [Panasonic 产品介绍](https://www.youtube.com/watch?v=UteFqDQ5kQs)
+- **媒体素材：** [Panasonic 发售公告](https://news.panasonic.com/global/press/en230516-3)
+
+### 主要特点
+
+- 感知人脸、声音、触摸、光线、温度及声源方向。
+- 用小幅身体与尾部动作表达，而不是移动或执行任务。
+- Panasonic 称其行为和词汇会随互动发生变化。
+
+### 注意事项
+
+官方销售以日本为中心。基础套餐必须付费，初始 12 个月内解约可能另收费用。软件开源页面用于履行所含组件的许可证义务，不能据此将 NICOBO 的硬件或完整应用栈视为开源项目。
+
+### 信息来源
+
+- [官方产品页](https://ec-plus.panasonic.jp/store/page/NICOBO/)：当前供应、规格、应用及网络要求。
+- [官方价格与套餐页](https://ec-plus.panasonic.jp/store/page/NICOBO/price/)：设备价格、必选订阅、可选 Care 及解约费。
+- [Panasonic 发售公告](https://news.panasonic.com/global/press/en230516-3)：一般销售时间与产品理念。
+- [软件许可页面](https://ec-plus.panasonic.jp/store/page/NICOBO/support/software.html)：公开第三方开源组件的范围。
+
+[↑ 返回总览](#comparison)
+
+<a id="miko-mini"></a>
+
+## Miko Mini
+
+<p align="center">
+  <a href="https://miko.ai/products/miko-mini"><img src="assets/robots/miko-mini.png" width="760" alt="Miko Mini 蓝色小型轮式儿童 AI 学习机器人"></a>
+</p>
+<p align="center"><sub>官方产品图 © Miko · <a href="https://miko.ai/cdn/shop/files/mini-flatscreen-edit.png?v=1775629258">原图来源</a></sub></p>
+
+> 面向 5–10 岁儿童的小型轮式对话与学习机器人。
+
+### 产品概述
+
+Miko Mini 集成相机、麦克风、扬声器、屏幕、轮子、ToF 感知和里程计。Miko 宣传其具有人脸/语音识别、对话、游戏、学习内容和舞蹈行为；具体内容及可用性随账号和地区而异。
+
+机器人需要 Wi-Fi 和配套应用。基础使用不强制购买 Miko Max，但可选订阅会解锁额外高级内容，因此购买对比时仍应计入这项潜在费用。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | Miko Mini |
+| 开发者 / 机构 | Miko |
+| 国家 / 地区 | 印度；Miko 总部位于孟买 |
+| 产品类型 | 商业儿童学习与陪伴机器人 |
+| 供应状态 | 地区商店库存不同；本次访问的美国页面列出产品但显示缺货 |
+| 首次发布 | 2023 年推出 |
+| 参考价格 | 所访问美国页面促销价 USD 149，核查于 2026-09-09 |
+| AI 能力 | 官方称支持人脸/语音识别、对话回应及个性化学习 |
+| 运动方式 | 轮式桌面移动、转向和舞蹈动作 |
+| 开源 | 未发现公开产品源码 |
+| SDK/API | 未公开 |
+| 主要功能 | 面向儿童的对话、学习活动、游戏、故事和舞蹈 |
+| 支持语言 | 官方帮助列出英语、墨西哥/欧洲西班牙语和加拿大法语；内容覆盖可能不同 |
+| 网络要求 | 需要安全的 2.4/5 GHz Wi-Fi 及配套应用设置 |
+| 云端依赖 | 对话和内容服务需要互联网 |
+| 订阅 | Miko Max 可选：所访问页面为 USD 99/年或 USD 14.99/月 |
+| 供电与充电 | 标称最长使用 3 小时；约 90 分钟充电 |
+| 最近核查 | 2026-09-09 |
+
+### 官方链接
+
+- **官方网站：** [Miko Mini](https://miko.ai/products/miko-mini)
+- **官方商店：** [Miko Mini 商品页](https://miko.ai/products/miko-mini)
+- **项目仓库：** 未公开
+- **文档：** [Miko 支持](https://help.miko.ai/)
+- **SDK/API：** 未公开
+- **支持：** [帮助中心](https://help.miko.ai/)
+- **官方视频：** [商品页演示](https://miko.ai/products/miko-mini)
+- **媒体素材：** 未知
+
+### 主要特点
+
+- 小型轮式机身、屏幕表情和舞蹈动作。
+- 面向儿童的对话及教育内容。
+- 高级内容订阅可选，基础使用不强制订阅。
+
+### 注意事项
+
+这是联网的儿童产品，购买前监护人应查看隐私、账号、相机及所在地区内容条款。当前条款页写明 Miko Mini 支持将在 2027-11-30 结束；购买者应再次确认日期或政策是否已经变化。促销价和库存也可能因国家而不同。
+
+### 信息来源
+
+- [官方产品页](https://miko.ai/products/miko-mini)：价格、年龄范围、传感器、尺寸、电池及功能。
+- [Miko Max 页面](https://miko.ai/products/miko-max)：可选订阅价格与内容。
+- [官方语言帮助](https://help.miko.ai/hc/en-us/articles/4416463834139-Which-languages-does-Miko-Mini-support)：已记录的语言。
+- [公司介绍](https://miko.ai/pages/about-us)：机构所在地和产品历史。
+- [条款与条件](https://miko.ai/pages/terms-and-conditions)：所公布的支持结束日期。
 
 [↑ 返回总览](#comparison)
 
@@ -530,6 +677,75 @@ Vector 集成相机、表情屏幕、履带底盘和小型举升机构。当前�
 
 [↑ 返回总览](#comparison)
 
+<a id="looi"></a>
+
+## LOOI
+
+<p align="center">
+  <a href="https://looirobot.com/products/looi-robot"><img src="assets/robots/looi.png" width="760" alt="LOOI 轮式智能手机桌面陪伴机器人及充电环和包装"></a>
+</p>
+<p align="center"><sub>官方产品图 © TangibleFuture · <a href="https://looirobot.com/cdn/shop/files/b66ad06154607d964bb5e6f076cba988_d37a7992-3775-4623-b502-5469be1197b3.png?v=1773643379">原图来源</a></sub></p>
+
+> 用兼容手机提供屏幕、相机和主要计算能力的电动桌面陪伴底座。
+
+### 产品概述
+
+LOOI 将双轮底座、可俯仰手机支架、桌沿/障碍感知、无线充电、扬声器和手机应用组合在一起。TangibleFuture 宣传其支持 ChatGPT/Gemini 对话、人脸与手势识别、视觉感知及宠物式行为。
+
+手机是机器人不可缺少的一部分，但不随产品附送。商品页强调本地处理；隐私政策同时明确写有云端 AI 服务商会处理语音、对话记忆和可选的单帧图像，判断云端边界时应以更具体的隐私条款为准。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | LOOI Robot；型号 L-01 |
+| 开发者 / 机构 | TangibleFuture |
+| 国家 / 地区 | 中国 / 美国众筹团队；开发运营与早期活动横跨两地 |
+| 产品类型 | 商业智能手机驱动桌面伙伴 |
+| 供应状态 | 官方商店可下单；处理时间和配送目的地不同 |
+| 首次发布 | 2024 年发起众筹；目前有零售商品页 |
+| 参考价格 | USD 239 促销价；页面常规价 USD 259，核查于 2026-09-09；不含手机 |
+| AI 能力 | 官方称支持 ChatGPT/Gemini 对话、人脸/手势识别、视觉感知及自适应行为 |
+| 运动方式 | 双轮桌面移动和手机俯仰；手机作为“脸” |
+| 开源 | 未知；未找到完整源码发布或明确开放许可 |
+| SDK/API | 未公开 |
+| 主要功能 | 将兼容手机变为可移动的对话桌面伙伴和无线充电器 |
+| 支持语言 | 应用商店列有多种界面语言；完整语音对话语言覆盖未知 |
+| 网络要求 | 兼容手机、Bluetooth/应用设置；云端 AI 功能需要互联网 |
+| 云端依赖 | 语音、对话记忆及可选视觉理解可能由云端 AI 服务商处理 |
+| 订阅 | 当前完整订阅和使用额度条款未能确认 |
+| 供电与充电 | 6,000 mAh，标称最长约 5 小时；10 W 手机无线充电 |
+| 最近核查 | 2026-09-09 |
+
+### 官方链接
+
+- **官方网站：** [LOOI](https://looirobot.com/)
+- **官方商店：** [LOOI Robot](https://looirobot.com/products/looi-robot)
+- **项目仓库：** 未公开
+- **文档：** [帮助中心](https://looirobot.com/pages/help-center)
+- **SDK/API：** 未公开
+- **支持：** [联系与支持](https://looirobot.com/pages/contact)
+- **官方视频：** [商品页演示](https://looirobot.com/products/looi-robot)
+- **媒体素材：** 未知
+
+### 主要特点
+
+- 复用手机屏幕和相机，底座不重复配置这些部件。
+- 支持轮式移动、手机俯仰、桌沿感知和障碍感知。
+- 同时提供手机无线充电及对话/视觉云端功能。
+
+### 注意事项
+
+购买前应核对兼容列表：当前页面要求 iOS 17+ 或 Android 12+，并建议 Android 使用 Snapdragon 8 Gen 1 或以上。手机不包含在内。隐私条款比“本地处理”的标题宣传更细致，其中明确列出了发送给云端 AI 服务商的数据。本次未找到公开硬件 SDK 或完整机器人源码。
+
+### 信息来源
+
+- [官方产品页](https://looirobot.com/products/looi-robot)：价格、下单、手机要求、运动、电池、充电及宣传功能。
+- [官方隐私政策](https://looirobot.com/pages/privacy-policy)：云端 AI 数据类别及可选图像处理。
+- [官方帮助中心](https://looirobot.com/pages/help-center)：设置与支持入口。
+
+[↑ 返回总览](#comparison)
+
 <a id="loona-deskmate"></a>
 
 ## Loona Deskmate
@@ -626,7 +842,7 @@ Reachy Mini 提供可表达情绪的头部动作、旋转身体、天线、相�
 | 产品类型 | 开发 / 教育桌面机器人套件 |
 | 供应状态 | 两个版本均可订购；商店标称交期最长 90 天 |
 | 首次发布 | 2025-07-09 公布；交付日期因版本/批次而异 |
-| 参考价格 | 所访问欧元商店中 Lite EUR 350；Wireless EUR 435，核查于 2026-09-08 |
+| 参考价格 | 当前官方产品页 Lite USD 399；Wireless USD 499，核查于 2026-09-09 |
 | AI 能力 | 可编程视觉/音频/模型应用；实际能力取决于应用及计算资源 |
 | 运动方式 | 六自由度头部、身体旋转及两根可动天线；不行走 |
 | 开源 | 部分：SDK 为 Apache-2.0；硬件文件被描述为 CC BY-SA-NC，带非商业限制 |
@@ -637,7 +853,7 @@ Reachy Mini 提供可表达情绪的头部动作、旋转身体、天线、相�
 | 云端依赖 | 由应用决定；提供本地控制和仿真 |
 | 订阅 | 未发现强制整机订阅；所选云服务/模型供应商可能收费 |
 | 供电与充电 | Lite 提供外接电源；Wireless 增加电池并附电源 |
-| 最近核查 | 2026-09-08 |
+| 最近核查 | 2026-09-09 |
 
 ### 官方链接
 
@@ -658,13 +874,154 @@ Reachy Mini 提供可表达情绪的头部动作、旋转身体、天线、相�
 
 ### 注意事项
 
-它们是需要组装的套件，不能保证开箱即得到完整对话伙伴。旧版 USD 299/449 发布价格不能替代本次访问到的欧元商店现价。商用复用前应查看硬件许可，并确认目的地配送和税费。
+它们是需要组装的套件，不能保证开箱即得到完整对话伙伴。早期发布价和地区商店价格不能替代本次访问到的美元现价。商用复用前应查看硬件许可，并确认目的地配送和税费。
 
 ### 信息来源
 
 - [发布公告](https://huggingface.co/blog/reachy-mini)：日期和产品概念。
 - [Lite 商店](https://store.pollen-robotics.com/products/reachy-mini-lite-version) · [Wireless 商店](https://store.pollen-robotics.com/products/reachy-mini-wireless-version)：当前价格、硬件、设计/制造地及交期。
 - [项目 README 与许可说明](https://github.com/pollen-robotics/reachy_mini)：SDK、仿真及硬件许可限制。
+
+[↑ 返回总览](#comparison)
+
+<a id="microduck"></a>
+
+## Microduck
+
+<p align="center">
+  <a href="https://pollen-robotics.com/microduck/"><img src="assets/robots/microduck.png" width="760" alt="Pollen Robotics Hugging Face Microduck 黄色小型双足机器鸭子在桌面行走"></a>
+</p>
+<p align="center"><sub>官方新闻照片 © Pollen Robotics · <a href="https://pollen-robotics.com/assets/microduck/press/photos/microduck-closeup.jpg">原图来源</a></sub></p>
+
+> 身高 25 cm、15 自由度，围绕开源软件、仿真和强化学习栈构建的双足机器鸭子。
+
+### 产品概述
+
+Microduck 是 Pollen Robotics 继 Reachy Mini 后的第二款消费级机器人，也是该公司的首款双足机器人。Pollen Robotics 自 2025 年起属于 Hugging Face。机器人含 15 个电机、相机、8×8 ToF 深度传感器、两枚 IMU、麦克风、扬声器和 Rockchip RK3566 板载计算机。
+
+首发公布了 7 组训练动作，包括行走、站立/坐下、踢、抓、跌倒后起身，以及安装可选轮子后的轮滑。运动策略以 50 Hz 在本机运行。软件、仿真和训练栈使用 Apache-2.0 开放，但官方明确说明机械和电子设计文件不属于开源内容。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | Microduck |
+| 开发者 / 机构 | Pollen Robotics / Hugging Face |
+| 国家 / 地区 | 法国；在波尔多设计 |
+| 产品类型 | 预售中的可编程双足桌面机器人 |
+| 供应状态 | 2026-08-27 开放预售；首批目标在 2026 年圣诞节前交付 |
+| 首次发布 | 2026-08-27 公布并开放预售 |
+| 参考价格 | USD 399 首发价，税费和运费另计，核查于 2026-09-09；欧盟商店显示 EUR 340 |
+| AI 能力 | 50 Hz 板载学习运动策略；相机及深度感知；支持用户训练行为 |
+| 运动方式 | 15 自由度双足行走、坐/站、跌倒起身、踢/抓及可选轮滑 |
+| 开源 | 部分：完整软件/仿真/训练栈为 Apache-2.0；机械和电子设计文件不开放 |
+| SDK/API | 公开软件仓库；最终支持的 SDK 编程语言仍在确定 |
+| 主要功能 | 用于动作、强化学习实验和表达式互动的可编程双足平台 |
+| 支持语言 | 编程语言支持仍在确定；未公布对话语言清单 |
+| 网络要求 | 提供 Wi-Fi 和 Bluetooth；核心 50 Hz 运动策略在本机运行 |
+| 云端依赖 | 核心运动在本机；可选用 Hugging Face Jobs 进行托管训练 |
+| 订阅 | 未公布强制订阅 |
+| 供电与充电 | 可拆卸 NP-F550 2,600 mAh 电池；标称续航约 1 小时 |
+| 最近核查 | 2026-09-09 |
+
+### 官方链接
+
+- **官方网站：** [Microduck](https://pollen-robotics.com/microduck/)
+- **官方商店：** [Microduck 预售](https://store.pollen-robotics.com/products/microduck)
+- **项目仓库：** [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck)
+- **文档：** [仓库 README](https://github.com/pollen-robotics/microduck#readme)
+- **SDK/API：** [开源软件栈](https://github.com/pollen-robotics/microduck)
+- **支持：** [GitHub Issues](https://github.com/pollen-robotics/microduck/issues)
+- **官方视频：** [产品页演示](https://pollen-robotics.com/microduck/)
+- **媒体素材：** [官方 Press Kit](https://pollen-robotics.com/microduck/press-kit/)
+
+### 主要特点
+
+- 不到 800 g 的机身内有 15 个驱动自由度。
+- 板载学习运动策略，并能在跌倒后起身。
+- 开放仿真/训练软件，面向自定义技能和强化学习。
+
+### 注意事项
+
+这是预售产品，不能等同于已经验证交付的零售硬件。首发仅覆盖部分北美、欧洲和亚洲目的地，税费及运费不同。同名 [microduck.net](https://microduck.net/) 自己注明是受该机器人启发的非官方社区代币，并非机器人产品官网；产品事实应以 Pollen Robotics 及其 GitHub 仓库为准。
+
+### 信息来源
+
+- [官方产品页](https://pollen-robotics.com/microduck/)：定位、硬件、动作、本地策略循环和发布信息。
+- [官方 Press Kit](https://pollen-robotics.com/microduck/press-kit/)：尺寸、重量、传感器、计算、电池、价格、供应及开源边界。
+- [官方商店](https://store.pollen-robotics.com/products/microduck)：预售状态、地区价格和交付目标。
+- [官方仓库](https://github.com/pollen-robotics/microduck)：Apache-2.0 软件和当前开发资源。
+
+[↑ 返回总览](#comparison)
+
+<a id="doly"></a>
+
+## Doly
+
+<p align="center">
+  <a href="https://shop.doly.ai/products/doly"><img src="assets/robots/doly.png" width="760" alt="Doly 白色 Raspberry Pi CM4 履带式桌面陪伴与 DIY 机器人"></a>
+</p>
+<p align="center"><sub>官方产品图 © Limitbit / Doly · <a href="https://shop.doly.ai/cdn/shop/files/doly.jpg?v=1774476099">原图来源</a></sub></p>
+
+> 基于 Raspberry Pi CM4、可组装和修改，并提供 Python/C++ 接口的履带式陪伴机器人。
+
+### 产品概述
+
+Doly 将履带底盘、可动头部和手臂、相机、麦克风、扬声器、显示屏及 Raspberry Pi Compute Module 4 组合起来。Limitbit 将核心视觉、语音和行为功能描述为本地运行，并表示基础使用不强制云端订阅。
+
+DOLY-DIY 仓库提供机械文件、电子资料、固件/SDK 资源和 Python/C++ 示例。其 CC BY-NC-SA 4.0 许可证限制商业用途，因此本清单标为“部分开源”，不把公开文件等同于不受限制的开源硬件。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | Doly |
+| 开发者 / 机构 | Limitbit Inc. |
+| 国家 / 地区 | 加拿大；项目众筹所在地为安大略省 Markham |
+| 产品类型 | 商业 DIY 陪伴与开发机器人 |
+| 供应状态 | 官方商店可下单；本地化站点的价格/货币可能不同 |
+| 首次发布 | 2024 年发起众筹；目前有零售商品页 |
+| 参考价格 | 官方页显示 1 GB / 32 GB 配置 USD 562，核查于 2026-09-09 |
+| AI 能力 | 开发者称支持本地计算机视觉、语音、个性及行为生成 |
+| 运动方式 | 履带桌面移动、手臂动作和可动头部 |
+| 开源 | 部分：硬件/电子/软件资源以 CC BY-NC-SA 4.0 公开；商用许可另行处理 |
+| SDK/API | 公开 Python 和 C++ SDK/示例 |
+| 主要功能 | 可组装、可编程的陪伴机器人，用于机器人、编程和 AI 实验 |
+| 支持语言 | 已记录英语；其他完整语言覆盖未知 |
+| 网络要求 | 设置和联网功能使用 Wi-Fi/应用；核心运行宣传为本地 |
+| 云端依赖 | Limitbit 称核心功能设计为本地运行 |
+| 订阅 | 宣传不强制订阅 |
+| 供电与充电 | 可充电并带充电站；当前官方容量/续航未确认 |
+| 最近核查 | 2026-09-09 |
+
+### 官方链接
+
+- **官方网站：** [Doly](https://doly.ai/)
+- **官方商店：** [Doly 商品页](https://shop.doly.ai/products/doly)
+- **项目仓库：** [robotdoly/DOLY-DIY](https://github.com/robotdoly/DOLY-DIY)
+- **文档：** [DOLY-DIY 文档](https://robotdoly.github.io/DOLY-DIY/)
+- **SDK/API：** [Python 和 C++ 资源](https://github.com/robotdoly/DOLY-DIY)
+- **支持：** [Doly 支持](https://doly.ai/support/)
+- **官方视频：** [Doly 频道](https://www.youtube.com/@DolyRobot)
+- **媒体素材：** 未知
+
+### 主要特点
+
+- Raspberry Pi CM4 计算平台及公开修改、编程资源。
+- 履带移动、动画表情、可动手臂和头部。
+- 开发者称核心功能本地运行，不强制云端订阅。
+
+### 注意事项
+
+公开许可证带非商业限制，商用应联系开发者。商店可能按访问位置切换货币和价格，不应假定所有访客都看到 USD 562。公开源码文件也不能独立证明出货软件的所有组件均开放，或所有宣传 AI 功能都能完全离线运行。
+
+### 信息来源
+
+- [官方商店](https://shop.doly.ai/products/doly)：当前下单页、配置、价格及包含硬件。
+- [官方产品介绍](https://doly.ai/companion/)：本地运行和不强制订阅的声明。
+- [Limitbit 介绍](https://doly.ai/about-us/)：开发者身份和开放机器人定位。
+- [DOLY-DIY 仓库](https://github.com/robotdoly/DOLY-DIY)：许可证、文件、SDK 语言及示例。
+- [官方文档](https://robotdoly.github.io/DOLY-DIY/)：组装和编程资料。
 
 [↑ 返回总览](#comparison)
 
@@ -807,7 +1164,7 @@ ELEGNT 使用台灯形机器人研究表达式动作。作者将仅用于完成�
 
 <a id="cozmo"></a>
 
-## Cozmo — 历史平台与已公布的 2.0
+## Cozmo — 初代已停产，2.0 已公布
 
 <p align="center">
   <a href="https://anki.bot/products/cozmo-robot"><img src="assets/robots/cozmo.webp" width="760" alt="Anki Digital Dream Labs Cozmo 2.0 履带式教育桌面机器人宣传效果图"></a>
@@ -820,17 +1177,17 @@ ELEGNT 使用台灯形机器人研究表达式动作。作者将仅用于完成�
 
 原始 Cozmo 通过履带机身、举升臂、相机和手机/平板应用提供方块游戏及编程功能。虽然配套软件生态逐渐老化，公开 SDK 仍使其具有桌面机器人学习参考价值。
 
-当前商店介绍了 Cozmo 2.0 的升级，但同时标注“即将推出”和缺货。本条目区分已经存在的旧平台与尚未核实交付的新一代声明。
+当前商店介绍了 Cozmo 2.0 的升级，但同时标注“即将推出”和缺货。本条目区分已停产的初代 Cozmo 与尚未核实交付的新一代声明。
 
 ### 产品信息
 
 | 项目 | 详情 |
 |---|---|
-| 产品名称 | Cozmo 历史平台；已公布的 Cozmo 2.0 |
+| 产品名称 | Cozmo（初代）；已公布的 Cozmo 2.0 |
 | 开发者 / 机构 | 最初为 Anki；后续为 Digital Dream Labs / 当前 Anki 品牌商店 |
 | 国家 / 地区 | 美国 |
-| 产品类型 | 历史教育桌面机器人；已公布后继型号 |
-| 供应状态 | 历史平台；2.0 商店页标为即将推出 / 缺货 |
+| 产品类型 | 已停产的教育桌面机器人；已公布后继型号 |
+| 供应状态 | 初代已停产；2.0 已公布但尚未发售，商店页标为即将推出 / 缺货 |
 | 首次发布 | 本次未复核旧款准确发售日期；2.0 首次交付未知 |
 | 参考价格 | Cozmo 2.0 标价 USD 399.99，但缺货，核查于 2026-09-08；不跟踪旧款二手价格 |
 | AI 能力 | 视觉/方块识别及编程行为；2.0 升级仍为厂商声明 |

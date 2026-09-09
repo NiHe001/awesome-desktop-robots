@@ -16,11 +16,11 @@ Floor-first robot pets, cleaning robots, general industrial arms, and purely vir
 
 ## Freshness and legend
 
-**Last source check: 2026-09-08.** Prices, store status, languages, cloud dependencies, subscriptions, and SDK access below were checked against the linked sources on this date. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
+**Catalog updated: 2026-09-09.** Each detailed entry carries its own last-verified date for price, store status, languages, cloud dependencies, subscriptions, and SDK access. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
 
 - **AI:** A concrete perception, speech, model, or adaptive behavior capability. Claims are attributed to the developer; this repository has not tested the hardware or independently measured performance. Expressive animation alone is not evidence of AI.
-- **Open source:** **Yes** identifies an openly licensed project; **Partial** may mean an open SDK or software with restricted hardware; **Unknown** means no adequate public licensing evidence was found. A public SDK does not make the entire robot open source.
-- **Availability:** “On sale” means an orderable official listing, not verified delivery. A preorder, a kit with a lead time, and a research prototype are different purchase propositions.
+- **Open source (detailed entries):** **Yes** identifies an openly licensed project; **Partial** may mean an open SDK or software with restricted hardware; **Unknown** means no adequate public licensing evidence was found. A public SDK does not make the entire robot open source.
+- **Availability:** “On sale” means an orderable official listing, not verified delivery. “Original discontinued” refers to a product generation whose retail sale ended; announced successors, preorders, kits with lead times, and research prototypes are labeled separately.
 - **Movement:** Describes actual mechanics, distinguishing body gestures from locomotion. Country/region describes the developer or project, not the factory or shipping destination.
 - **Evidence limits:** Public documentation and page accessibility do not establish successful purchase, cloud uptime, SDK compatibility, or real-world reliability. No hands-on tests were performed.
 
@@ -28,22 +28,27 @@ Floor-first robot pets, cleaning robots, general industrial arms, and purely vir
 
 ## Comparison
 
-All prices use the check date above unless a historical price is explicitly indicated. Each name opens its detailed entry below.
+Prices use the last-verified date in each detailed entry unless a historical price is explicitly indicated. Each name opens its detailed entry below. Open-source status remains in the detailed product-information tables so this overview stays readable.
 
-| Robot | Developer | Country/Region | Availability | Reference Price | AI | Movement | Open Source | SDK/API | Cloud/Subscription | Main Function |
-|---|---|---|---|---|---|---|---|---|---|---|
-| [EMO](#emo) | LivingAI | China | On sale; quoted ~2-week dispatch | USD 279; GO HOME USD 369 | Face/sound recognition, voice | Two-legged desktop walking | Unknown | Unknown | Online functions; subscription Unknown | Autonomous desk pet with games and reminders. |
-| [AIBI Pocket](#aibi) | LivingAI | China | On sale; quoted ~2-week dispatch | USD 249 | Face recognition; offline commands, online Q&A | Turns in place; no desktop roaming documented | Unknown | Unknown | Online Q&A; subscription Unknown | Portable companion with camera and reminders. |
-| [Eilik / 艾力克](#eilik) | Energize Lab | China | On sale | USD 139.99; AI Station +USD 99 | Base: AI unconfirmed; station adds vision/chat | Arm/body gestures; fixed base | Unknown | Unknown | Base offline; station cloud terms Unknown | Touch-reactive animated desk companion. |
-| [Ropet KAMOMO](#ropet) | Ropet | China / USA teams | Pro on sale; Basic sold out | Pro USD 349; Basic USD 299 (sold out) | Local perception/adaptation claimed | Head/body gestures; fixed base | Unknown | Unknown | Daily interaction offline; optional cloud; fees Unknown | Plush companion with customizable fur and eyes. |
-| [Moflin / モフリン](#moflin) | Casio | Japan | On sale in selected regions | USD 429 at 2025 US launch; current Unknown | Adaptive voice/touch responses claimed | Head rotation and tilt; no locomotion | Unknown | Unknown | Local interaction; app services; fees Unknown | Soft pet with nonverbal, adaptive responses. |
-| [BOCCO emo](#bocco-emo) | Yukai Engineering | Japan | On sale; Wi-Fi model | JPY 52,800 incl. tax | Voice interaction; premium AI conversation | Head/body gestures; fixed base | Unknown | Public; noncommercial conditions | Cloud; basic free; premium JPY 1,700/month | Family messaging, reminders, and sensor alerts. |
-| [Vector 2.0](#vector) | Anki / Digital Dream Labs | USA | On sale; store states in stock | USD 199.99 new black unit | Vision, voice, autonomous behaviors | Tracks, lift, head movement | Partial | Public legacy Python SDK | Cloud voice from USD 11.99/month | Roaming desk pet with voice services. |
-| [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | China | On sale listing; delivery Unknown | USD 299; iPhone extra | iPhone perception and cloud assistant claimed | Three-axis phone mount; fixed base | Unknown | Unknown | iPhone + cloud; subscription Unknown | Moving phone dock for AI work assistance. |
-| [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | France (Pollen) | Orderable DIY kits; up to 90-day lead time | Lite EUR 350; Wireless EUR 435 | Programmable vision/audio/model apps | 6-DoF head, body rotation, antennas | Partial | Public Python / JavaScript | Depends on app; model fees may apply | Expressive platform for building AI interactions. |
-| [Stack-chan / ｽﾀｯｸﾁｬﾝ](#stack-chan) | Community / M5Stack | Japan / China | Open-source build; K151 on sale | K151 USD 99; DIY cost varies | Firmware-dependent; factory AI Agent | Two-axis head/body rotation; fixed base | Yes (community project) | Public | Firmware/model-dependent; fees Unknown | Small ESP32 robot for custom faces and behaviors. |
-| [ELEGNT](#elegnt) | Apple research | USA | Research prototype; not offered for sale | Not applicable | Autonomous AI not established by the study | Six-axis lamp-like arm; fixed base | Unknown | Not publicly available | Unknown; research setup | Studies how motion conveys attention and intention. |
-| [Cozmo](#cozmo) | Anki / Digital Dream Labs | USA | Legacy platform; 2.0 listed “coming soon” | 2.0 listed USD 399.99, sold out | Vision, cube recognition, programmed behavior | Tracks, lift, head movement | Partial | Public legacy Python SDK | App required; current service terms Unknown | Cube games and introductory robot programming. |
+| Robot | Developer | Country/Region | Availability | Reference Price | AI | Movement | SDK/API | Cloud/Subscription | Main Function |
+|---|---|---|---|---|---|---|---|---|---|
+| [EMO](#emo) | LivingAI | China | On sale; quoted ~2-week dispatch | USD 279; GO HOME USD 369 | Face/sound recognition, voice | Two-legged desktop walking | Unknown | Online functions; subscription Unknown | Autonomous desk pet with games and reminders. |
+| [AIBI Pocket](#aibi) | LivingAI | China | On sale; quoted ~2-week dispatch | USD 249 | Face recognition; offline commands, online Q&A | Turns in place; no desktop roaming documented | Unknown | Online Q&A; subscription Unknown | Portable companion with camera and reminders. |
+| [Eilik / 艾力克](#eilik) | Energize Lab | China | On sale | USD 139.99; AI Station +USD 99 | Base: AI unconfirmed; station adds vision/chat | Arm/body gestures; fixed base | Unknown | Base offline; station cloud terms Unknown | Touch-reactive animated desk companion. |
+| [Ropet KAMOMO](#ropet) | Ropet | China / USA teams | Pro on sale; Basic sold out | Pro USD 349; Basic USD 299 (sold out) | Local perception/adaptation claimed | Head/body gestures; fixed base | Unknown | Daily interaction offline; optional cloud; fees Unknown | Plush companion with customizable fur and eyes. |
+| [Moflin / モフリン](#moflin) | Casio | Japan | On sale in selected regions | USD 429 at 2025 US launch; current Unknown | Adaptive voice/touch responses claimed | Head rotation and tilt; no locomotion | Unknown | Local interaction; app services; fees Unknown | Soft pet with nonverbal, adaptive responses. |
+| [NICOBO / ニコボ](#nicobo) | Panasonic | Japan | On sale in Japan; subscription required | JPY 60,500 incl. tax | Face/expression, speech and adaptive behavior claimed | Three-axis body/tail gestures; fixed base | Not publicly available | Wi-Fi/cloud; JPY 1,100/month basic plan | A deliberately limited “weak robot” companion. |
+| [Miko Mini](#miko-mini) | Miko | India | Regional stock varies; observed US page shows sold out | USD 149 listed sale price | Face/voice recognition and child-focused conversation | Wheeled movement and dance | Not publicly available | Internet required; optional Max USD 99/year | Conversational learning and entertainment for ages 5–10. |
+| [BOCCO emo](#bocco-emo) | Yukai Engineering | Japan | On sale; Wi-Fi model | JPY 52,800 incl. tax | Voice interaction; premium AI conversation | Head/body gestures; fixed base | Public; noncommercial conditions | Cloud; basic free; premium JPY 1,700/month | Family messaging, reminders, and sensor alerts. |
+| [Vector 2.0](#vector) | Anki / Digital Dream Labs | USA | On sale; store states in stock | USD 199.99 new black unit | Vision, voice, autonomous behaviors | Tracks, lift, head movement | Public legacy Python SDK | Cloud voice from USD 11.99/month | Roaming desk pet with voice services. |
+| [LOOI](#looi) | TangibleFuture | China / USA campaign | On sale; official store accepts orders | USD 239 sale price | Phone-based vision, voice and cloud-model conversation | Wheeled desktop movement; tilting phone mount | Unknown | Phone + cloud AI; subscription terms Unknown | Turns a smartphone into a mobile desk companion. |
+| [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | China | On sale listing; delivery Unknown | USD 299; iPhone extra | iPhone perception and cloud assistant claimed | Three-axis phone mount; fixed base | Unknown | iPhone + cloud; subscription Unknown | Moving phone dock for AI work assistance. |
+| [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | France | Orderable DIY kits; up to 90-day lead time | Lite USD 399; Wireless USD 499 | Programmable vision/audio/model apps | 6-DoF head, body rotation, antennas | Public Python / JavaScript | Depends on app; model fees may apply | Expressive platform for building AI interactions. |
+| [Microduck](#microduck) | Pollen Robotics / Hugging Face | France | Pre-order; first deliveries targeted before Christmas 2026 | USD 399 introductory | RL policies, vision and onboard AI accelerator | 15-DoF biped walking, recovery and optional skating | Public software/SDK | Core control local; optional hosted training | Open-software biped for play, RL and sim-to-real learning. |
+| [Doly](#doly) | Limitbit | Canada | On sale; official store accepts orders | USD 562 displayed for 1 GB model | On-device speech and perception claimed | Tracks, arms, head and expressive eyes | Public Python / C++ | Core features local; no forced subscription | Expandable Raspberry Pi companion and maker platform. |
+| [Stack-chan / ｽﾀｯｸﾁｬﾝ](#stack-chan) | Community / M5Stack | Japan / China | Open-source build; K151 on sale | K151 USD 99; DIY cost varies | Firmware-dependent; factory AI Agent | Two-axis head/body rotation; fixed base | Public | Firmware/model-dependent; fees Unknown | Small ESP32 robot for custom faces and behaviors. |
+| [ELEGNT](#elegnt) | Apple research | USA | Research prototype; not offered for sale | Not applicable | Autonomous AI not established by the study | Six-axis lamp-like arm; fixed base | Not publicly available | Unknown; research setup | Studies how motion conveys attention and intention. |
+| [Cozmo](#cozmo) | Anki / Digital Dream Labs | USA | Original discontinued; 2.0 announced but not released | 2.0 listed USD 399.99, sold out | Vision, cube recognition, programmed behavior | Tracks, lift, head movement | Public legacy Python SDK | App required; current service terms Unknown | Cube games and introductory robot programming. |
 
 <a id="emo"></a>
 
@@ -363,13 +368,13 @@ It can rest on a desk or be held. The MofLife app provides a view into its state
 
 ### Official links
 
-- **Official website:** [US](https://www.casio.com/us/moflin/) · [Japan](https://www.casio.com/jp/moflin/)
+- **Official website:** [US](https://www.casio.com/us/moflin/) · [Japan](https://www.casio.com/jp/moflin/) · [Global corporate overview (fallback)](https://world.casio.com/news/2026/0409-moflin/)
 - **Official store:** [Moflin Silver, US](https://www.casio.com/us/moflin/product.PE-M10SR/)
 - **Project repository:** Unknown
-- **Documentation:** [PE-M10 online manual](https://support.casio.com/global/en/moflin/manual/PE-M10_en/)
+- **Documentation:** [PE-M10 online manual](https://support.casio.com/global/en/moflin/manual/PE-M10_en/) · [Official short link (fallback)](https://s.casio.jp/f/10740en/)
 - **SDK/API:** Unknown
 - **Support:** [Casio Moflin support](https://www.casio.com/us/support/moflin/)
-- **Official videos:** [Product page demonstrations](https://www.casio.com/us/moflin/)
+- **Official videos:** [Product page demonstrations](https://www.casio.com/us/moflin/) · [Charging demonstration](https://youtu.be/eNwrXsdXPUo)
 - **Press kit:** [Official launch release and photos](https://www.casio.co.jp/release/2024/1010-moflin/)
 
 ### Main features
@@ -380,14 +385,156 @@ It can rest on a desk or be held. The MofLife app provides a view into its state
 
 ### Notes
 
-The USD price is explicitly historical: the current product page did not expose a verifiable checkout price in this check. Availability, app distribution, warranty, and optional care plans vary by region.
+The USD price is explicitly historical; a current checkout price could not be verified. Casio's US and Japan retail pages are controlled by Akamai region and access policies and may show `Access Denied` through some proxies or networks. The original regional links are retained, with the corporate page and official manual shortcut provided as fallbacks. Availability, app distribution, warranty, and optional care plans vary by region.
 
 ### Sources
 
 - [Casio product overview](https://www.casio.com/us/moflin/) — behavior and current specifications.
+- [Casio global corporate overview](https://world.casio.com/news/2026/0409-moflin/) — fallback product overview.
 - [Japan launch announcement](https://www.casio.co.jp/release/2024/1010-moflin/) — release date and press photo.
 - [Casio's US launch press release](https://www.prnewswire.com/news-releases/casio-introduces-moflin-the-emotionally-responsive-smart-companion-that-learns-and-evolves-with-you-302558268.html) — historical USD 429 price.
-- [Official manual](https://support.casio.com/global/en/moflin/manual/PE-M10_en/) — operation and app setup.
+- [Official manual](https://support.casio.com/global/en/moflin/manual/PE-M10_en/) — operation, specifications, and app setup.
+
+[↑ Back to comparison](#comparison)
+
+<a id="nicobo"></a>
+
+## NICOBO / ニコボ
+
+<p align="center">
+  <a href="https://ec-plus.panasonic.jp/store/page/NICOBO/"><img src="assets/robots/nicobo.png" width="760" alt="Panasonic NICOBO ニコボ round knitted companion robot on a desk"></a>
+</p>
+<p align="center"><sub>Official video image © Panasonic · <a href="https://www.youtube.com/watch?v=UteFqDQ5kQs">Source</a></sub></p>
+
+> A deliberately understated “weak robot” that uses small movements, short phrases, and invented Moko-language sounds for companionship.
+
+### Overview
+
+Panasonic developed NICOBO with Toyohashi University of Technology's ICD-LAB. It recognizes faces, voices, touch, and surrounding sound, then develops words and behavior through continued interaction, according to Panasonic.
+
+NICOBO stays in one place and is not a general-purpose mobile assistant. It is sold for Japan and requires Wi-Fi, a phone app, and a paid Basic plan, so the continuing service cost is part of the product rather than an optional AI upgrade.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | NICOBO / ニコボ; RW-NC1 |
+| Developer / Organization | Panasonic Entertainment & Communication; research collaboration with Toyohashi University of Technology ICD-LAB |
+| Country / Region | Japan |
+| Product type | Commercial fixed-base companion robot |
+| Availability | Official Japan store lists it orderable/in stock; regional payment and delivery restrictions apply |
+| First released | General sale began in May 2023 |
+| Reference price | JPY 60,500 including tax, checked 2026-09-09 |
+| AI capabilities | Face/expression recognition, voice interaction, sound-direction sensing, and adaptive behavior, per Panasonic |
+| Movement | Three axes for body rotation/tilt and tail motion; fixed base |
+| Open source | Partial only in the compliance sense: Panasonic publishes source for covered third-party open-source components, not a complete open robot platform |
+| SDK/API | Not publicly available |
+| Main functions | Quiet companionship through gaze, small gestures, learned phrases, and Moko-language sounds |
+| Supported languages | Japanese and invented Moko-language utterances |
+| Network requirement | Internet-connected Wi-Fi and iOS/Android app required |
+| Cloud dependency | Required service plan supports ongoing product functions |
+| Subscription | Basic plan JPY 1,100/month required; optional Care plan JPY 550/month; early-cancellation charge applies within the first year |
+| Power and charging | Claimed 3.5–4.5 hours use and 4–7 hours charging; charging nest included |
+| Last verified | 2026-09-09 |
+
+### Official links
+
+- **Official website:** [NICOBO](https://ec-plus.panasonic.jp/store/page/NICOBO/)
+- **Official store:** [Product and purchase page](https://ec-plus.panasonic.jp/store/page/NICOBO/)
+- **Project repository:** Not publicly available
+- **Documentation:** [Support and manuals](https://ec-plus.panasonic.jp/store/page/NICOBO/support/)
+- **SDK/API:** Not publicly available
+- **Support:** [NICOBO support](https://ec-plus.panasonic.jp/store/page/NICOBO/support/)
+- **Official videos:** [Panasonic introduction](https://www.youtube.com/watch?v=UteFqDQ5kQs)
+- **Press kit:** [Panasonic launch announcement](https://news.panasonic.com/global/press/en230516-3)
+
+### Main features
+
+- Face, voice, touch, light, temperature, and sound-direction sensing.
+- Small body and tail movements rather than locomotion or task execution.
+- Behavior and vocabulary that Panasonic says change with continued interaction.
+
+### Notes
+
+The official offer is Japan-centered. A paid Basic plan is required, and cancellation during the initial 12-month period can incur a separate fee. The published open-source page fulfills component-license obligations; it does not make NICOBO hardware or the complete application stack an open-source project.
+
+### Sources
+
+- [Official product page](https://ec-plus.panasonic.jp/store/page/NICOBO/) — current availability, specifications, app, and network requirements.
+- [Official price and plan page](https://ec-plus.panasonic.jp/store/page/NICOBO/price/) — device price, required subscription, optional care, and cancellation fee.
+- [Panasonic launch announcement](https://news.panasonic.com/global/press/en230516-3) — general-sale timing and product concept.
+- [Software-license page](https://ec-plus.panasonic.jp/store/page/NICOBO/support/software.html) — scope of published third-party open-source components.
+
+[↑ Back to comparison](#comparison)
+
+<a id="miko-mini"></a>
+
+## Miko Mini
+
+<p align="center">
+  <a href="https://miko.ai/products/miko-mini"><img src="assets/robots/miko-mini.png" width="760" alt="Miko Mini small blue wheeled AI learning robot for children"></a>
+</p>
+<p align="center"><sub>Official product image © Miko · <a href="https://miko.ai/cdn/shop/files/mini-flatscreen-edit.png?v=1775629258">Source</a></sub></p>
+
+> A compact wheeled conversational and learning robot aimed at children aged 5–10.
+
+### Overview
+
+Miko Mini combines a camera, microphones, speaker, screen, wheels, time-of-flight sensing, and odometry. Miko describes face/voice recognition, conversations, games, learning activities, and dance behaviors; content and availability vary by account and region.
+
+The robot needs Wi-Fi and the companion app. Base use does not require Miko Max, but the optional subscription unlocks additional premium content and therefore needs to be included in a purchase comparison.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | Miko Mini |
+| Developer / Organization | Miko |
+| Country / Region | India; Miko is headquartered in Mumbai |
+| Product type | Commercial children's learning and companion robot |
+| Availability | Regional storefront stock varies; the observed US page lists the product but shows sold out |
+| First released | Introduced in 2023 |
+| Reference price | USD 149 sale price on the observed US page, checked 2026-09-09 |
+| AI capabilities | Face/voice recognition, conversational responses, and personalized learning claims |
+| Movement | Wheeled desktop movement, turns, and dance routines |
+| Open source | No public product source release identified |
+| SDK/API | Not publicly available |
+| Main functions | Child-focused conversation, educational activities, games, stories, and dance |
+| Supported languages | Official help lists English, Mexican and European Spanish, Canadian French; content coverage can differ |
+| Network requirement | Secure 2.4/5 GHz Wi-Fi and companion-app setup required |
+| Cloud dependency | Conversational and content services require internet access |
+| Subscription | Miko Max optional: USD 99/year or USD 14.99/month on the observed page |
+| Power and charging | Up to 3 hours claimed use; about 90 minutes charging |
+| Last verified | 2026-09-09 |
+
+### Official links
+
+- **Official website:** [Miko Mini](https://miko.ai/products/miko-mini)
+- **Official store:** [Miko Mini product page](https://miko.ai/products/miko-mini)
+- **Project repository:** Not publicly available
+- **Documentation:** [Miko support](https://help.miko.ai/)
+- **SDK/API:** Not publicly available
+- **Support:** [Help center](https://help.miko.ai/)
+- **Official videos:** [Product-page demonstrations](https://miko.ai/products/miko-mini)
+- **Press kit:** Unknown
+
+### Main features
+
+- Small wheeled body with screen expressions and dance movement.
+- Child-oriented conversation and educational content.
+- Optional premium-content subscription rather than a required base subscription.
+
+### Notes
+
+It is a connected children's product, so guardians should review privacy, account, camera, and regional content terms before purchase. The current terms page states that Miko Mini support ends on 2027-11-30; prospective buyers should verify whether this date or the product policy has changed. Sale prices and stock can differ by country.
+
+### Sources
+
+- [Official product page](https://miko.ai/products/miko-mini) — price, age range, sensors, dimensions, battery, and features.
+- [Miko Max page](https://miko.ai/products/miko-max) — optional subscription pricing and content.
+- [Official language help](https://help.miko.ai/hc/en-us/articles/4416463834139-Which-languages-does-Miko-Mini-support) — documented languages.
+- [Company page](https://miko.ai/pages/about-us) — organization location and product history.
+- [Terms and conditions](https://miko.ai/pages/terms-and-conditions) — published support-end date.
 
 [↑ Back to comparison](#comparison)
 
@@ -530,6 +677,75 @@ The public SDK repository is historical evidence of developer access, not proof 
 
 [↑ Back to comparison](#comparison)
 
+<a id="looi"></a>
+
+## LOOI
+
+<p align="center">
+  <a href="https://looirobot.com/products/looi-robot"><img src="assets/robots/looi.png" width="760" alt="LOOI wheeled smartphone desktop companion robot with charging ring and packaging"></a>
+</p>
+<p align="center"><sub>Official product image © TangibleFuture · <a href="https://looirobot.com/cdn/shop/files/b66ad06154607d964bb5e6f076cba988_d37a7992-3775-4623-b502-5469be1197b3.png?v=1773643379">Source</a></sub></p>
+
+> A motorized dock that uses a compatible smartphone as the display, camera, and much of the computing for a desktop companion.
+
+### Overview
+
+LOOI combines a two-wheel base, tilting phone mount, edge/obstacle sensing, wireless charging, speaker, and a phone app. TangibleFuture advertises ChatGPT/Gemini conversation, face and gesture recognition, visual awareness, and pet-like behavior.
+
+The phone is an essential part of the robot and is not included. The product page emphasizes local processing, while the privacy policy also documents cloud AI providers processing voice, conversation memory, and optional single-frame images; the latter is the clearer source for understanding cloud boundaries.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | LOOI Robot; model L-01 |
+| Developer / Organization | TangibleFuture |
+| Country / Region | China / United States campaign; developer operations and original campaign span both |
+| Product type | Commercial smartphone-powered desktop companion |
+| Availability | Official store accepts orders; processing and destination availability vary |
+| First released | Crowdfunding campaign launched in 2024; current retail listing available |
+| Reference price | USD 239 sale price; regular price shown as USD 259, checked 2026-09-09; phone not included |
+| AI capabilities | Claimed ChatGPT/Gemini conversation, face/gesture recognition, visual awareness, and adaptive behavior |
+| Movement | Two-wheel desktop movement and phone tilt; phone acts as the face |
+| Open source | Unknown; no complete source release or clear open license identified |
+| SDK/API | Not publicly available |
+| Main functions | Turns a compatible phone into a moving conversational desktop companion and wireless charger |
+| Supported languages | App listings include multiple interface languages; complete spoken-conversation coverage is Unknown |
+| Network requirement | Compatible phone, Bluetooth/app setup, and internet for cloud AI functions |
+| Cloud dependency | Voice, conversation memory, and optional visual understanding can be processed by cloud AI providers |
+| Subscription | Complete current subscription and usage-limit terms not publicly confirmed |
+| Power and charging | 6,000 mAh battery, claimed up to 5 hours; 10 W wireless phone charging |
+| Last verified | 2026-09-09 |
+
+### Official links
+
+- **Official website:** [LOOI](https://looirobot.com/)
+- **Official store:** [LOOI Robot](https://looirobot.com/products/looi-robot)
+- **Project repository:** Not publicly available
+- **Documentation:** [Help center](https://looirobot.com/pages/help-center)
+- **SDK/API:** Not publicly available
+- **Support:** [Contact and support](https://looirobot.com/pages/contact)
+- **Official videos:** [Product-page demonstrations](https://looirobot.com/products/looi-robot)
+- **Press kit:** Unknown
+
+### Main features
+
+- Uses the phone's screen and camera rather than duplicating them in the base.
+- Wheeled motion, phone tilt, edge sensing, and obstacle awareness.
+- Wireless phone charging and conversational/visual cloud features.
+
+### Notes
+
+Check the compatibility list before purchase: the current page specifies iOS 17+ or Android 12+, with Snapdragon 8 Gen 1 or above recommended for Android. A phone is not included. Privacy language is more nuanced than the headline local-processing claim, because the policy explicitly lists data sent to cloud AI providers. No public hardware SDK or complete robot-source release was found.
+
+### Sources
+
+- [Official product page](https://looirobot.com/products/looi-robot) — price, ordering, phone requirements, motion, battery, charging, and advertised features.
+- [Official privacy policy](https://looirobot.com/pages/privacy-policy) — cloud AI data categories and optional image processing.
+- [Official help center](https://looirobot.com/pages/help-center) — setup and support entry points.
+
+[↑ Back to comparison](#comparison)
+
 <a id="loona-deskmate"></a>
 
 ## Loona Deskmate
@@ -626,7 +842,7 @@ The project publishes SDKs, examples, and simulation resources. AI behavior depe
 | Product type | Developer / education desktop robot kit |
 | Availability | Both kits orderable; store quotes up to 90 days lead time |
 | First released | Announced 2025-07-09; shipment dates depend on version/batch |
-| Reference price | Lite EUR 350; Wireless EUR 435 in the observed EUR storefront, checked 2026-09-08 |
+| Reference price | Lite USD 399; Wireless USD 499 on the current official product page, checked 2026-09-09 |
 | AI capabilities | Programmable vision/audio/model applications; capabilities depend on app and compute |
 | Movement | Six-degree-of-freedom head, body rotation, and two animated antennas; no locomotion |
 | Open source | Partial: SDK Apache-2.0; hardware design files described as CC BY-SA-NC, a noncommercial restriction |
@@ -637,7 +853,7 @@ The project publishes SDKs, examples, and simulation resources. AI behavior depe
 | Cloud dependency | Application-dependent; local control and simulation are available |
 | Subscription | No mandatory robot subscription identified; chosen cloud/model providers may charge |
 | Power and charging | Lite includes mains supply; Wireless adds battery and power supply |
-| Last verified | 2026-09-08 |
+| Last verified | 2026-09-09 |
 
 ### Official links
 
@@ -658,13 +874,154 @@ The project publishes SDKs, examples, and simulation resources. AI behavior depe
 
 ### Notes
 
-These are assembly kits, not guaranteed ready-to-use conversational companions. The old USD 299/449 announcement is not substituted for the current observed EUR listing. Review hardware licenses before commercial reuse and confirm destination-specific shipping/tax.
+These are assembly kits, not guaranteed ready-to-use conversational companions. Earlier announcement and regional-store prices are not substituted for the current observed USD listing. Review hardware licenses before commercial reuse and confirm destination-specific shipping/tax.
 
 ### Sources
 
 - [Launch announcement](https://huggingface.co/blog/reachy-mini) — date and concept.
 - [Lite store](https://store.pollen-robotics.com/products/reachy-mini-lite-version) · [Wireless store](https://store.pollen-robotics.com/products/reachy-mini-wireless-version) — current prices, hardware, origin, and lead time.
 - [Project README and license description](https://github.com/pollen-robotics/reachy_mini) — SDKs, simulation, and hardware-license restriction.
+
+[↑ Back to comparison](#comparison)
+
+<a id="microduck"></a>
+
+## Microduck
+
+<p align="center">
+  <a href="https://pollen-robotics.com/microduck/"><img src="assets/robots/microduck.png" width="760" alt="Pollen Robotics Hugging Face Microduck small yellow biped robot duck walking on a tabletop"></a>
+</p>
+<p align="center"><sub>Official press photo © Pollen Robotics · <a href="https://pollen-robotics.com/assets/microduck/press/photos/microduck-closeup.jpg">Source</a></sub></p>
+
+> A 25 cm, 15-degree-of-freedom biped robot duck built around an open-source software, simulation, and reinforcement-learning stack.
+
+### Overview
+
+Microduck is Pollen Robotics' second consumer robot after Reachy Mini and the company's first biped. Pollen Robotics has been part of Hugging Face since 2025. The robot uses 15 motors, a camera, an 8×8 time-of-flight depth sensor, two IMUs, microphones, a speaker, and an onboard Rockchip RK3566 computer.
+
+Seven trained moves are announced for launch, including walking, standing/sitting, kicking, grabbing, getting up after a fall, and roller-skating with optional rollers. Motion policies run onboard at 50 Hz. The software, simulation, and training stack are open under Apache-2.0, but the mechanical and electronic design files are explicitly not part of the open-source release.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | Microduck |
+| Developer / Organization | Pollen Robotics / Hugging Face |
+| Country / Region | France; designed in Bordeaux |
+| Product type | Pre-order programmable biped desktop robot |
+| Availability | Pre-orders opened 2026-08-27; first deliveries targeted before Christmas 2026 |
+| First released | Announced and opened for pre-order on 2026-08-27 |
+| Reference price | USD 399 introductory price before taxes and shipping, checked 2026-09-09; EU store showed EUR 340 |
+| AI capabilities | Onboard 50 Hz learned motion policies; camera and depth sensing; user-trainable behaviors |
+| Movement | 15-DOF biped walking, sitting/standing, fall recovery, kick/grab, and optional roller-skating |
+| Open source | Partial: complete software/simulation/training stack under Apache-2.0; mechanical and electronic design files are not open |
+| SDK/API | Public software repository; final supported SDK languages were still being determined |
+| Main functions | Programmable biped platform for movement, reinforcement-learning experiments, and expressive interaction |
+| Supported languages | Programming-language support still being finalized; no conversational-language list announced |
+| Network requirement | Wi-Fi and Bluetooth available; core 50 Hz movement policy runs onboard |
+| Cloud dependency | Core motion is onboard; optional Hugging Face Jobs can be used for hosted training |
+| Subscription | No mandatory subscription announced |
+| Power and charging | Removable NP-F550 2,600 mAh battery; approximately one hour claimed runtime |
+| Last verified | 2026-09-09 |
+
+### Official links
+
+- **Official website:** [Microduck](https://pollen-robotics.com/microduck/)
+- **Official store:** [Microduck pre-order](https://store.pollen-robotics.com/products/microduck)
+- **Project repository:** [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck)
+- **Documentation:** [Repository README](https://github.com/pollen-robotics/microduck#readme)
+- **SDK/API:** [Open-source software stack](https://github.com/pollen-robotics/microduck)
+- **Support:** [GitHub issues](https://github.com/pollen-robotics/microduck/issues)
+- **Official videos:** [Product-page demos](https://pollen-robotics.com/microduck/)
+- **Press kit:** [Official press kit](https://pollen-robotics.com/microduck/press-kit/)
+
+### Main features
+
+- Fifteen actuated degrees of freedom in a sub-800 g body.
+- Onboard learned movement policies and fall recovery.
+- Open simulation/training software intended for custom skills and reinforcement learning.
+
+### Notes
+
+This is a pre-order product, not evidence of delivered retail hardware. Launch was initially limited to selected North American, European, and Asian destinations, and tax/shipping vary. The similarly named [microduck.net](https://microduck.net/) describes itself as an unofficial community token inspired by the robot; it is not the official robot product site. Use Pollen Robotics and its GitHub repository for product facts.
+
+### Sources
+
+- [Official product page](https://pollen-robotics.com/microduck/) — positioning, hardware, behaviors, local policy loop, and launch details.
+- [Official press kit](https://pollen-robotics.com/microduck/press-kit/) — dimensions, weight, sensors, compute, battery, price, availability, and open-source boundary.
+- [Official store](https://store.pollen-robotics.com/products/microduck) — pre-order status, regional pricing, and delivery target.
+- [Official repository](https://github.com/pollen-robotics/microduck) — Apache-2.0 software and current development resources.
+
+[↑ Back to comparison](#comparison)
+
+<a id="doly"></a>
+
+## Doly
+
+<p align="center">
+  <a href="https://shop.doly.ai/products/doly"><img src="assets/robots/doly.png" width="760" alt="Doly white Raspberry Pi CM4 tracked desktop companion and DIY robot"></a>
+</p>
+<p align="center"><sub>Official product image © Limitbit / Doly · <a href="https://shop.doly.ai/cdn/shop/files/doly.jpg?v=1774476099">Source</a></sub></p>
+
+> A Raspberry Pi CM4-based tracked companion designed to be assembled, modified, and programmed with public Python and C++ interfaces.
+
+### Overview
+
+Doly combines a tracked base, moving head and arms, camera, microphones, speaker, display, and Raspberry Pi Compute Module 4. Limitbit presents its core visual, speech, and behavior features as local and says basic use does not require a cloud subscription.
+
+The DOLY-DIY repository provides mechanical files, electronics material, firmware/SDK resources, and Python/C++ examples. Its CC BY-NC-SA 4.0 license restricts commercial use, so the project is listed as partially open rather than treating the public files as unrestricted open hardware.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | Doly |
+| Developer / Organization | Limitbit Inc. |
+| Country / Region | Canada; project campaign listed Markham, Ontario |
+| Product type | Commercial DIY companion and developer robot |
+| Availability | Official store accepts orders; localized storefront price/currency can differ |
+| First released | Crowdfunding campaign launched in 2024; current retail listing available |
+| Reference price | Official page displayed USD 562 for 1 GB / 32 GB configuration, checked 2026-09-09 |
+| AI capabilities | Developer claims local computer vision, speech, personality, and behavior generation |
+| Movement | Tracked desktop locomotion, arm motion, and articulated head |
+| Open source | Partial: public hardware/electronics/software resources under CC BY-NC-SA 4.0; commercial licensing is separate |
+| SDK/API | Public Python and C++ SDK/examples |
+| Main functions | Buildable and programmable companion for robotics, coding, and AI experiments |
+| Supported languages | English documented; additional complete language coverage Unknown |
+| Network requirement | Wi-Fi/app used for setup and connected functions; core operation is advertised as local |
+| Cloud dependency | Core features designed to run locally, according to Limitbit |
+| Subscription | No forced subscription advertised |
+| Power and charging | Rechargeable with charging station; current official capacity/runtime not confirmed |
+| Last verified | 2026-09-09 |
+
+### Official links
+
+- **Official website:** [Doly](https://doly.ai/)
+- **Official store:** [Doly product page](https://shop.doly.ai/products/doly)
+- **Project repository:** [robotdoly/DOLY-DIY](https://github.com/robotdoly/DOLY-DIY)
+- **Documentation:** [DOLY-DIY documentation](https://robotdoly.github.io/DOLY-DIY/)
+- **SDK/API:** [Python and C++ resources](https://github.com/robotdoly/DOLY-DIY)
+- **Support:** [Doly support](https://doly.ai/support/)
+- **Official videos:** [Doly channel](https://www.youtube.com/@DolyRobot)
+- **Press kit:** Unknown
+
+### Main features
+
+- Raspberry Pi CM4 compute with public modification and programming resources.
+- Tracked movement, animated face, articulated arms, and moving head.
+- Core local operation without a mandatory cloud subscription, according to the developer.
+
+### Notes
+
+The public license is noncommercial; contact the developer for commercial use. Storefront currency and price can change with location, so verify checkout rather than assuming every visitor sees USD 562. Published source files do not independently prove that every shipped software component is open or that all advertised AI functions work fully offline.
+
+### Sources
+
+- [Official store](https://shop.doly.ai/products/doly) — current order page, configuration, price, and included hardware.
+- [Official product overview](https://doly.ai/companion/) — local-operation and no-forced-subscription claims.
+- [About Limitbit](https://doly.ai/about-us/) — developer identity and open-robotics positioning.
+- [DOLY-DIY repository](https://github.com/robotdoly/DOLY-DIY) — licenses, files, SDK languages, and examples.
+- [Official documentation](https://robotdoly.github.io/DOLY-DIY/) — build and programming material.
 
 [↑ Back to comparison](#comparison)
 
@@ -807,7 +1164,7 @@ The study involved 21 participants evaluating videos across six task scenarios. 
 
 <a id="cozmo"></a>
 
-## Cozmo — legacy platform and announced 2.0
+## Cozmo — discontinued original and announced 2.0
 
 <p align="center">
   <a href="https://anki.bot/products/cozmo-robot"><img src="assets/robots/cozmo.webp" width="760" alt="Anki Digital Dream Labs Cozmo 2.0 promotional rendering of a tracked educational desk robot"></a>
@@ -820,17 +1177,17 @@ The study involved 21 participants evaluating videos across six task scenarios. 
 
 The original Cozmo combines a tracked body, lift, camera, and phone/tablet application for cube games and programming. Its publicly available SDK makes it relevant to desktop robotics learning even as the surrounding software ecosystem ages.
 
-The current store advertises Cozmo 2.0 improvements but labels the robot “coming soon” and sold out. This entry distinguishes the established legacy platform from those unverified next-generation delivery claims.
+The current store advertises Cozmo 2.0 improvements but labels the robot “coming soon” and sold out. This entry distinguishes the discontinued original Cozmo from those unverified next-generation delivery claims.
 
 ### Product information
 
 | Item | Details |
 |---|---|
-| Product name | Cozmo legacy platform; announced Cozmo 2.0 |
+| Product name | Cozmo (original); announced Cozmo 2.0 |
 | Developer / Organization | Anki originally; Digital Dream Labs / current Anki-branded store |
 | Country / Region | USA |
-| Product type | Historical educational tabletop robot; announced successor |
-| Availability | Legacy platform; 2.0 store listing says coming soon / sold out |
+| Product type | Discontinued educational tabletop robot; announced successor |
+| Availability | Original discontinued; 2.0 announced but not released, with its store listing marked coming soon / sold out |
 | First released | Exact legacy release date not reverified; 2.0 first delivery Unknown |
 | Reference price | Cozmo 2.0 listed at USD 399.99 but sold out, checked 2026-09-08; legacy resale price not tracked |
 | AI capabilities | Vision/cube recognition and programmed behavior; 2.0 enhancements remain vendor claims |
