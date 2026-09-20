@@ -16,7 +16,7 @@ Floor-first robot pets, cleaning robots, general industrial arms, and purely vir
 
 ## Freshness and legend
 
-**Catalog updated: 2026-09-09.** Each detailed entry carries its own last-verified date for price, store status, languages, cloud dependencies, subscriptions, and SDK access. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
+**Catalog updated: 2026-09-20.** Each detailed entry carries its own last-verified date for price, store status, languages, cloud dependencies, subscriptions, and SDK access. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
 
 - **AI:** A concrete perception, speech, model, or adaptive behavior capability. Claims are attributed to the developer; this repository has not tested the hardware or independently measured performance. Expressive animation alone is not evidence of AI.
 - **Open source (detailed entries):** **Yes** identifies an openly licensed project; **Partial** may mean an open SDK or software with restricted hardware; **Unknown** means no adequate public licensing evidence was found. A public SDK does not make the entire robot open source.
@@ -43,6 +43,8 @@ Prices use the last-verified date in each detailed entry unless a historical pri
 | [Vector 2.0](#vector) | Anki / Digital Dream Labs | USA | On sale; store states in stock | USD 199.99 new black unit | Vision, voice, autonomous behaviors | Tracks, lift, head movement | Public legacy Python SDK | Cloud voice from USD 11.99/month | Roaming desk pet with voice services. |
 | [LOOI](#looi) | TangibleFuture | China / USA campaign | On sale; official store accepts orders | USD 239 sale price | Phone-based vision, voice and cloud-model conversation | Wheeled desktop movement; tilting phone mount | Unknown | Phone + cloud AI; subscription terms Unknown | Turns a smartphone into a mobile desk companion. |
 | [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | China | On sale listing; delivery Unknown | USD 299; iPhone extra | iPhone perception and cloud assistant claimed | Three-axis phone mount; fixed base | Unknown | iPhone + cloud; subscription Unknown | Moving phone dock for AI work assistance. |
+| [Senling XiaoMu / 森灵小木](#xiaomu) | Timu Technology | China | Pre-order; official page quotes 7-business-day dispatch | USD 330 | On-device voice/vision plus optional cloud models | Five-DoF head, arms and body gestures; fixed base | Public Python / ROS 2 for Programming Edition | Core interaction local; optional cloud; no monthly fee claimed | Programmable companion with reminders and expressive movement. |
+| [Razer Project AVA](#project-ava) | Razer | Singapore / USA | Concept; US reservation; H2 2026 target | USD 20 refundable deposit; final price Unknown | Camera/mic context, PC vision and agentic workflows claimed | Animated 3D avatar; no mechanical motion documented | Not publicly available | Windows PC plus local/cloud routing; subscription Unknown | Holographic assistant for work, life and gaming. |
 | [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | France | Orderable DIY kits; up to 90-day lead time | Lite USD 399; Wireless USD 499 | Programmable vision/audio/model apps | 6-DoF head, body rotation, antennas | Public Python / JavaScript | Depends on app; model fees may apply | Expressive platform for building AI interactions. |
 | [Microduck](#microduck) | Pollen Robotics / Hugging Face | France | Pre-order; first deliveries targeted before Christmas 2026 | USD 399 introductory | RL policies, vision and onboard AI accelerator | 15-DoF biped walking, recovery and optional skating | Public software/SDK | Core control local; optional hosted training | Open-software biped for play, RL and sim-to-real learning. |
 | [Doly](#doly) | Limitbit | Canada | On sale; official store accepts orders | USD 562 displayed for 1 GB model | On-device speech and perception claimed | Tracks, arms, head and expressive eyes | Public Python / C++ | Core features local; no forced subscription | Expandable Raspberry Pi companion and maker platform. |
@@ -812,6 +814,146 @@ An iPhone is required and is not included in the USD 299 reference price. The pa
 - [US product listing](https://keyirobot.com/en-us/products/deskmate) — price, required phone, movement, cloud claims, and power labels.
 - [Company history](https://keyirobot.com/about-us) — developer origin.
 - [Official launch/news index](https://keyirobot.com/blogs/news) — January 2026 introduction; [Japan presentation](https://makuake.keyirobot.com/) — phone compatibility context.
+
+[↑ Back to comparison](#comparison)
+
+<a id="xiaomu"></a>
+
+## Senling XiaoMu / 森灵小木
+
+<p align="center">
+  <a href="https://www.timuai.com/order"><img src="assets/robots/xiaomu.webp" width="760" alt="Senling XiaoMu 森灵小木 AI desktop companion waving with its articulated arm"></a>
+</p>
+<p align="center"><sub>Official promotional image © Timu Technology · <a href="https://www.timuai.com/assets/hero-xiaomu-companion-HU5j3qtd.webp">Source</a></sub></p>
+
+> A fixed-base companion combining offline perception and conversation with five-DoF expressive movement and an optional programming interface.
+
+### Overview
+
+Timu Technology presents XiaoMu as a proactive companion and life assistant for a desk or nightstand. The official page lists reminders, face and pet recognition, email assistance, touch interaction, and five degrees of expressive motion. These capabilities and the stated on-device processing boundary are manufacturer claims and have not been independently tested here.
+
+The Standard Edition targets everyday use. The Programming Edition exposes Python and ROS 2 interfaces for speech, motion, vision, touch, IMU, environmental sensors, and battery state. Its public repositories do not make the whole product open source, and the API-example repository currently shows inconsistent license signals between GitHub's license label and its README.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | Senling XiaoMu / 森灵小木; Standard and Programming Editions |
+| Developer / Organization | Timu Technology (Wuhan) Co., Ltd. |
+| Country / Region | China |
+| Product type | Pre-order desktop companion and programmable robot |
+| Availability | Pre-order; official order page quotes shipment within 7 business days, not independently verified |
+| First released | Kickstarter campaign ran 2026-01-31 to 2026-04-01; first general delivery date Unknown |
+| Reference price | USD 330 shown on the official order page, checked 2026-09-20; edition-specific final price should be confirmed at checkout |
+| AI capabilities | Manufacturer claims offline voice, visual recognition, local commands, face recognition, and an onboard 1-TOPS NPU; optional cloud models for deeper queries |
+| Movement | Five-DoF articulated head, arms, and body gestures; fixed base with no locomotion documented |
+| Open source | Partial; public firmware and examples exist, but the whole robot is not openly licensed and repository licensing should be checked file by file |
+| SDK/API | Public Python 3.9 and ROS 2 interfaces for the Programming Edition |
+| Main functions | Conversation, reminders, expressive companionship, email assistance, snapshots, and robotics development |
+| Supported languages | Chinese, English, and German, per current official order page |
+| Network requirement | Core conversation, vision, touch, and local commands are claimed to work offline; Wi-Fi is needed for OTA and optional cloud queries |
+| Cloud dependency | Optional for extended knowledge/conversation; text may be sent to cloud models when connected |
+| Subscription | Manufacturer states no monthly fee for the listed core experience |
+| Power and charging | 2,000 mAh battery; contact-charging dock and USB-C 5 V / 2 A; claimed 30+ minutes off-dock |
+| Last verified | 2026-09-20 |
+
+### Official links
+
+- **Official website:** [XiaoMu](https://store.timuai.com/)
+- **Official store:** [Order page](https://www.timuai.com/order)
+- **Project repository:** [TimuTechnology organization](https://github.com/TimuTechnology)
+- **Documentation:** [Programming Edition API guide and examples](https://github.com/TimuTechnology/senling-xiaomu-ros2-api-examples)
+- **SDK/API:** [Python / ROS 2 examples](https://github.com/TimuTechnology/senling-xiaomu-ros2-api-examples)
+- **Support:** [Order-page FAQ and contact](https://www.timuai.com/order)
+- **Official videos:** [Timu Robot channel](https://www.youtube.com/@timurobot)
+- **Press kit:** Not publicly available
+
+### Main features
+
+- Offline-first voice, vision, touch, and local-command processing claimed by the manufacturer.
+- Five-DoF expressive movement, reminders, and a magnetic charging dock.
+- Programming Edition with ROS 2 topics and Python examples for sensors and actuators.
+
+### Notes
+
+“Pre-order” and the quoted seven-business-day dispatch appear together on the official order page; neither inventory nor delivery was tested. The API-example repository is publicly readable, but its README says “proprietary” while GitHub identifies an Apache-2.0 license file; the separate firmware repository is labeled AGPL-3.0. Review the exact repository and file license before reuse.
+
+### Sources
+
+- [Official product page](https://store.timuai.com/) — positioning, editions, movement, and claimed functions.
+- [Official order page](https://www.timuai.com/order) — price, dispatch statement, specifications, languages, offline/cloud boundary, charging, and subscription claim.
+- [Official GitHub organization](https://github.com/TimuTechnology) and [Programming Edition repository](https://github.com/TimuTechnology/senling-xiaomu-ros2-api-examples) — public code, API surface, and license caveat.
+- [Kickstarter campaign](https://www.kickstarter.com/projects/xiaomu/xiaomu-robot-intelligent-being-with-offline-ai-and-psychology) — campaign timing and creator updates; crowdfunding delivery remains a project claim.
+
+[↑ Back to comparison](#comparison)
+
+<a id="project-ava"></a>
+
+## Razer Project AVA
+
+<p align="center">
+  <a href="https://www.razer.com/razer-ava"><img src="assets/robots/project-ava.webp" width="760" alt="Razer Project AVA cylindrical 3D hologram AI desk companion with green animated avatar"></a>
+</p>
+<p align="center"><sub>Official promotional image © Razer · <a href="https://assets2.razerzone.com/images/pnx.assets/158552b1fd4c18ce2f6850164fdc3104/razer-project-ava-ces-2026-hero-desktop.webp">Source</a></sub></p>
+
+> A Windows-connected holographic desk assistant that Razer is developing for personal organization, work tasks, and game coaching.
+
+### Overview
+
+Project AVA began as a 2025 esports-coach concept and was reintroduced at CES 2026 as a physical desk companion with a 5.5-inch animated 3D avatar, HD camera, dual far-field microphones, speaker, eye tracking, facial animation, and PC Vision Mode. The enclosure is stationary: avatar animation is not mechanical robot movement.
+
+At GDC 2026, Razer announced an agentic version intended to plan and execute multi-step tasks across supported apps and services. Razer says the current demonstration uses Grok and that its architecture is intended to support other AI platforms at commercialization. These remain forward-looking product claims; the final hardware price, subscription terms, supported integrations, and shipping status are not yet established.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | Razer Project AVA / Razer AVA |
+| Developer / Organization | Razer |
+| Country / Region | Singapore / USA |
+| Product type | Concept / planned commercial holographic desktop companion |
+| Availability | Concept; USD 20 refundable US reservation; official Chinese page targets H2 2026 release |
+| First released | Esports-coach concept in 2025; physical desk-companion concept announced 2026-01-06 |
+| Reference price | Final price Unknown; USD 20 refundable reservation deposit in the US, checked 2026-09-20 |
+| AI capabilities | Manufacturer claims camera/microphone context, preference learning, PC screen vision, multilingual interaction, and agentic multi-step workflows |
+| Movement | Animated 3D avatar with eye tracking, expressions, and lip sync; no mechanical motion or locomotion documented |
+| Open source | Unknown; no public AVA source release identified |
+| SDK/API | Not publicly available; supported third-party integrations remain product-dependent |
+| Main functions | Scheduling and personal assistance, work consultation/data analysis, translation, and real-time game coaching |
+| Supported languages | Multilingual text and two-way voice translation claimed; exact launch-language list Unknown |
+| Network requirement | Wired USB-C connection to a Windows PC is required; complete internet/offline boundary Unknown |
+| Cloud dependency | Razer announced routing between local and cloud models; current demonstration uses Grok |
+| Subscription | Unknown |
+| Power and charging | USB-C data and power; no battery documented |
+| Last verified | 2026-09-20 |
+
+### Official links
+
+- **Official website:** [Razer AVA](https://www.razer.com/razer-ava) · [Chinese product page](https://cn.razerzone.com/concepts/project-ava)
+- **Official store:** Reservation is offered through the US product page; no normal retail listing yet
+- **Project repository:** Not publicly available
+- **Documentation:** [Product page FAQ](https://cn.razerzone.com/concepts/project-ava)
+- **SDK/API:** Not publicly available
+- **Support:** [Razer support](https://mysupport.razer.com/)
+- **Official videos:** [Product page media](https://www.razer.com/razer-ava)
+- **Press kit:** [CES 2026 key visual](https://press.razer.com/wp-content/uploads/2026/01/Project-AVA-Key-Visual-16x9-1-1255x706.png)
+
+### Main features
+
+- 5.5-inch animated 3D avatar with HD camera, far-field microphones, speaker, and Chroma lighting.
+- PC Vision Mode for screen-aware assistance and game coaching.
+- Announced agentic workflows and supported-app coordination for multi-step tasks.
+
+### Notes
+
+AVA is included as an embodied desk-companion concept, not as proof of a shipping robot. Its visible motion is rendered avatar animation inside a stationary enclosure. The H2 2026 target and refundable reservation do not establish production, delivery, final capabilities, or final price.
+
+### Sources
+
+- [Official Chinese product page and FAQ](https://cn.razerzone.com/concepts/project-ava) — hardware components, Windows/USB-C requirement, current model, reservation, and H2 2026 target.
+- [CES 2026 announcement](https://www.razer.com/newsroom/product-news/project-ava) — physical companion concept, avatar, perception, and PC Vision Mode.
+- [GDC 2026 announcement](https://www.razer.com/newsroom/company-news/razer-at-gdc-2026) — agentic workflows, local/cloud routing, integrations, and beta statement.
+- [About Razer](https://www.razer.com/about-razer) — dual headquarters in Singapore and Irvine, California.
 
 [↑ Back to comparison](#comparison)
 

@@ -16,7 +16,7 @@
 
 ## 信息时效与图例
 
-**目录更新：2026-09-09。** 每个详细条目单独标注最近核查日期；价格、商店状态、语言、云服务、订阅及 SDK 均属于时效信息。引用旧公告时会注明历史日期；**未知（Unknown）**表示当前信息未能确认。购买前请查看所在地区官方商店的配送、税费、套餐内容及结算价。
+**目录更新：2026-09-20。** 每个详细条目单独标注最近核查日期；价格、商店状态、语言、云服务、订阅及 SDK 均属于时效信息。引用旧公告时会注明历史日期；**未知（Unknown）**表示当前信息未能确认。购买前请查看所在地区官方商店的配送、税费、套餐内容及结算价。
 
 - **AI：** 指具体的感知、语音、模型或自适应行为能力。相关声明归属于开发者；本仓库没有实测硬件或独立测量性能。仅有表情动画不足以证明 AI 能力。
 - **开源：** 为保持总览紧凑，开源状态只在下方详细条目中说明。**是**指有明确开放许可的项目；**部分**可能只是 SDK 或软件开放，而硬件仍有限制；**未知**表示没有找到充分的公开许可证据。公开 SDK 不等于整机开源。
@@ -43,6 +43,8 @@
 | [Vector 2.0](#vector) | Anki / Digital Dream Labs | 美国 | 在售；商店标有库存 | 黑色新机 USD 199.99 | 视觉、语音、自主行为 | 履带、举升臂、头部运动 | 公开的旧版 Python SDK | 云端语音 USD 11.99/月起 | 带语音服务、可在桌面活动的宠物。 |
 | [LOOI](#looi) | TangibleFuture | 中国 / 美国众筹团队 | 官方商店可下单 | USD 239 促销价；手机另备 | 官方称 ChatGPT/Gemini、视觉感知及手势识别 | 轮式底座、俯仰动作；由手机提供“脸” | 未公开 | 云端 AI；完整订阅条款未知 | 把兼容手机变成可移动的桌面伙伴。 |
 | [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | 中国 | 有在售页面；交期未知 | USD 299；iPhone 另备 | 官方称手机感知及云端助手 | 三轴手机支架；底座固定 | 未知 | iPhone + 云端；订阅未知 | 通过可动手机底座提供 AI 工作辅助。 |
+| [Senling XiaoMu / 森灵小木](#xiaomu) | 梯目科技 | 中国 | 预售；官方页称 7 个工作日内发货 | USD 330 | 本地语音/视觉及可选云模型 | 五自由度头部、手臂和身体动作；底座固定 | 编程版公开 Python / ROS 2 | 核心互动本地；可选云端；官方称无月费 | 兼顾提醒、表情动作与编程的陪伴机器人。 |
+| [Razer Project AVA](#project-ava) | Razer 雷蛇 | 新加坡 / 美国 | 概念产品；美国可付订金预约；目标 2026 下半年 | USD 20 可退订金；最终价格未知 | 相机/麦克风情境感知、电脑视觉及智能体工作流 | 3D 虚拟形象动画；未见机械动作 | 未公开 | Windows 电脑 + 本地/云端路由；订阅未知 | 面向工作、生活和游戏的全息桌面助手。 |
 | [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | 法国（Pollen） | 可订购 DIY 套件；交期最长 90 天 | Lite USD 399；Wireless USD 499 | 可编程视觉/音频/模型应用 | 六自由度头部、身体旋转、天线 | 公开 Python / JavaScript | 取决于应用；模型可能收费 | 用于开发 AI 交互的表达式机器人平台。 |
 | [Microduck](#microduck) | Pollen Robotics / Hugging Face | 法国 | 预售；目标 2026 年圣诞节前首批交付 | USD 399 首发价；税费/运费另计 | 50 Hz 板载运动策略；相机及深度感知 | 15 自由度双足行走、起身、踢/抓及可选轮滑 | 开源软件栈；SDK 语言待定 | 核心运动板载；无强制订阅信息 | 可训练、可编程的开源软件双足机器鸭子。 |
 | [Doly](#doly) | Limitbit | 加拿大 | 官方商店可下单 | 官方页显示 USD 562（1 GB / 32 GB） | 官方称本地视觉、语音和行为 | 履带移动、手臂及头部动作 | 公开 Python / C++ | 核心功能本地；不强制订阅 | 基于 Raspberry Pi CM4 的 DIY/开发陪伴机器人。 |
@@ -812,6 +814,146 @@ Loona Deskmate 使用安装在三轴电动底座上的 iPhone 进行感知和交
 - [美国商品页面](https://keyirobot.com/en-us/products/deskmate)：价格、手机要求、运动、云端声明及供电标注。
 - [公司历史](https://keyirobot.com/about-us)：开发者起源。
 - [官方发布/新闻目录](https://keyirobot.com/blogs/news)：2026 年 1 月发布；[日本介绍页](https://makuake.keyirobot.com/)：手机兼容性说明。
+
+[↑ 返回总览](#comparison)
+
+<a id="xiaomu"></a>
+
+## Senling XiaoMu / 森灵小木
+
+<p align="center">
+  <a href="https://www.timuai.com/order"><img src="assets/robots/xiaomu.webp" width="760" alt="Senling XiaoMu 森灵小木 AI 桌面陪伴机器人，抬起可动手臂挥手"></a>
+</p>
+<p align="center"><sub>官方宣传图 © 梯目科技 · <a href="https://www.timuai.com/assets/hero-xiaomu-companion-HU5j3qtd.webp">原图来源</a></sub></p>
+
+> 一款固定底座的桌面伙伴，把本地感知和对话、五自由度表情动作及可选编程接口结合在一起。
+
+### 产品概述
+
+梯目科技把小木定位为用于书桌或床头的主动陪伴机器人和生活助手。官方页面列出提醒、人脸及宠物识别、邮件助手、触摸互动和五自由度表情动作。这些能力和本地处理边界均为厂商声明，本项目未进行独立测试。
+
+标准版面向日常使用；编程版通过 Python 和 ROS 2 开放语音、动作、视觉、触摸、IMU、环境传感器及电池状态接口。公开仓库不代表整机开源，而且 API 示例仓库的 GitHub 许可证标记与 README 当前存在冲突。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | Senling XiaoMu / 森灵小木；标准版和编程版 |
+| 开发者 / 机构 | 武汉梯目科技有限公司 / Timu Technology |
+| 国家 / 地区 | 中国 |
+| 产品类型 | 预售桌面陪伴及可编程机器人 |
+| 供应状态 | 预售；官方订购页称 7 个工作日内发货，未独立验证 |
+| 首次发布 | Kickstarter 活动为 2026-01-31 至 2026-04-01；首次普遍交付日期未知 |
+| 参考价格 | 官方订购页显示 USD 330，核查于 2026-09-20；不同版本最终价格应在结算时确认 |
+| AI 能力 | 厂商称支持离线语音、视觉识别、本地指令、人脸识别及 1 TOPS 板载 NPU；较深入问题可选云模型 |
+| 运动方式 | 五自由度头部、手臂和身体动作；固定底座，未见位置移动说明 |
+| 开源 | 部分；有公开固件和示例，但整机并非全部开放许可，且应按仓库和文件核对许可证 |
+| SDK/API | 编程版公开 Python 3.9 和 ROS 2 接口 |
+| 主要功能 | 对话、提醒、表情陪伴、邮件辅助、照片快照和机器人二次开发 |
+| 支持语言 | 当前官方订购页列出中文、英语和德语 |
+| 网络要求 | 官方称核心对话、视觉、触摸和本地指令可离线；OTA 及可选云端查询需要 Wi-Fi |
+| 云端依赖 | 扩展知识/对话可选；联网时部分文本可能交由云模型处理 |
+| 订阅 | 厂商称所列核心体验没有月费 |
+| 供电与充电 | 2,000 mAh 电池；触点式充电底座及 USB-C 5 V / 2 A；离开底座续航标称 30 分钟以上 |
+| 最近核查 | 2026-09-20 |
+
+### 官方链接
+
+- **官方网站：** [XiaoMu](https://store.timuai.com/)
+- **官方商店：** [订购页面](https://www.timuai.com/order)
+- **项目仓库：** [TimuTechnology 组织](https://github.com/TimuTechnology)
+- **文档：** [编程版 API 指南和示例](https://github.com/TimuTechnology/senling-xiaomu-ros2-api-examples)
+- **SDK/API：** [Python / ROS 2 示例](https://github.com/TimuTechnology/senling-xiaomu-ros2-api-examples)
+- **支持：** [订购页 FAQ 与联系方式](https://www.timuai.com/order)
+- **官方视频：** [Timu Robot 频道](https://www.youtube.com/@timurobot)
+- **媒体素材：** 未公开
+
+### 主要特点
+
+- 厂商称语音、视觉、触摸和本地指令采用离线优先处理。
+- 五自由度表情动作、日常提醒及磁吸式充电底座。
+- 编程版为传感器和执行器提供 ROS 2 话题与 Python 示例。
+
+### 注意事项
+
+官方订购页同时写有“预售”和“7 个工作日内发货”，本项目没有验证库存或实际交付。API 示例仓库可以公开访问，但其 README 写有“专有”，GitHub 页面却识别到 Apache-2.0 许可证文件；另一个固件仓库标记为 AGPL-3.0。复用代码前应检查具体仓库及文件的许可证。
+
+### 信息来源
+
+- [官方产品页](https://store.timuai.com/)：产品定位、版本、动作及官方功能声明。
+- [官方订购页](https://www.timuai.com/order)：价格、发货表述、规格、语言、离线/云端边界、充电和订阅声明。
+- [官方 GitHub 组织](https://github.com/TimuTechnology)及[编程版仓库](https://github.com/TimuTechnology/senling-xiaomu-ros2-api-examples)：公开代码、API 范围和许可证注意事项。
+- [Kickstarter 活动](https://www.kickstarter.com/projects/xiaomu/xiaomu-robot-intelligent-being-with-offline-ai-and-psychology)：众筹时间和开发者更新；众筹交付仍属于项目方声明。
+
+[↑ 返回总览](#comparison)
+
+<a id="project-ava"></a>
+
+## Razer Project AVA
+
+<p align="center">
+  <a href="https://cn.razerzone.com/concepts/project-ava"><img src="assets/robots/project-ava.webp" width="760" alt="Razer Project AVA 圆柱形 3D 全息 AI 桌面伙伴，显示绿色动态虚拟形象"></a>
+</p>
+<p align="center"><sub>官方宣传图 © Razer 雷蛇 · <a href="https://assets2.razerzone.com/images/pnx.assets/158552b1fd4c18ce2f6850164fdc3104/razer-project-ava-ces-2026-hero-desktop.webp">原图来源</a></sub></p>
+
+> 雷蛇正在开发的 Windows 连接式全息桌面助手，面向生活管理、工作任务和游戏指导。
+
+### 产品概述
+
+Project AVA 最初是 2025 年的电竞教练概念，CES 2026 又以实体桌面伙伴形式亮相。官方列出的硬件和表现包括 5.5 英寸动态 3D 虚拟形象、高清相机、远场双阵列麦克风、扬声器、眼动追踪、面部动画和电脑视觉模式。机身固定不动，虚拟形象动画不属于机械运动。
+
+雷蛇在 GDC 2026 进一步公布智能体版本，称它将能够在受支持的应用和服务间规划并执行多步任务。官方称当前演示使用 Grok，产品架构计划在商业化时兼容其他 AI 平台。这些仍是面向未来的产品声明；最终硬件价格、订阅条款、支持的集成及实际发货状态尚未确定。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | Razer Project AVA / Razer AVA |
+| 开发者 / 机构 | Razer 雷蛇 |
+| 国家 / 地区 | 新加坡 / 美国 |
+| 产品类型 | 概念 / 计划商业化的全息桌面伙伴 |
+| 供应状态 | 概念产品；美国可付 USD 20 可退订金预约；中文官网目标 2026 年下半年发售 |
+| 首次发布 | 2025 年发布电竞教练概念；实体桌面伙伴概念于 2026-01-06 公布 |
+| 参考价格 | 最终价格未知；美国预约订金 USD 20 且可全额退还，核查于 2026-09-20 |
+| AI 能力 | 厂商称具备相机/麦克风情境感知、偏好学习、电脑屏幕视觉、多语言互动和智能体多步工作流 |
+| 运动方式 | 3D 虚拟形象具有眼动、表情和口型动画；未见机械动作或位置移动说明 |
+| 开源 | 未知；未找到 AVA 的公开源码发布 |
+| SDK/API | 未公开；第三方集成取决于最终产品支持范围 |
+| 主要功能 | 日程及生活辅助、工作咨询/数据分析、翻译和实时游戏指导 |
+| 支持语言 | 官方称支持多语言文字及双向语音翻译；首发准确语言列表未知 |
+| 网络要求 | 必须通过 USB-C 有线连接 Windows 电脑；完整联网/离线边界未知 |
+| 云端依赖 | 雷蛇公布了本地及云模型之间的路由；当前演示使用 Grok |
+| 订阅 | 未知 |
+| 供电与充电 | USB-C 传输数据及供电；未见电池说明 |
+| 最近核查 | 2026-09-20 |
+
+### 官方链接
+
+- **官方网站：** [Razer AVA 中文页](https://cn.razerzone.com/concepts/project-ava) · [全球产品页](https://www.razer.com/razer-ava)
+- **官方商店：** 美国产品页提供预约；尚无常规零售商品页
+- **项目仓库：** 未公开
+- **文档：** [产品页 FAQ](https://cn.razerzone.com/concepts/project-ava)
+- **SDK/API：** 未公开
+- **支持：** [Razer 支持](https://mysupport.razer.com/)
+- **官方视频：** [产品页媒体](https://cn.razerzone.com/concepts/project-ava)
+- **媒体素材：** [CES 2026 主视觉](https://press.razer.com/wp-content/uploads/2026/01/Project-AVA-Key-Visual-16x9-1-1255x706.png)
+
+### 主要特点
+
+- 5.5 英寸动态 3D 虚拟形象，配高清相机、远场麦克风、扬声器及 Chroma 灯效。
+- 电脑视觉模式可根据屏幕内容辅助工作及指导游戏。
+- 已公布多步智能体工作流及受支持应用间的协同能力。
+
+### 注意事项
+
+本清单把 AVA 作为具备实体载体的桌面伙伴概念收录，不代表它已经量产发货。可见动作来自固定机身内渲染的虚拟形象。2026 年下半年的目标和可退订金不能证明量产、交付、最终功能或最终价格。
+
+### 信息来源
+
+- [官方中文产品页及 FAQ](https://cn.razerzone.com/concepts/project-ava)：硬件组件、Windows/USB-C 要求、当前模型、预约及 2026 下半年目标。
+- [CES 2026 官方公告](https://www.razer.com/newsroom/product-news/project-ava)：实体伙伴概念、虚拟形象、感知和电脑视觉模式。
+- [GDC 2026 官方公告](https://www.razer.com/newsroom/company-news/razer-at-gdc-2026)：智能体工作流、本地/云端路由、集成和测试计划。
+- [关于 Razer](https://www.razer.com/about-razer)：新加坡与美国加州尔湾双总部信息。
 
 [↑ 返回总览](#comparison)
 

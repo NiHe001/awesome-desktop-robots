@@ -1,2 +1,26 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+.cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
 # Local Codex project context (not published)
 /AGENTS.md
