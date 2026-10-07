@@ -896,7 +896,7 @@ Loona Deskmate 使用安装在三轴电动底座上的 iPhone 进行感知和交
 ## QwenNote Eva / 千问办公 Eva
 
 <p align="center">
-  <a href="https://www.qwennote.cn/"><img src="assets/robots/qwennote-eva.webp" width="760" alt="QwenNote Eva 千问办公三轴桌面手机底座，手机屏幕显示表情"></a>
+  <a href="https://www.ithome.com/1/005/803.htm" title="IT之家 Eva 发布报道（非官方产品页）"><img src="assets/robots/qwennote-eva.webp" width="760" alt="QwenNote Eva 千问办公三轴桌面手机底座，手机屏幕显示表情"></a>
 </p>
 <p align="center"><sub>厂商品牌宣传图（IT之家转载） © Alibaba / QwenNote · <a href="https://img.ithome.com/newsuploadfiles/2026/9/8845a581-41d2-4a0e-8f85-baa88fbc54d6.jpg">原图来源</a></sub></p>
 
@@ -933,7 +933,7 @@ Loona Deskmate 使用安装在三轴电动底座上的 iPhone 进行感知和交
 
 ### 官方链接
 
-- **官方网站：** [官方网站](https://www.qwennote.cn/)
+- **官方网站：** 未知；未确认 Eva 专属官方产品页
 - **官方商店：** 未知
 - **项目仓库：** 未知
 - **文档：** 未知
@@ -950,14 +950,14 @@ Loona Deskmate 使用安装在三轴电动底座上的 iPhone 进行感知和交
 
 ### 注意事项
 
-图片为 IT之家转载的厂商品牌宣传素材，未确认属于允许再使用的媒体包。开售及功能属于发布报道中的声明；未实测交付、兼容性或性能。不能将 QwenNote A2 的转写会员和积分权益直接套用于 Eva。商店、SDK 和 Eva 专属服务条款仍为未知。
+图片为 IT之家转载的厂商品牌宣传素材，未确认属于允许再使用的媒体包。开售及功能属于发布报道中的声明；未实测交付、兼容性或性能。图片点击后进入 IT之家发布报道，而非官方产品页。qwennote.cn 当前展示 QwenNote A2 随身 AI 助理，不是 Eva 桌面机器人产品页；不能将 A2 的规格、转写会员和积分权益直接套用于 Eva。商店、SDK 和 Eva 专属服务条款仍为未知。
 
 ### 来源
 
 - [来源](https://www.ithome.com/1/005/803.htm) — 注明出处的发布报道及宣传图；Eva 硬件和功能。
 - [来源](https://tidenews.com.cn/news.html?id=3566248) — 大会报道中的开发者、发布日期及价格。
-- [来源](https://www.qwennote.cn/) — QwenNote 官方网站；不能独立确认 Eva 专属规格。
-- [来源](https://www.qwennote.cn/membership/index.html) — 通用会员及 A2 条件；不是 Eva 权益的确认。
+- [QwenNote A2 页面](https://www.qwennote.cn/) — 用于辨别不同产品；不是 Eva 产品页，不支持 Eva 专属规格。
+- [QwenNote 会员说明](https://www.qwennote.cn/membership/index.html) — 包含 A2 专属条件；仅用于说明产品权益边界，不能作为 Eva 订阅依据。
 
 [↑ 返回总览](#comparison)
 

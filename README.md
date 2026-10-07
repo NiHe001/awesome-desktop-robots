@@ -896,7 +896,7 @@ An iPhone is required and is not included in the USD 299 reference price. The pa
 ## QwenNote Eva
 
 <p align="center">
-  <a href="https://www.qwennote.cn/"><img src="assets/robots/qwennote-eva.webp" width="760" alt="QwenNote Eva three-axis desktop phone dock showing an expressive face on a phone"></a>
+  <a href="https://www.ithome.com/1/005/803.htm" title="IT Home Eva launch report (not an official product page)"><img src="assets/robots/qwennote-eva.webp" width="760" alt="QwenNote Eva three-axis desktop phone dock showing an expressive face on a phone"></a>
 </p>
 <p align="center"><sub>Manufacturer-branded promotional image reproduced by IT Home © Alibaba / QwenNote · <a href="https://img.ithome.com/newsuploadfiles/2026/9/8845a581-41d2-4a0e-8f85-baa88fbc54d6.jpg">Source</a></sub></p>
 
@@ -933,7 +933,7 @@ The reported focus is voice-directed office tasks, meeting notes, reminders, and
 
 ### Official links
 
-- **Official website:** [Official website](https://www.qwennote.cn/)
+- **Official website:** Unknown; no Eva-specific official product page confirmed
 - **Official store:** Unknown
 - **Project repository:** Unknown
 - **Documentation:** Unknown
@@ -950,14 +950,14 @@ The reported focus is voice-directed office tasks, meeting notes, reminders, and
 
 ### Notes
 
-The image is manufacturer-branded promotional material reproduced in IT Home, not a verified reuse-licensed press kit. Launch sale and capabilities are reported claims; delivery, compatibility and performance were not tested. QwenNote A2 transcription membership and credits must not be assumed to apply to Eva. Store, SDK and Eva-specific service terms remain Unknown.
+The image is manufacturer-branded promotional material reproduced in IT Home, not a verified reuse-licensed press kit. Launch sale and capabilities are reported claims; delivery, compatibility and performance were not tested. The image links to the IT Home launch report, not an official product page. qwennote.cn currently presents the QwenNote A2 portable AI assistant, not the Eva desktop robot; A2 specifications, transcription membership and credits must not be assumed to apply to Eva. Store, SDK and Eva-specific service terms remain Unknown.
 
 ### Sources
 
 - [Source](https://www.ithome.com/1/005/803.htm) — Attributed launch report and promotional image; Eva hardware and features.
 - [Source](https://tidenews.com.cn/news.html?id=3566248) — Conference reporting on developer, launch date and price.
-- [Source](https://www.qwennote.cn/) — Official QwenNote site; does not independently confirm Eva specifications.
-- [Source](https://www.qwennote.cn/membership/index.html) — General membership/A2 conditions; not confirmation of Eva entitlements.
+- [QwenNote A2 page](https://www.qwennote.cn/) — Product distinction only; not an Eva product page or evidence of Eva specifications.
+- [QwenNote membership information](https://www.qwennote.cn/membership/index.html) — Includes A2-specific conditions; context for entitlement boundaries, not evidence of Eva subscription terms.
 
 [↑ Back to comparison](#comparison)
 
