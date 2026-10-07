@@ -16,7 +16,7 @@
 
 ## 信息时效与图例
 
-**目录更新：2026-09-20。** 每个详细条目单独标注最近核查日期；价格、商店状态、语言、云服务、订阅及 SDK 均属于时效信息。引用旧公告时会注明历史日期；**未知（Unknown）**表示当前信息未能确认。购买前请查看所在地区官方商店的配送、税费、套餐内容及结算价。
+**目录更新：2026-10-07。** 每个详细条目单独标注最近核查日期；价格、商店状态、语言、云服务、订阅及 SDK 均属于时效信息。引用旧公告时会注明历史日期；**未知（Unknown）**表示当前信息未能确认。购买前请查看所在地区官方商店的配送、税费、套餐内容及结算价。
 
 - **AI：** 指具体的感知、语音、模型或自适应行为能力。相关声明归属于开发者；本仓库没有实测硬件或独立测量性能。仅有表情动画不足以证明 AI 能力。
 - **开源：** 为保持总览紧凑，开源状态只在下方详细条目中说明。**是**指有明确开放许可的项目；**部分**可能只是 SDK 或软件开放，而硬件仍有限制；**未知**表示没有找到充分的公开许可证据。公开 SDK 不等于整机开源。
@@ -38,17 +38,20 @@
 | [Ropet KAMOMO](#ropet) | Ropet | 中国 / 美国团队 | Pro 在售；Basic 缺货 | Pro USD 349；Basic USD 299（缺货） | 官方称本地感知及自适应 | 头部/身体动作；底座固定 | 未知 | 日常离线；可选云功能；费用未知 | 可更换毛绒和眼睛样式的陪伴宠物。 |
 | [Moflin / モフリン](#moflin) | 卡西欧 | 日本 | 部分地区在售 | 2025 美国首发 USD 429；现价未知 | 官方称语音/触摸自适应反应 | 头部旋转及俯仰；不行走 | 未知 | 本地互动；应用服务；费用未知 | 用非语言自适应反应互动的毛绒宠物。 |
 | [NICOBO](#nicobo) | Panasonic | 日本 | 日本官方商店在售 | JPY 60,500，含税 | 人脸/情绪感知、语音及自适应行为 | 三轴身体/尾部动作；底座固定 | 未公开 | 需云端基础套餐 JPY 1,100/月 | 用含蓄动作和自造语陪伴用户的“弱机器人”。 |
+| [ElliQ](#elliq) | Intuition Robotics | 以色列 / 美国 | 美国会员服务；租赁硬件 | USD 249 启动费 + 会员 | 情境语音、在场感知及主动互动 | 头部/身体动作；底座固定 | 未公开 | 需联网；会员折合 USD 39–59/月 | 面向老年人的主动桌面陪伴与日常支持。 |
 | [Miko Mini](#miko-mini) | Miko | 印度 | 地区库存不同；本次美国页面显示缺货 | USD 149 页面促销价 | 人脸/语音识别、儿童对话及学习内容 | 轮式桌面移动和舞蹈 | 未公开 | 需联网；Miko Max 可选，USD 99/年或 14.99/月 | 面向 5–10 岁儿童的对话与学习机器人。 |
 | [BOCCO emo](#bocco-emo) | Yukai Engineering | 日本 | 在售；Wi-Fi 型号 | JPY 52,800，含税 | 语音互动；付费 AI 对话 | 头部/身体动作；底座固定 | 公开；附非商业使用条件 | 云服务；基础免费；高级版 JPY 1,700/月 | 家庭留言、提醒和传感器通知。 |
 | [Vector 2.0](#vector) | Anki / Digital Dream Labs | 美国 | 在售；商店标有库存 | 黑色新机 USD 199.99 | 视觉、语音、自主行为 | 履带、举升臂、头部运动 | 公开的旧版 Python SDK | 云端语音 USD 11.99/月起 | 带语音服务、可在桌面活动的宠物。 |
 | [LOOI](#looi) | TangibleFuture | 中国 / 美国众筹团队 | 官方商店可下单 | USD 239 促销价；手机另备 | 官方称 ChatGPT/Gemini、视觉感知及手势识别 | 轮式底座、俯仰动作；由手机提供“脸” | 未公开 | 云端 AI；完整订阅条款未知 | 把兼容手机变成可移动的桌面伙伴。 |
 | [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | 中国 | 有在售页面；交期未知 | USD 299；iPhone 另备 | 官方称手机感知及云端助手 | 三轴手机支架；底座固定 | 未知 | iPhone + 云端；订阅未知 | 通过可动手机底座提供 AI 工作辅助。 |
+| [QwenNote Eva / 千问办公 Eva](#qwennote-eva) | 阿里千问办公 | 中国 | 报道已开售；当前库存未知 | 首发 CNY 899；现价未知；手机另备 | 报道语音/视觉与办公任务执行 | 三轴手机支架；底座固定 | 未知 | 手机 + 在线服务；Eva 费用未知 | 以电动手机底座提供语音办公及陪伴。 |
 | [Senling XiaoMu / 森灵小木](#xiaomu) | 梯目科技 | 中国 | 预售；官方页称 7 个工作日内发货 | USD 330 | 本地语音/视觉及可选云模型 | 五自由度头部、手臂和身体动作；底座固定 | 编程版公开 Python / ROS 2 | 核心互动本地；可选云端；官方称无月费 | 兼顾提醒、表情动作与编程的陪伴机器人。 |
 | [Razer Project AVA](#project-ava) | Razer 雷蛇 | 新加坡 / 美国 | 概念产品；美国可付订金预约；目标 2026 下半年 | USD 20 可退订金；最终价格未知 | 相机/麦克风情境感知、电脑视觉及智能体工作流 | 3D 虚拟形象动画；未见机械动作 | 未公开 | Windows 电脑 + 本地/云端路由；订阅未知 | 面向工作、生活和游戏的全息桌面助手。 |
 | [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | 法国（Pollen） | 可订购 DIY 套件；交期最长 90 天 | Lite USD 399；Wireless USD 499 | 可编程视觉/音频/模型应用 | 六自由度头部、身体旋转、天线 | 公开 Python / JavaScript | 取决于应用；模型可能收费 | 用于开发 AI 交互的表达式机器人平台。 |
 | [Microduck](#microduck) | Pollen Robotics / Hugging Face | 法国 | 预售；目标 2026 年圣诞节前首批交付 | USD 399 首发价；税费/运费另计 | 50 Hz 板载运动策略；相机及深度感知 | 15 自由度双足行走、起身、踢/抓及可选轮滑 | 开源软件栈；SDK 语言待定 | 核心运动板载；无强制订阅信息 | 可训练、可编程的开源软件双足机器鸭子。 |
 | [Doly](#doly) | Limitbit | 加拿大 | 官方商店可下单 | 官方页显示 USD 562（1 GB / 32 GB） | 官方称本地视觉、语音和行为 | 履带移动、手臂及头部动作 | 公开 Python / C++ | 核心功能本地；不强制订阅 | 基于 Raspberry Pi CM4 的 DIY/开发陪伴机器人。 |
 | [Stack-chan / ｽﾀｯｸﾁｬﾝ](#stack-chan) | 社区 / M5Stack | 日本 / 中国 | 开源自制；K151 在售 | K151 USD 99；自制成本不固定 | 取决于固件；出厂 AI Agent | 两轴头部/身体转动；底座固定 | 公开 | 取决于固件/模型；费用未知 | 可自定义表情和行为的小型 ESP32 机器人。 |
+| [闪猫1号 / OttoRobot AI](#shanmao-1) | 闪猫科技 | 中国 | 可自制；有套件/成品链接；库存未知 | 未知；依构建方案而定 | 模型对话/动作；依固件而定 | 六舵机双足及手臂动作 | 公开源码/资源；MCP 动作 | Agent 状态本地；模型/服务在线；费用依后端 | 支持语音或消息互动及可编程动作的 DIY 人形机器人。 |
 | [ELEGNT](#elegnt) | 苹果研究团队 | 美国 | 研究原型；不对外销售 | 不适用 | 该研究未证明自主 AI 能力 | 六轴台灯形机械臂；底座固定 | 未公开 | 未知；研究环境 | 研究如何用动作表达注意和意图。 |
 | [Cozmo](#cozmo) | Anki / Digital Dream Labs | 美国 | 初代已停产；2.0 已公布但尚未发售 | 2.0 标价 USD 399.99，缺货 | 视觉、方块识别、编程行为 | 履带、举升臂、头部运动 | 公开的旧版 Python SDK | 依赖应用；当前服务条款未知 | 方块游戏和机器人编程入门。 |
 
@@ -469,6 +472,77 @@ NICOBO 不会在桌面移动，也不是通用任务助手。产品面向日本�
 
 [↑ 返回总览](#comparison)
 
+<a id="elliq"></a>
+
+## ElliQ
+
+<p align="center">
+  <a href="https://elliq.com/"><img src="assets/robots/elliq.webp" width="760" alt="ElliQ 面向老年人的桌面陪伴机器人，带可动头部和独立触摸屏"></a>
+</p>
+<p align="center"><sub>官方宣传图 © Intuition Robotics · <a href="https://elliq.com/cdn/shop/files/EliQ_render0022_229625d7-7dc1-486e-8250-d9c9a956ab36.png?v=1777919959&width=1200">原图来源</a></sub></p>
+
+> 面向老年人的固定式表达机器人，通过必要会员和设备租赁提供陪伴服务。
+
+### 产品概述
+
+ElliQ 结合机械头部动作、灯光、语音和触摸屏。Intuition Robotics 将其定位为陪伴经常独处的老年人，官方列出的功能包括主动对话、提醒、游戏和家人联系。
+
+当前方案是附带租赁硬件的服务，需要电源、Wi-Fi 和有效会员。陪伴效果及交互质量属于厂商声明，本仓库未进行实机验证。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | ElliQ；当前宣传图为 ElliQ 3 |
+| 开发者 / 机构 | Intuition Robotics |
+| 国家 / 地区 | 以色列 / 美国运营 |
+| 产品类型 | 面向老年人的商业桌面陪伴机器人 |
+| 供应状态 | 美国可订购会员；设备为租赁 |
+| 首次发布 | 2022-03-15 商业首发；2024-01-09 公布 ElliQ 3 |
+| 参考价格 | 一次性租赁启动费 USD 249，另需会员；核查于 2026-10-07 |
+| AI 能力 | 官方称支持情境对话、在场感知、偏好学习和主动互动 |
+| 运动方式 | 头部/身体表达动作；底座固定，不行走 |
+| 开源 | 未知；未找到整机源码发布 |
+| SDK/API | 本次查阅的消费产品资料中未公开 |
+| 主要功能 | 主动陪伴、日常提醒、娱乐和家人联系 |
+| 支持语言 | 英语；美国地区服务，核查于 2026-10-07 |
+| 网络要求 | 需要插座和 Wi-Fi；机器人本体无需另配手机或电脑 |
+| 云端依赖 | 服务功能、更新和通信需要网络 |
+| 订阅 | 月付 USD 59；年付 USD 588（折合 USD 49/月）；两年 USD 936（折合 USD 39/月）；另加启动费，核查于 2026-10-07 |
+| 供电与充电 | 插电使用；未确认电池运行能力 |
+| 最近核查 | 2026-10-07 |
+
+### 官方链接
+
+- **官方网站：** [官方网站](https://elliq.com/)
+- **官方商店：** [官方商店](https://elliq.com/products/membership)
+- **项目仓库：** 未知
+- **文档：** [文档](https://elliq.com/pages/how-it-works)
+- **SDK/API：** 未知
+- **支持：** [支持](https://elliq.com/pages/faqs)
+- **官方视频：** [官方视频](https://elliq.com/products/membership)
+- **媒体素材：** 未知
+
+### 主要特点
+
+- 主动对话和个性化活动建议。
+- 机械表达动作与独立触摸屏，不在桌面移动。
+- 家人消息/视频通话及日常提醒。
+
+### 注意事项
+
+本次确认的配送/支持地区为美国，服务语言为英语。必须保持会员；取消后设备不能继续使用，且须归还。FAQ 列出取消后 45 天内未归还的 USD 1,500 费用。年付和两年方案预付并续订，USD 39 是月均费用，不是首次付款金额。ElliQ 不是急救或医疗设备。
+
+### 来源
+
+- [来源](https://elliq.com/products/membership) — 当前租赁方案、计费周期和价格。
+- [来源](https://elliq.com/pages/faqs) — 语言、地区、联网、取消和归还条件。
+- [来源](https://blog.elliq.com/designing-with-expression-in-mind) — 历史官方机械表达设计说明；不据此假定当前型号自由度。
+- [来源](https://www.prnewswire.com/news-releases/intuition-robotics-launches-elliq-the-award-winning-care-companion-robot-for-commercial-sale-301502682.html) — 厂商发布的 2022 年商业首发公告。
+- [来源](https://www.intuitionrobotics.com/post/new-year-new-elliq) — 2024 年 1 月 ElliQ 3 公告。
+
+[↑ 返回总览](#comparison)
+
 <a id="miko-mini"></a>
 
 ## Miko Mini
@@ -814,6 +888,76 @@ Loona Deskmate 使用安装在三轴电动底座上的 iPhone 进行感知和交
 - [美国商品页面](https://keyirobot.com/en-us/products/deskmate)：价格、手机要求、运动、云端声明及供电标注。
 - [公司历史](https://keyirobot.com/about-us)：开发者起源。
 - [官方发布/新闻目录](https://keyirobot.com/blogs/news)：2026 年 1 月发布；[日本介绍页](https://makuake.keyirobot.com/)：手机兼容性说明。
+
+[↑ 返回总览](#comparison)
+
+<a id="qwennote-eva"></a>
+
+## QwenNote Eva / 千问办公 Eva
+
+<p align="center">
+  <a href="https://www.qwennote.cn/"><img src="assets/robots/qwennote-eva.webp" width="760" alt="QwenNote Eva 千问办公三轴桌面手机底座，手机屏幕显示表情"></a>
+</p>
+<p align="center"><sub>厂商品牌宣传图（IT之家转载） © Alibaba / QwenNote · <a href="https://img.ithome.com/newsuploadfiles/2026/9/8845a581-41d2-4a0e-8f85-baa88fbc54d6.jpg">原图来源</a></sub></p>
+
+> 通过电动手机底座，把语音交互连接到千问办公任务。
+
+### 产品概述
+
+发布报道显示，QwenNote Eva 在 2026 云栖大会亮相，定位为千问办公桌面助手，采用三轴电动底座，手机需要另备。
+
+报道列出的重点是语音办公任务、会议听记、提醒及陪伴。下表 Eva 专属信息来自注明出处的发布报道；本次未独立确认可访问的官方 Eva 规格页及当前结算页面。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | QwenNote Eva |
+| 开发者 / 机构 | 阿里巴巴千问办公 / QwenNote |
+| 国家 / 地区 | 中国 |
+| 产品类型 | 由手机提供交互界面的商业桌面办公伙伴 |
+| 供应状态 | 报道于 2026-09-22 开售；当前库存/交期未知 |
+| 首次发布 | 报道于 2026-09-22 发布 |
+| 参考价格 | 报道首发价 CNY 899；当前价格未知，核查于 2026-10-07；手机另备 |
+| AI 能力 | 报道支持语音/视觉互动、识别及千问办公任务执行 |
+| 运动方式 | 三轴电动手机支架；底座固定 |
+| 开源 | 未知 |
+| SDK/API | 未知；千问模型 API 不等于 Eva 硬件 SDK |
+| 主要功能 | 语音办公任务、会议听记、提醒、陪伴及手机充电 |
+| 支持语言 | 未知；报道的安卓/iOS/鸿蒙兼容性不代表对话语言范围 |
+| 网络要求 | 需要兼容手机及关联服务；完整设置要求未知 |
+| 云端依赖 | 千问办公/钉钉在线服务；离线边界未知 |
+| 订阅 | Eva 专属费用、赠送积分及续费条款未知 |
+| 供电与充电 | 报道最大充电输出 65 W、双 USB-C 及磁吸无线充电；插电使用 |
+| 最近核查 | 2026-10-07 |
+
+### 官方链接
+
+- **官方网站：** [官方网站](https://www.qwennote.cn/)
+- **官方商店：** 未知
+- **项目仓库：** 未知
+- **文档：** 未知
+- **SDK/API：** 未知
+- **支持：** 未知
+- **官方视频：** 未知
+- **媒体素材：** 未知
+
+### 主要特点
+
+- 电动手机支架，底座不自带显示屏。
+- 报道可连接办公任务执行和会议工作流。
+- 有线与磁吸无线手机充电。
+
+### 注意事项
+
+图片为 IT之家转载的厂商品牌宣传素材，未确认属于允许再使用的媒体包。开售及功能属于发布报道中的声明；未实测交付、兼容性或性能。不能将 QwenNote A2 的转写会员和积分权益直接套用于 Eva。商店、SDK 和 Eva 专属服务条款仍为未知。
+
+### 来源
+
+- [来源](https://www.ithome.com/1/005/803.htm) — 注明出处的发布报道及宣传图；Eva 硬件和功能。
+- [来源](https://tidenews.com.cn/news.html?id=3566248) — 大会报道中的开发者、发布日期及价格。
+- [来源](https://www.qwennote.cn/) — QwenNote 官方网站；不能独立确认 Eva 专属规格。
+- [来源](https://www.qwennote.cn/membership/index.html) — 通用会员及 A2 条件；不是 Eva 权益的确认。
 
 [↑ 返回总览](#comparison)
 
@@ -1233,6 +1377,77 @@ M5Stack 出厂固件与社区 JavaScript 固件是不同的软件选择。出厂
 - [社区仓库](https://github.com/stack-chan/stack-chan)：项目历史、许可、支持的开发板及固件区别。
 - [K151 商店](https://shop.m5stack.com/products/stackchan-kawaii-co-created-open-source-ai-desktop-robot)：配置、价格和库存声明。
 - [K151 文档](https://docs.m5stack.com/en/StackChan)：出厂 AI、网络、运动和供电。
+
+[↑ 返回总览](#comparison)
+
+<a id="shanmao-1"></a>
+
+## 闪猫1号 / OttoRobot AI
+
+<p align="center">
+  <a href="https://www.shanmaotech.cn/ottodiy/index.html"><img src="assets/robots/shanmao-1.webp" width="760" alt="闪猫1号 OttoRobot AI DIY 桌面人形机器人，带屏幕、手臂及舵机双腿"></a>
+</p>
+<p align="center"><sub>官方宣传图 © Shanmao Tech · <a href="https://www.shanmaotech.cn/ottodiy-img/robot_main.png">原图来源</a></sub></p>
+
+> 基于 ESP32-S3 的桌面人形机器人，可选择语音固件或采用独立许可的 OttoClaw 交互系统。
+
+### 产品概述
+
+闪猫1号采用 ESP32-S3 开发板、屏幕、六个舵机和受 Otto DIY 启发的 3D 打印机身。官方文档提供组装指南、组件清单及 22 个动作原语。
+
+同一硬件有两条软件路线：通过配置的 AI 服务进行语音互动，或使用 OttoClaw 的钉钉消息及模型驱动动作。官网将语音固件标为非开源；OttoClaw 公开源码，采用 CC BY-NC-SA 4.0。
+
+### 产品信息
+
+| 项目 | 详情 |
+|---|---|
+| 产品名称 | 闪猫1号 / OttoRobot AI；可选 OttoClaw 固件 |
+| 开发者 / 机构 | 闪猫科技 / 社区贡献者 |
+| 国家 / 地区 | 中国；官方联系地址位于杭州 |
+| 产品类型 | DIY/编程桌面人形机器人 |
+| 供应状态 | 可自制；官方文档链接套件及成品；当前库存未知 |
+| 首次发布 | 未知；文档有 2025 年硬件版本记录 |
+| 参考价格 | 未知；套件、成品及自制成本不同，核查于 2026-10-07 |
+| AI 能力 | 配置模型后提供对话/动作；能力依固件和后端而定 |
+| 运动方式 | 六舵机；双足行走、手臂动作、摇摆及舞蹈原语 |
+| 开源 | 部分/受限：硬件资源公开；语音固件标为非开源；OttoClaw 为 CC BY-NC-SA 4.0（非商业） |
+| SDK/API | 公开固件源码/资源及 MCP 动作接口；未确认独立打包 SDK |
+| 主要功能 | 面向语音或消息互动、表达动作和编程的 DIY 人形机器人 |
+| 支持语言 | 语音文档为部分后端列出国语、粤语、英语、日语、韩语；非所有固件通用 |
+| 网络要求 | 配置的服务需要 Wi-Fi；语音版另有可选 4G 硬件说明 |
+| 云端依赖 | OttoClaw 的 Agent 状态存本地，但模型 API/钉钉需要在线服务；本地 Agent 不等于离线大模型 |
+| 订阅 | 后端/API 费用和额度依服务而定；未确认统一赠送方案 |
+| 供电与充电 | 电池 + USB-C；文档列出 2,000/2,200 mAh 自制电池选项；续航未知 |
+| 最近核查 | 2026-10-07 |
+
+### 官方链接
+
+- **官方网站：** [官方网站](https://www.shanmaotech.cn/ottodiy/index.html)
+- **官方商店：** [官方商店](https://shop343202573.taobao.com)
+- **项目仓库：** [项目仓库](https://github.com/FlashCat-Jordan/OttoClaw)
+- **文档：** [文档](https://www.shanmaotech.cn/ottodiy/index.html)
+- **SDK/API：** [SDK/API](https://github.com/FlashCat-Jordan/OttoClaw)
+- **支持：** [支持](https://github.com/FlashCat-Jordan/OttoClaw/issues)
+- **官方视频：** [官方视频](https://www.shanmaotech.cn/ottodiy/index.html)
+- **媒体素材：** 未知
+
+### 主要特点
+
+- 六路舵机和有文档的动作原语。
+- DIY PCB/BOM 和可打印机身资源。
+- 可选语音服务固件，或通过钉钉消息交互的静默 OttoClaw Agent。
+
+### 注意事项
+
+公开文件及非商业许可不等于无限制开源。OttoClaw 许可有署名、非商业和相同方式共享条件；硬件、第三方组件及语音固件须分别核查许可。虽然宣传本地 Agent，配置仍需要模型 API 凭据和网络服务。本条目不等同于 2025 年展览中的 AIBotAgent/桌面机器人 2.0，尚未确认型号对应关系。
+
+### 来源
+
+- [来源](https://www.shanmaotech.cn/) — 官方固件对比、商店及开发者联系信息。
+- [来源](https://www.shanmaotech.cn/ottodiy/index.html) — 硬件、组装、动作、语言及宣传图。
+- [来源](https://github.com/FlashCat-Jordan/OttoClaw) — 公开实现、联网/模型配置和开发状态。
+- [来源](https://github.com/FlashCat-Jordan/OttoClaw/blob/main/LICENSE) — CC BY-NC-SA 4.0 条件；适用于该仓库。
+- [来源](https://oshwhub.com/txp666/ottorobot) — 官方文档链接的硬件设计/BOM；未独立确认其许可。
 
 [↑ 返回总览](#comparison)
 

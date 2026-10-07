@@ -16,7 +16,7 @@ Floor-first robot pets, cleaning robots, general industrial arms, and purely vir
 
 ## Freshness and legend
 
-**Catalog updated: 2026-09-20.** Each detailed entry carries its own last-verified date for price, store status, languages, cloud dependencies, subscriptions, and SDK access. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
+**Catalog updated: 2026-10-07.** Each detailed entry carries its own last-verified date for price, store status, languages, cloud dependencies, subscriptions, and SDK access. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
 
 - **AI:** A concrete perception, speech, model, or adaptive behavior capability. Claims are attributed to the developer; this repository has not tested the hardware or independently measured performance. Expressive animation alone is not evidence of AI.
 - **Open source (detailed entries):** **Yes** identifies an openly licensed project; **Partial** may mean an open SDK or software with restricted hardware; **Unknown** means no adequate public licensing evidence was found. A public SDK does not make the entire robot open source.
@@ -38,17 +38,20 @@ Prices use the last-verified date in each detailed entry unless a historical pri
 | [Ropet KAMOMO](#ropet) | Ropet | China / USA teams | Pro on sale; Basic sold out | Pro USD 349; Basic USD 299 (sold out) | Local perception/adaptation claimed | Head/body gestures; fixed base | Unknown | Daily interaction offline; optional cloud; fees Unknown | Plush companion with customizable fur and eyes. |
 | [Moflin / モフリン](#moflin) | Casio | Japan | On sale in selected regions | USD 429 at 2025 US launch; current Unknown | Adaptive voice/touch responses claimed | Head rotation and tilt; no locomotion | Unknown | Local interaction; app services; fees Unknown | Soft pet with nonverbal, adaptive responses. |
 | [NICOBO / ニコボ](#nicobo) | Panasonic | Japan | On sale in Japan; subscription required | JPY 60,500 incl. tax | Face/expression, speech and adaptive behavior claimed | Three-axis body/tail gestures; fixed base | Not publicly available | Wi-Fi/cloud; JPY 1,100/month basic plan | A deliberately limited “weak robot” companion. |
+| [ElliQ](#elliq) | Intuition Robotics | Israel / USA | US membership; leased hardware | USD 249 initiation + membership | Contextual speech, presence sensing, proactive interaction | Head/body gestures; stationary | Not publicly available | Internet required; USD 39–59/month equivalent | Proactive tabletop companionship and daily support for older adults. |
 | [Miko Mini](#miko-mini) | Miko | India | Regional stock varies; observed US page shows sold out | USD 149 listed sale price | Face/voice recognition and child-focused conversation | Wheeled movement and dance | Not publicly available | Internet required; optional Max USD 99/year | Conversational learning and entertainment for ages 5–10. |
 | [BOCCO emo](#bocco-emo) | Yukai Engineering | Japan | On sale; Wi-Fi model | JPY 52,800 incl. tax | Voice interaction; premium AI conversation | Head/body gestures; fixed base | Public; noncommercial conditions | Cloud; basic free; premium JPY 1,700/month | Family messaging, reminders, and sensor alerts. |
 | [Vector 2.0](#vector) | Anki / Digital Dream Labs | USA | On sale; store states in stock | USD 199.99 new black unit | Vision, voice, autonomous behaviors | Tracks, lift, head movement | Public legacy Python SDK | Cloud voice from USD 11.99/month | Roaming desk pet with voice services. |
 | [LOOI](#looi) | TangibleFuture | China / USA campaign | On sale; official store accepts orders | USD 239 sale price | Phone-based vision, voice and cloud-model conversation | Wheeled desktop movement; tilting phone mount | Unknown | Phone + cloud AI; subscription terms Unknown | Turns a smartphone into a mobile desk companion. |
 | [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | China | On sale listing; delivery Unknown | USD 299; iPhone extra | iPhone perception and cloud assistant claimed | Three-axis phone mount; fixed base | Unknown | iPhone + cloud; subscription Unknown | Moving phone dock for AI work assistance. |
+| [QwenNote Eva](#qwennote-eva) | Alibaba QwenWork | China | Launch sale reported; current stock Unknown | Launch CNY 899; current Unknown; phone extra | Speech/vision and office task execution reported | Three-axis phone mount; stationary | Unknown | Phone + online services; Eva fees Unknown | Motorized phone dock for voice-directed office work and companionship. |
 | [Senling XiaoMu / 森灵小木](#xiaomu) | Timu Technology | China | Pre-order; official page quotes 7-business-day dispatch | USD 330 | On-device voice/vision plus optional cloud models | Five-DoF head, arms and body gestures; fixed base | Public Python / ROS 2 for Programming Edition | Core interaction local; optional cloud; no monthly fee claimed | Programmable companion with reminders and expressive movement. |
 | [Razer Project AVA](#project-ava) | Razer | Singapore / USA | Concept; US reservation; H2 2026 target | USD 20 refundable deposit; final price Unknown | Camera/mic context, PC vision and agentic workflows claimed | Animated 3D avatar; no mechanical motion documented | Not publicly available | Windows PC plus local/cloud routing; subscription Unknown | Holographic assistant for work, life and gaming. |
 | [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | France | Orderable DIY kits; up to 90-day lead time | Lite USD 399; Wireless USD 499 | Programmable vision/audio/model apps | 6-DoF head, body rotation, antennas | Public Python / JavaScript | Depends on app; model fees may apply | Expressive platform for building AI interactions. |
 | [Microduck](#microduck) | Pollen Robotics / Hugging Face | France | Pre-order; first deliveries targeted before Christmas 2026 | USD 399 introductory | RL policies, vision and onboard AI accelerator | 15-DoF biped walking, recovery and optional skating | Public software/SDK | Core control local; optional hosted training | Open-software biped for play, RL and sim-to-real learning. |
 | [Doly](#doly) | Limitbit | Canada | On sale; official store accepts orders | USD 562 displayed for 1 GB model | On-device speech and perception claimed | Tracks, arms, head and expressive eyes | Public Python / C++ | Core features local; no forced subscription | Expandable Raspberry Pi companion and maker platform. |
 | [Stack-chan / ｽﾀｯｸﾁｬﾝ](#stack-chan) | Community / M5Stack | Japan / China | Open-source build; K151 on sale | K151 USD 99; DIY cost varies | Firmware-dependent; factory AI Agent | Two-axis head/body rotation; fixed base | Public | Firmware/model-dependent; fees Unknown | Small ESP32 robot for custom faces and behaviors. |
+| [Shanmao No. 1 / OttoRobot AI](#shanmao-1) | Shanmao Tech | China | DIY build; kit/assembled links; stock Unknown | Unknown; varies by build | Model conversation/actions; firmware-dependent | Six-servo biped and arm gestures | Public source/resources; MCP actions | Local agent state; online model/services; fees vary | DIY humanoid with voice or message interaction and programmable movement. |
 | [ELEGNT](#elegnt) | Apple research | USA | Research prototype; not offered for sale | Not applicable | Autonomous AI not established by the study | Six-axis lamp-like arm; fixed base | Not publicly available | Unknown; research setup | Studies how motion conveys attention and intention. |
 | [Cozmo](#cozmo) | Anki / Digital Dream Labs | USA | Original discontinued; 2.0 announced but not released | 2.0 listed USD 399.99, sold out | Vision, cube recognition, programmed behavior | Tracks, lift, head movement | Public legacy Python SDK | App required; current service terms Unknown | Cube games and introductory robot programming. |
 
@@ -469,6 +472,77 @@ The official offer is Japan-centered. A paid Basic plan is required, and cancell
 
 [↑ Back to comparison](#comparison)
 
+<a id="elliq"></a>
+
+## ElliQ
+
+<p align="center">
+  <a href="https://elliq.com/"><img src="assets/robots/elliq.webp" width="760" alt="ElliQ expressive tabletop companion robot with separate touchscreen for older adults"></a>
+</p>
+<p align="center"><sub>Official promotional image © Intuition Robotics · <a href="https://elliq.com/cdn/shop/files/EliQ_render0022_229625d7-7dc1-486e-8250-d9c9a956ab36.png?v=1777919959&width=1200">Source</a></sub></p>
+
+> A stationary, expressive companion for older adults, offered through a required membership and device lease.
+
+### Overview
+
+ElliQ combines a mechanically expressive head, lights, voice interaction, and a touchscreen. Intuition Robotics positions it for older adults who spend substantial time alone; advertised functions include proactive conversation, reminders, games, and communication with family.
+
+The current offer is a service with leased hardware. It needs power and Wi-Fi, and its capabilities depend on an active membership. Benefits and interaction quality are manufacturer claims, not results of testing by this repository.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | ElliQ; current promotional imagery shows ElliQ 3 |
+| Developer / Organization | Intuition Robotics |
+| Country / Region | Israel / United States operations |
+| Product type | Commercial tabletop companion for older adults |
+| Availability | US membership ordering available; device leased |
+| First released | Commercial launch 2022-03-15; ElliQ 3 announced 2024-01-09 |
+| Reference price | USD 249 one-time lease initiation + required membership, checked 2026-10-07 |
+| AI capabilities | Claimed contextual conversation, presence sensing, preference learning, and proactive interaction |
+| Movement | Head/body gestures; stationary base; no locomotion |
+| Open source | Unknown; no complete robot source release identified |
+| SDK/API | Not publicly available in the reviewed consumer resources |
+| Main functions | Proactive companionship, routine reminders, entertainment, and family communication |
+| Supported languages | English; US service, checked 2026-10-07 |
+| Network requirement | Power outlet and Wi-Fi; no separate phone or computer required for the robot |
+| Cloud dependency | Internet required for service features, updates, and communication |
+| Subscription | USD 59 monthly; annual USD 588 (USD 49/month equivalent); 24 months USD 936 (USD 39/month equivalent), plus initiation fee; checked 2026-10-07 |
+| Power and charging | Mains-powered; battery operation not confirmed |
+| Last verified | 2026-10-07 |
+
+### Official links
+
+- **Official website:** [Official website](https://elliq.com/)
+- **Official store:** [Official store](https://elliq.com/products/membership)
+- **Project repository:** Unknown
+- **Documentation:** [Documentation](https://elliq.com/pages/how-it-works)
+- **SDK/API:** Unknown
+- **Support:** [Support](https://elliq.com/pages/faqs)
+- **Official videos:** [Official videos](https://elliq.com/products/membership)
+- **Press kit:** Unknown
+
+### Main features
+
+- Proactive conversation and personalized activity suggestions.
+- Mechanical expression and a separate touchscreen, without desktop travel.
+- Family messaging/video calls and everyday reminders.
+
+### Notes
+
+Only US shipping/support and English were confirmed. Membership is required; cancellation ends operation and requires returning the leased device. The FAQ lists a USD 1,500 fee if it is not returned within 45 days. Annual and 24-month plans are paid upfront and renew; USD 39 is a monthly equivalent, not the initial payment. ElliQ is not an emergency or medical device.
+
+### Sources
+
+- [Source](https://elliq.com/products/membership) — Current lease offer, billing periods and prices.
+- [Source](https://elliq.com/pages/faqs) — Language, region, connectivity, cancellation and return conditions.
+- [Source](https://blog.elliq.com/designing-with-expression-in-mind) — Historical official explanation of mechanical expression; current DOF count not assumed.
+- [Source](https://www.prnewswire.com/news-releases/intuition-robotics-launches-elliq-the-award-winning-care-companion-robot-for-commercial-sale-301502682.html) — Manufacturer announcement of the 2022 commercial launch.
+- [Source](https://www.intuitionrobotics.com/post/new-year-new-elliq) — ElliQ 3 announcement, January 2024.
+
+[↑ Back to comparison](#comparison)
+
 <a id="miko-mini"></a>
 
 ## Miko Mini
@@ -814,6 +888,76 @@ An iPhone is required and is not included in the USD 299 reference price. The pa
 - [US product listing](https://keyirobot.com/en-us/products/deskmate) — price, required phone, movement, cloud claims, and power labels.
 - [Company history](https://keyirobot.com/about-us) — developer origin.
 - [Official launch/news index](https://keyirobot.com/blogs/news) — January 2026 introduction; [Japan presentation](https://makuake.keyirobot.com/) — phone compatibility context.
+
+[↑ Back to comparison](#comparison)
+
+<a id="qwennote-eva"></a>
+
+## QwenNote Eva
+
+<p align="center">
+  <a href="https://www.qwennote.cn/"><img src="assets/robots/qwennote-eva.webp" width="760" alt="QwenNote Eva three-axis desktop phone dock showing an expressive face on a phone"></a>
+</p>
+<p align="center"><sub>Manufacturer-branded promotional image reproduced by IT Home © Alibaba / QwenNote · <a href="https://img.ithome.com/newsuploadfiles/2026/9/8845a581-41d2-4a0e-8f85-baa88fbc54d6.jpg">Source</a></sub></p>
+
+> A motorized phone dock connecting voice interaction to QwenWork office tasks.
+
+### Overview
+
+QwenNote Eva was reported at the 2026 Apsara Conference as a QwenWork desktop assistant. Launch coverage describes a three-axis motorized dock using a separately supplied phone.
+
+The reported focus is voice-directed office tasks, meeting notes, reminders, and companionship. Eva-specific facts below rely on attributed launch reporting; an accessible official Eva specification and current checkout were not independently confirmed.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | QwenNote Eva |
+| Developer / Organization | Alibaba QwenWork / QwenNote |
+| Country / Region | China |
+| Product type | Commercial smartphone-powered desktop office companion |
+| Availability | Reported launch sale 2026-09-22; current stock/delivery Unknown |
+| First released | Reported announcement 2026-09-22 |
+| Reference price | Reported launch price CNY 899; current price Unknown, checked 2026-10-07; phone not included |
+| AI capabilities | Reported speech/visual interaction, recognition, and QwenWork task execution |
+| Movement | Three-axis motorized phone mount; stationary base |
+| Open source | Unknown |
+| SDK/API | Unknown; Qwen model APIs do not establish an Eva hardware SDK |
+| Main functions | Voice office tasks, meeting notes, reminders, companionship, and phone charging |
+| Supported languages | Unknown; reported Android/iOS/HarmonyOS compatibility is not a spoken-language list |
+| Network requirement | Compatible phone and linked services; full setup requirements Unknown |
+| Cloud dependency | QwenWork/DingTalk online services; offline boundary Unknown |
+| Subscription | Eva-specific fees, included credits and renewal terms Unknown |
+| Power and charging | Reported 65 W maximum charging output, two USB-C ports and magnetic wireless charging; mains-powered |
+| Last verified | 2026-10-07 |
+
+### Official links
+
+- **Official website:** [Official website](https://www.qwennote.cn/)
+- **Official store:** Unknown
+- **Project repository:** Unknown
+- **Documentation:** Unknown
+- **SDK/API:** Unknown
+- **Support:** Unknown
+- **Official videos:** Unknown
+- **Press kit:** Unknown
+
+### Main features
+
+- Motorized phone mount; the base has no built-in display.
+- Reported link to office task execution and meeting workflows.
+- Wired and magnetic wireless phone charging.
+
+### Notes
+
+The image is manufacturer-branded promotional material reproduced in IT Home, not a verified reuse-licensed press kit. Launch sale and capabilities are reported claims; delivery, compatibility and performance were not tested. QwenNote A2 transcription membership and credits must not be assumed to apply to Eva. Store, SDK and Eva-specific service terms remain Unknown.
+
+### Sources
+
+- [Source](https://www.ithome.com/1/005/803.htm) — Attributed launch report and promotional image; Eva hardware and features.
+- [Source](https://tidenews.com.cn/news.html?id=3566248) — Conference reporting on developer, launch date and price.
+- [Source](https://www.qwennote.cn/) — Official QwenNote site; does not independently confirm Eva specifications.
+- [Source](https://www.qwennote.cn/membership/index.html) — General membership/A2 conditions; not confirmation of Eva entitlements.
 
 [↑ Back to comparison](#comparison)
 
@@ -1233,6 +1377,77 @@ Use the documentation for the exact hardware and firmware combination. K151 spec
 - [Community repository](https://github.com/stack-chan/stack-chan) — project history, license, supported boards, and firmware distinction.
 - [K151 store](https://shop.m5stack.com/products/stackchan-kawaii-co-created-open-source-ai-desktop-robot) — configuration, price, and inventory statement.
 - [K151 documentation](https://docs.m5stack.com/en/StackChan) — factory AI, network, motion, and power.
+
+[↑ Back to comparison](#comparison)
+
+<a id="shanmao-1"></a>
+
+## Shanmao No. 1 / OttoRobot AI
+
+<p align="center">
+  <a href="https://www.shanmaotech.cn/ottodiy/index.html"><img src="assets/robots/shanmao-1.webp" width="760" alt="Shanmao No. 1 OttoRobot AI DIY desktop humanoid with screen, arms and servo-driven legs"></a>
+</p>
+<p align="center"><sub>Official promotional image © Shanmao Tech · <a href="https://www.shanmaotech.cn/ottodiy-img/robot_main.png">Source</a></sub></p>
+
+> An ESP32-S3 desktop humanoid with voice firmware or the separately licensed OttoClaw interaction system.
+
+### Overview
+
+Shanmao No. 1 uses an ESP32-S3 board, a screen, six servos, and a 3D-printed body inspired by Otto DIY. Official documentation provides assembly instructions, component lists, and 22 movement primitives.
+
+The same hardware supports two distinct software routes: voice interaction through configured AI services, or OttoClaw with DingTalk messages and model-directed actions. The homepage labels voice firmware non-open-source; OttoClaw publishes source under CC BY-NC-SA 4.0.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | Shanmao No. 1 / OttoRobot AI; optional OttoClaw firmware |
+| Developer / Organization | Shanmao Tech / community contributors |
+| Country / Region | China; official contact in Hangzhou |
+| Product type | DIY/programming desktop humanoid |
+| Availability | DIY build; official documentation links kits and assembled units; current stock Unknown |
+| First released | Unknown; documentation records hardware revisions in 2025 |
+| Reference price | Unknown; kit, assembled-unit and DIY costs differ, checked 2026-10-07 |
+| AI capabilities | Configured model-based conversation/actions; capabilities depend on firmware and backend |
+| Movement | Six servos; biped walking, arm gestures, swaying and dance primitives |
+| Open source | Partial/restricted: hardware resources public; voice firmware labeled non-open-source; OttoClaw CC BY-NC-SA 4.0 (noncommercial) |
+| SDK/API | Public firmware source/resources and MCP action interface; no separate packaged SDK confirmed |
+| Main functions | DIY humanoid for voice or message interaction, expressive movement and programming |
+| Supported languages | Voice documentation lists Mandarin, Cantonese, English, Japanese and Korean for selected backends; not uniform across firmware |
+| Network requirement | Wi-Fi for configured services; voice version also documents optional 4G hardware |
+| Cloud dependency | OttoClaw stores agent state locally but model API/DingTalk require online services; local agent does not mean offline LLM |
+| Subscription | Backend/API fees and service limits vary; no universal included plan confirmed |
+| Power and charging | Battery + USB-C; documentation lists 2,000/2,200 mAh DIY battery options; runtime Unknown |
+| Last verified | 2026-10-07 |
+
+### Official links
+
+- **Official website:** [Official website](https://www.shanmaotech.cn/ottodiy/index.html)
+- **Official store:** [Official store](https://shop343202573.taobao.com)
+- **Project repository:** [Project repository](https://github.com/FlashCat-Jordan/OttoClaw)
+- **Documentation:** [Documentation](https://www.shanmaotech.cn/ottodiy/index.html)
+- **SDK/API:** [SDK/API](https://github.com/FlashCat-Jordan/OttoClaw)
+- **Support:** [Support](https://github.com/FlashCat-Jordan/OttoClaw/issues)
+- **Official videos:** [Official videos](https://www.shanmaotech.cn/ottodiy/index.html)
+- **Press kit:** Unknown
+
+### Main features
+
+- Six servo channels and documented movement primitives.
+- DIY PCB/BOM and printable-body resources.
+- Choice of voice-service firmware or a silent DingTalk-based OttoClaw agent.
+
+### Notes
+
+Do not equate published files or a noncommercial license with unrestricted open source. The OttoClaw license includes attribution, noncommercial and share-alike conditions; hardware, third-party components and voice firmware need their own license checks. Despite local-agent marketing, setup requires model API credentials and network services. This entry is not the 2025 AIBotAgent/desktop robot 2.0 exhibition listing; no model equivalence was established.
+
+### Sources
+
+- [Source](https://www.shanmaotech.cn/) — Official firmware comparison, store and developer contact.
+- [Source](https://www.shanmaotech.cn/ottodiy/index.html) — Hardware, assembly, motions, languages and promotional image.
+- [Source](https://github.com/FlashCat-Jordan/OttoClaw) — Published implementation, network/model configuration and development status.
+- [Source](https://github.com/FlashCat-Jordan/OttoClaw/blob/main/LICENSE) — CC BY-NC-SA 4.0 conditions; applies to this repository.
+- [Source](https://oshwhub.com/txp666/ottorobot) — Hardware design/BOM linked by official documentation; independent license not verified.
 
 [↑ Back to comparison](#comparison)
 
