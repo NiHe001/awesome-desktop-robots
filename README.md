@@ -16,12 +16,13 @@ Floor-first robot pets, cleaning robots, general industrial arms, and purely vir
 
 ## Freshness and legend
 
-**Catalog updated: 2026-10-19.** Each detailed entry carries its own last-verified date for price, store status, languages, cloud dependencies, subscriptions, and SDK access. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
+**Catalog updated: 2026-11-06.** Each detailed entry carries its own last-verified date for price, store status, languages, cloud dependencies, subscriptions, and SDK access. An older announcement date is identified explicitly; **Unknown** means the current fact could not be confirmed. Check the official store for your region, shipping, tax, bundle contents, and checkout price.
 
 - **AI:** A concrete perception, speech, model, or adaptive behavior capability. Claims are attributed to the developer; this repository has not tested the hardware or independently measured performance. Expressive animation alone is not evidence of AI.
 - **Open source:** **Yes** identifies an openly licensed project; **Partial** may mean an open SDK or software with restricted hardware; **Unknown** means no adequate public licensing evidence was found. A public SDK does not make the entire robot open source.
 - **Availability:** “On sale” means an orderable official listing, not verified delivery. “Original discontinued” refers to a product generation whose retail sale ended; announced successors, preorders, kits with lead times, and research prototypes are labeled separately.
 - **Movement:** Describes actual mechanics, distinguishing body gestures from locomotion. Country/region describes the developer or project, not the factory or shipping destination.
+- **Partial rechecks:** Selected fields are named with their new check date; other facts retain the earlier date. A link check alone does not refresh product facts.
 - **Evidence limits:** Public documentation and page accessibility do not establish successful purchase, cloud uptime, SDK compatibility, or real-world reliability. No hands-on tests were performed.
 
 <a id="comparison"></a>
@@ -35,21 +36,23 @@ Prices use the last-verified date in each detailed entry unless a historical pri
 | [EMO](#emo) | LivingAI | China | On sale; quoted ~2-week dispatch | USD 279; GO HOME USD 369 | Face/sound recognition, voice | Two-legged desktop walking | Unknown | Unknown | Online functions; subscription Unknown | Autonomous desk pet with games and reminders. |
 | [AIBI Pocket](#aibi) | LivingAI | China | On sale; quoted ~2-week dispatch | USD 249 | Face recognition; offline commands, online Q&A | Turns in place; no desktop roaming documented | Unknown | Unknown | Online Q&A; subscription Unknown | Portable companion with camera and reminders. |
 | [Eilik / 艾力克](#eilik) | Energize Lab | China | On sale | USD 139.99; AI Station +USD 99 | Base: AI unconfirmed; station adds vision/chat | Arm/body gestures; fixed base | Unknown | Unknown | Base offline; station cloud terms Unknown | Touch-reactive animated desk companion. |
-| [Ropet KAMOMO](#ropet) | Ropet | China / USA teams | Pro on sale; Basic sold out | Pro USD 349; Basic USD 299 (sold out) | Local perception/adaptation claimed | Head/body gestures; fixed base | Unknown | Unknown | Daily interaction offline; optional cloud; fees Unknown | Plush companion with customizable fur and eyes. |
-| [Moflin / モフリン](#moflin) | Casio | Japan | On sale in selected regions | USD 429 at 2025 US launch; current Unknown | Adaptive voice/touch responses claimed | Head rotation and tilt; no locomotion | Unknown | Unknown | Local interaction; app services; fees Unknown | Soft pet with nonverbal, adaptive responses. |
+| [Ropet KAMOMO](#ropet) | Ropet | China / USA teams | Pro bundles on sale; Basic Unknown | Pro USD 329.99; other Pro bundles USD 339.99–359.99 | Local perception/adaptation claimed | Head/body gestures; fixed base | Unknown | Unknown | Offline pet behavior; cloud GPT chat advertised free; other fees Unknown | Plush companion with customizable fur and eyes. |
+| [Moflin / モフリン](#moflin) | Casio | Japan | Selected regions; Pink announced in US | Pink USD 429 (2026-10 announcement); checkout Unknown | Adaptive voice/touch responses claimed | Head rotation and tilt; no locomotion | Unknown | Unknown | Local interaction; app services; fees Unknown | Soft pet with nonverbal, adaptive responses. |
+| [mirumi / みるみ](#mirumi) | Yukai Engineering | Japan | Japan on sale; Ivory restock pre-order | JPY 22,000 incl. tax | No; explicitly stated in FAQ | Head turns/nods; no locomotion | Unknown | Unknown | Cloud/subscription Unknown | Portable charm with sound/touch-triggered head gestures. |
 | [NICOBO / ニコボ](#nicobo) | Panasonic | Japan | On sale in Japan; subscription required | JPY 60,500 incl. tax | Face/expression, speech and adaptive behavior claimed | Three-axis body/tail gestures; fixed base | Partial (components) | Not publicly available | Wi-Fi/cloud; JPY 1,100/month basic plan | A deliberately limited “weak robot” companion. |
 | [ElliQ](#elliq) | Intuition Robotics | Israel / USA | US membership; leased hardware | USD 249 initiation + membership | Contextual speech, presence sensing, proactive interaction | Head/body gestures; stationary | Unknown | Not publicly available | Internet required; USD 39–59/month equivalent | Proactive tabletop companionship and daily support for older adults. |
 | [Miko Mini](#miko-mini) | Miko | India | Regional stock varies; US sold out; support to 2027-11-30 | USD 149 listed sale price | Face/voice recognition and child-focused conversation | Wheeled movement and dance | Unknown | Not publicly available | Internet required; optional Max USD 99/year or 14.99/month | Conversational learning and entertainment for ages 5–10. |
 | [BOCCO emo](#bocco-emo) | Yukai Engineering | Japan | On sale; Wi-Fi model | JPY 52,800 incl. tax | Voice interaction; premium AI conversation | Head/body gestures; fixed base | Unknown | Public; noncommercial conditions | Cloud; basic free; premium JPY 1,700/month | Family messaging, reminders, and sensor alerts. |
-| [Vector 2.0](#vector) | Anki / Digital Dream Labs | USA | On sale; store states in stock | USD 199.99 new black unit | Vision, voice, autonomous behaviors | Tracks, lift, head movement | Partial | Public legacy Python SDK | Cloud voice from USD 11.99/month | Roaming desk pet with voice services. |
-| [LOOI](#looi) | TangibleFuture | China / USA campaign | On sale; official store accepts orders | USD 239 sale price | Phone-based vision, voice and cloud-model conversation | Wheeled desktop movement; tilting phone mount | Unknown | Not publicly available | Phone + cloud AI; subscription terms Unknown | Turns a smartphone into a mobile desk companion. |
+| [Vector 2.0](#vector) | Anki / Digital Dream Labs | USA | On sale; store states in stock | USD 249.99 new black unit | Vision, voice, autonomous behaviors | Tracks, lift, head movement | Partial | Public legacy Python SDK | Cloud voice from USD 11.99/month | Roaming desk pet with voice services. |
+| [LOOI](#looi) | TangibleFuture | China / USA campaign | On sale; official store accepts orders | USD 220 Solo sale price; phone extra | Phone-based vision, voice and cloud-model conversation | Wheeled desktop movement; tilting phone mount | Unknown | Not publicly available | Phone + cloud AI; subscription terms Unknown | Turns a smartphone into a mobile desk companion. |
 | [Loona Deskmate](#loona-deskmate) | KEYi Tech / Loona | China | On sale listing; quoted 3-business-day dispatch | USD 299; iPhone extra | iPhone perception and cloud assistant claimed | Three-axis phone mount; fixed base | Unknown | Unknown | iPhone + cloud; base needs no subscription; extra plans Unknown | Moving phone dock for AI work assistance. |
 | [QwenNote Eva](#qwennote-eva) | Alibaba QwenWork | China | Launch sale reported; current stock Unknown | Launch CNY 899; current Unknown; phone extra | Speech/vision and office task execution reported | Three-axis phone mount; stationary | Unknown | Unknown | Phone + online services; Eva fees Unknown | Motorized phone dock for voice-directed office work and companionship. |
 | [Senling XiaoMu / 森灵小木](#xiaomu) | Timu Technology | China | Pre-order; official page quotes 7-business-day dispatch | USD 330 | On-device voice/vision plus optional cloud models | Five-DoF head, arms and body gestures; fixed base | Partial | Public Python / ROS 2 for Programming Edition | Core interaction local; optional cloud; no monthly fee claimed | Programmable companion with reminders and expressive movement. |
-| [Razer Project AVA](#project-ava) | Razer | Singapore / USA | Concept; US reservation; H2 2026 target | USD 20 refundable deposit; final price Unknown | Camera/mic context, PC vision and agentic workflows claimed | Animated 3D avatar; no mechanical motion documented | Unknown | Not publicly available | Windows PC plus local/cloud routing; subscription Unknown | Holographic assistant for work, life and gaming. |
+| [INU / イヌ](#inu) | Ludens AI | Japan | Crowdfunding; February 2027 shipping target | JPY 29,800 early tier; planned JPY 39,800 retail | Presence sensing and habit/memory adaptation claimed | Four-DoF head/tail gestures; no locomotion | Unknown | Unknown | Basic reactions offline; online diaries; basic app no monthly fee | Camera-free plush desk companion with expressive reactions. |
+| [Razer AVA / Project AVA](#project-ava) | Razer | Singapore / USA | In development; limited beta; early-2027 Early Access target | Final price Unknown; existing USD 20 deposit refundable | Camera/mic context, PC vision and agentic workflows claimed | Animated 3D avatar; no mechanical motion documented | Unknown | Not publicly available | Windows PC plus local/cloud routing; subscription Unknown | Holographic companion for daily planning, work, conversation and gaming. |
 | [StepTimer](#steptimer) | PalmBlock / MJ Zhang | Unknown | Crowdfunding; March 2027 delivery target | Advertised USD 39; limited USD 32 tier | Not established; preset timer | Six legs stepping in place; no desktop travel | Unknown | Unknown | On-device; no app/cloud/subscription required | A physical countdown companion that steps when time is up. |
 | [Reachy Mini](#reachy-mini) | Pollen Robotics / Hugging Face | France | Orderable DIY kits; up to 90-day lead time | Lite USD 399; Wireless USD 499 | Programmable vision/audio/model apps | 6-DoF head, body rotation, antennas | Partial | Public Python / JavaScript | Depends on app; model fees may apply | Expressive platform for building AI interactions. |
-| [Microduck](#microduck) | Pollen Robotics / Hugging Face | France | Pre-order; first deliveries targeted before Christmas 2026 | USD 399 introductory | RL policies, vision and onboard AI accelerator | 15-DoF biped walking, recovery and optional skating | Partial | Public software/SDK | Core control local; optional hosted training | Open-software biped for play, RL and sim-to-real learning. |
+| [Microduck](#microduck) | Pollen Robotics / Hugging Face | France | Pre-order; new orders expected after April 2027 | USD 399 pre-order | 50 Hz onboard motion policies; camera/depth sensing | 15-DoF biped walking, recovery, kick/grab and optional skating | Partial | Public software; SDK languages TBD | Core motion local; optional hosted training; no mandatory subscription announced | Open-software biped for play, RL and sim-to-real learning. |
 | [Doly](#doly) | Limitbit | Canada | On sale; official store accepts orders | USD 562 displayed for 1 GB model | On-device speech and perception claimed | Tracks, arms, head and expressive eyes | Partial / restricted | Public Python / C++ | Core features local; no forced subscription | Expandable Raspberry Pi companion and maker platform. |
 | [Stack-chan / ｽﾀｯｸﾁｬﾝ](#stack-chan) | Community / M5Stack | Japan / China | Open-source build; K151 on sale | K151 USD 99; DIY cost varies | Firmware-dependent; factory AI Agent | Two-axis head/body rotation; fixed base | Yes (community) | Public | Firmware/model-dependent; fees Unknown | Small ESP32 robot for custom faces and behaviors. |
 | [Shanmao No. 1 / OttoRobot AI](#shanmao-1) | Shanmao Tech | China | DIY build; kit/assembled links; stock Unknown | Unknown; varies by build | Model conversation/actions; firmware-dependent | Six-servo biped and arm gestures | Partial / restricted | Public source/resources; MCP actions | Local agent state; online model/services; fees vary | DIY humanoid with voice or message interaction and programmable movement. |
@@ -277,32 +280,32 @@ AI Station is an additional purchase; the quoted base price does not include it.
 
 ### Overview
 
-Ropet presents KAMOMO as a companion whose reactions change through daily care. A camera, microphone, expressive eyes, and physical gestures support its pet-like behavior; the manufacturer describes ordinary interaction as local processing.
+Ropet presents KAMOMO as a companion whose reactions change through daily care. A camera, microphone, expressive eyes, and physical gestures support its pet-like behavior; ordinary interaction is described as local processing.
 
-The FAQ describes an optional Dream Sketch feature using cloud image processing; its rollout status is Unknown. This exception matters when evaluating the otherwise offline positioning. Basic and Pro bundles differ, including whether a charging base is included.
+The current FAQ separates offline recognition and personality growth from online app features, including AI conversation, diaries and optional Dream Sketch image processing. It says GPT-powered conversation unlocks after seven days of care. These are manufacturer claims; the current store offers Pro bundles.
 
 ### Product information
 
 | Item | Details |
 |---|---|
-| Product name | Ropet KAMOMO; Basic and Pro bundles |
+| Product name | Ropet KAMOMO; current Pro bundles |
 | Developer / Organization | Ropet |
 | Country / Region | China / USA teams; company lists Beijing, Shenzhen, Hong Kong, and Washington |
 | Product type | Commercial plush desktop companion |
-| Availability | Pro on sale; Basic marked out of stock in the store's variant data; shipping estimates vary |
+| Availability | Pro bundles orderable; Basic not in the current selector, current availability Unknown |
 | First released | Unknown; company founding in 2022 is not a product release date |
-| Reference price | Pro USD 349; Basic listed USD 299 but out of stock, checked 2026-09-08 |
+| Reference price | Pro USD 329.99; Purple Fur USD 339.99; Panda USD 349.99; Berry Blush Bunny USD 359.99, checked 2026-11-06 |
 | AI capabilities | Local image/audio processing and behavior adaptation claimed by developer |
 | Movement | Head/body gestures on a fixed base; no locomotion documented |
 | Open source | Unknown |
 | SDK/API | Unknown |
 | Main functions | Plush companion with customizable fur, masks, and screen eyes |
-| Supported languages | Unknown; do not equate pet sounds with conversational language support |
+| Supported languages | Unknown; GPT conversation is advertised, but a complete supported-language list is not confirmed |
 | Network requirement | Daily interaction claimed to work offline; app/account functions need connectivity |
-| Cloud dependency | Optional Dream Sketch uses cloud processing; ordinary interaction described as local |
-| Subscription | Unknown; no complete current service fee schedule confirmed |
-| Power and charging | Rechargeable; claimed 2.5–3.5 hours; Basic excludes the charging base |
-| Last verified | 2026-09-08 |
+| Cloud dependency | Offline pet behavior/recognition; AI conversations, diaries and image features can use cloud services |
+| Subscription | FAQ advertises GPT conversations free with no usage limit; complete terms for other features Unknown |
+| Power and charging | Rechargeable; claimed 2.5–3.5 hours; current Pro bundles include a charging base |
+| Last verified | 2026-11-06 (store, FAQ and privacy); organization details 2026-09-08 |
 
 ### Official links
 
@@ -323,10 +326,11 @@ The FAQ describes an optional Dream Sketch feature using cloud image processing;
 
 ### Notes
 
-Promotional banners and bundle selectors showed different bundle prices during this check. The values here are from the named Basic/Pro selector and variant data, not the headline promotion; Basic was marked out of stock. Confirm checkout. The pictured Pro bundle includes a base that Basic does not.
+The current selector no longer lists Basic; its earlier USD 299 offer is historical, and current Basic availability is Unknown. Prices use the named Pro variants before conditional bundle coupons. The FAQ advertises free, unlimited GPT conversation, but this does not establish the price or availability of every app feature. Confirm regional checkout and feature notices.
 
 ### Sources
 
+- [Current store variant data](https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot.js) — named hardware prices and orderable variants, checked 2026-11-06.
 - [KAMOMO listing and FAQ](https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot) — named bundles, battery, and processing claims.
 - [About Ropet](https://ropetai.com/pages/about-ropet) — organization and locations.
 - [Privacy policy](https://ropetai.com/policies/privacy-policy) — app/account connectivity and data handling; [homepage](https://ropetai.com/) — positioning and promotions.
@@ -354,13 +358,13 @@ It can rest on a desk or be held. The MofLife app provides a view into its state
 
 | Item | Details |
 |---|---|
-| Product name | Moflin / モフリン; PE-M10 series |
+| Product name | Moflin / モフリン; PE-M10 series and Pink PE-M11PK |
 | Developer / Organization | Casio |
 | Country / Region | Japan |
 | Product type | Commercial soft companion; handheld / tabletop |
-| Availability | On sale in selected regions; official US and Japan listings exist |
+| Availability | On sale in selected regions; Casio announced US Pink availability from 2026-10-01; current regional stock not verified |
 | First released | Casio Japan launch: 2024-11-07; earlier development/crowdfunding is a separate milestone |
-| Reference price | USD 429 at 2025 US launch; current checkout price Unknown, checked 2026-09-08 |
+| Reference price | Pink PE-M11PK USD 429 in Casio's 2026-10-14 US announcement; current checkout price Unknown, checked 2026-11-06 |
 | AI capabilities | Adaptive voice/touch responses and owner recognition, per Casio |
 | Movement | Two axes: head rotation and tilt; no independent locomotion |
 | Open source | Unknown |
@@ -370,8 +374,8 @@ It can rest on a desk or be held. The MofLife app provides a view into its state
 | Network requirement | Local robot interaction; smartphone/Bluetooth for app functions |
 | Cloud dependency | Local behavior; connected app/data-service details depend on region |
 | Subscription | Unknown; distinguish optional support plans from basic robot operation |
-| Power and charging | Charging bed and AC adapter; 1,200 mAh; claimed ~5-hour use, ~3.5-hour charge |
-| Last verified | 2026-09-08 |
+| Power and charging | PE-M10: charging bed/AC adapter, 1,200 mAh, claimed ~5-hour use/~3.5-hour charge; Pink announcement lists a USB-C charging bed |
+| Last verified | 2026-11-06 (Pink announcement, model and reference price); other facts 2026-09-08 |
 
 ### Official links
 
@@ -392,15 +396,86 @@ It can rest on a desk or be held. The MofLife app provides a view into its state
 
 ### Notes
 
-The USD price is explicitly historical; a current checkout price could not be verified. Casio's US and Japan retail pages are controlled by Akamai region and access policies and may show `Access Denied` through some proxies or networks. The original regional links are retained, with the corporate page and official manual shortcut provided as fallbacks. Availability, app distribution, warranty, and optional care plans vary by region.
+The USD 429 reference comes from Casio's October 2026 Pink announcement, not a verified checkout; the earlier 2025 launch reference is retained below. Pink has a different model number and charging bed, so confirm accessories by model. Some Casio regional pages return Access Denied through this network; retain the official links and corporate/manual fallbacks. Regional stock, app distribution, warranty and care plans vary.
 
 ### Sources
 
+- [Casio US Pink announcement, 2026-10-14](https://www.prnewswire.com/news-releases/comfort-now-comes-in-pink-a-new-moflin-color-arrives-in-the-us-302908816.html) — PE-M11PK, October 1 availability, USD 429 and USB-C bed; checked 2026-11-06.
 - [Casio product overview](https://www.casio.com/us/moflin/) — behavior and current specifications.
 - [Casio global corporate overview](https://world.casio.com/news/2026/0409-moflin/) — fallback product overview.
 - [Japan launch announcement](https://www.casio.co.jp/release/2024/1010-moflin/) — release date and press photo.
 - [Casio's US launch press release](https://www.prnewswire.com/news-releases/casio-introduces-moflin-the-emotionally-responsive-smart-companion-that-learns-and-evolves-with-you-302558268.html) — historical USD 429 price.
 - [Official manual](https://support.casio.com/global/en/moflin/manual/PE-M10_en/) — operation, specifications, and app setup.
+
+[↑ Back to comparison](#comparison)
+
+<a id="mirumi"></a>
+
+## mirumi / みるみ
+
+<p align="center">
+  <a href="https://mirumi.tokyo/"><img src="assets/robots/mirumi.webp" width="760" alt="Yukai Engineering mirumi みるみ gray furry portable charm robot with a moving head and flexible arms"></a>
+</p>
+<p align="center"><sub>Official promotional image © Yukai Engineering · <a href="https://cdn.shopify.com/s/files/1/0685/4885/3811/files/color_gray.png?v=1773108860">Source</a></sub></p>
+
+> A small portable robot that turns its head in response to sound and touch, without speech recognition or AI.
+
+### Overview
+
+Yukai Engineering's mirumi uses microphones and a head touch sensor to trigger glances, nods and other small head movements. Flexible arms attach it to a bag strap. It is included under this list's portable-companion scope; its primary design is a bag charm.
+
+The official FAQ explicitly says it has neither AI nor language recognition. Its apparent attention comes from sensor-triggered motion patterns, which makes it useful for comparing expressive mechanics with model-driven companions.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | mirumi / みるみ |
+| Developer / Organization | Yukai Engineering |
+| Country / Region | Japan |
+| Product type | Commercial portable charm / companion robot |
+| Availability | Japan store accepts orders; Ivory listed for late-November restock pre-order; color/destination availability varies |
+| First released | Shown at CES 2025; Japan retail launch 2026-04-23; Black launched 2026-10-01 |
+| Reference price | Current Japan store JPY 22,000 incl. tax; original April launch JPY 19,800 is historical, checked 2026-11-06 |
+| AI capabilities | No AI or speech recognition, explicitly stated in the official FAQ |
+| Movement | Motorized head turns/nods; flexible gripping arms; no locomotion documented |
+| Open source | Unknown; no public robot source/license identified |
+| SDK/API | Unknown; no public programming interface identified |
+| Main functions | Portable companionship through sound/touch-triggered glances and gestures |
+| Supported languages | No language recognition or conversational interface |
+| Network requirement | No app/network setup described for the advertised sensor-based interaction |
+| Cloud dependency | Unknown; no cloud service described in the reviewed product information |
+| Subscription | Unknown; no subscription terms identified in the reviewed store/FAQ |
+| Power and charging | USB-C, 5 V / 1 A; claimed ~8-hour use and ~2-hour charge; cable included, AC adapter separate |
+| Last verified | 2026-11-06 |
+
+### Official links
+
+- **Official website:** [mirumi](https://mirumi.tokyo/)
+- **Official store:** [Japan store](https://store-jp.mirumi.tokyo/)
+- **Project repository:** Unknown
+- **Documentation:** [Official FAQ](https://store-jp.mirumi.tokyo/pages/faq)
+- **SDK/API:** Unknown
+- **Support:** [Yukai Engineering contact](https://www.ux-xu.com/contact-ja)
+- **Official videos:** [FAQ demonstration links](https://store-jp.mirumi.tokyo/pages/faq)
+- **Press kit:** [Official launch announcement and photos](https://www.ux-xu.com/news/20260423)
+
+### Main features
+
+- Sound-direction and head-touch reactions expressed through physical head motion.
+- Flexible arms for attaching the approximately 155 g body to a strap.
+- Rechargeable portable design with multiple fur colors.
+
+### Notes
+
+Current store prices supersede the April launch price. Check each color's order status; Ivory is labeled for late-November restock, while other listings accept orders. The FAQ specifies ages 15+, no waterproofing, and no removable/washable fur. Reactions and battery figures are vendor descriptions, not hands-on results.
+
+### Sources
+
+- [Official launch announcement, 2026-04-23](https://www.ux-xu.com/news/20260423) — developer, release, sensors, mechanics, weight and original price.
+- [Japan store](https://store-jp.mirumi.tokyo/) and [public product listings](https://store-jp.mirumi.tokyo/products.json) — current JPY 22,000 price and color-specific ordering/restock status, checked 2026-11-06.
+- [Official FAQ](https://store-jp.mirumi.tokyo/pages/faq) — explicit no-AI/no-language-recognition statements, charging, care and use conditions.
+- [Black announcement, 2026-09-29](https://www.ux-xu.com/news/20260929) — October 1 release and regional rollout context.
 
 [↑ Back to comparison](#comparison)
 
@@ -453,7 +528,7 @@ NICOBO stays in one place and is not a general-purpose mobile assistant. It is s
 - **SDK/API:** Not publicly available
 - **Support:** [NICOBO support](https://ec-plus.panasonic.jp/store/page/NICOBO/support/)
 - **Official videos:** [Panasonic introduction](https://www.youtube.com/watch?v=UteFqDQ5kQs)
-- **Press kit:** [Panasonic launch announcement](https://news.panasonic.com/global/press/en230516-3)
+- **Press kit:** [Panasonic general-sale announcement](https://news.panasonic.com/jp/press/jn230307-2)
 
 ### Main features
 
@@ -469,7 +544,7 @@ The official offer is Japan-centered. A paid Basic plan is required, and cancell
 
 - [Official product page](https://ec-plus.panasonic.jp/store/page/NICOBO/) — current availability, specifications, app, and network requirements.
 - [Official price and plan page](https://ec-plus.panasonic.jp/store/page/NICOBO/price/) — device price, required subscription, optional care, and cancellation fee.
-- [Panasonic launch announcement](https://news.panasonic.com/global/press/en230516-3) — general-sale timing and product concept.
+- [Panasonic general-sale announcement](https://news.panasonic.com/jp/press/jn230307-2) — general-sale timing and product concept.
 - [Software-license page](https://ec-plus.panasonic.jp/store/page/NICOBO/support/software.html) — scope of published third-party open-source components.
 
 [↑ Back to comparison](#comparison)
@@ -713,7 +788,7 @@ The original Anki Python SDK remains publicly accessible. Community-maintained w
 | Product type | Commercial autonomous desktop companion |
 | Availability | On sale; official store states in stock with one-business-day dispatch |
 | First released | Unknown for the exact 2.0 retail configuration listed here |
-| Reference price | New black Vector 2.0 USD 199.99; open-box listing starts at USD 139.99, checked 2026-09-08 |
+| Reference price | New black Vector 2.0 USD 249.99; black open-box USD 189.99, checked 2026-11-06; other colors/conditions vary |
 | AI capabilities | Vision, voice services, and autonomous pet behaviors; current model integrations are vendor claims |
 | Movement | Tracks for desktop locomotion; movable head and lift |
 | Open source | Partial: public SDK and selected server components; not a fully open robot |
@@ -724,7 +799,7 @@ The original Anki Python SDK remains publicly accessible. Community-maintained w
 | Cloud dependency | Official voice service uses vendor cloud; some autonomous behavior remains without a membership |
 | Subscription | ChatGPT backend USD 11.99/month or 99.99/year; Claude backend USD 14.99/month or 139.99/year |
 | Power and charging | Rechargeable with charging dock; verify included charger for each condition/bundle |
-| Last verified | 2026-09-08 |
+| Last verified | 2026-11-06 (hardware prices and orderable variants); other facts 2026-09-08 |
 
 ### Official links
 
@@ -749,6 +824,7 @@ The public SDK repository is historical evidence of developer access, not proof 
 
 ### Sources
 
+- [Current store variant data](https://anki.bot/products/vector-robot.js) — named hardware prices and orderable variants, checked 2026-11-06.
 - [Current store](https://anki.bot/products/vector-robot) — hardware prices, condition variants, stock statement, and subscription boundary.
 - [Membership guide, updated 2026-08-10](https://support.anki.bot/article/344-all-about-memberships) — backend-specific fees and activation.
 - [Original SDK](https://github.com/anki/vector-python-sdk) — public developer interface; [wire-pod project](https://github.com/kercre123/wire-pod) — community server scope.
@@ -782,25 +858,25 @@ The phone is an essential part of the robot and is not included. The product pag
 | Product type | Commercial smartphone-powered desktop companion |
 | Availability | Official store accepts orders; processing and destination availability vary |
 | First released | Crowdfunding campaign launched in 2024; current retail listing available |
-| Reference price | USD 239 sale price; regular price shown as USD 259, checked 2026-09-09; phone not included |
+| Reference price | USD 220 LOOI Solo sale price; regular price USD 259, checked 2026-11-06; phone not included |
 | AI capabilities | Claimed ChatGPT/Gemini conversation, face/gesture recognition, visual awareness, and adaptive behavior |
 | Movement | Two-wheel desktop movement and phone tilt; phone acts as the face |
 | Open source | Unknown; no complete source release or clear open license identified |
 | SDK/API | Not publicly available |
 | Main functions | Turns a compatible phone into a moving conversational desktop companion and wireless charger |
-| Supported languages | App listings include multiple interface languages; complete spoken-conversation coverage is Unknown |
+| Supported languages | Vendor lists Android: English/Chinese; iOS: English, Chinese, German, French, Spanish, Italian, Dutch, Portuguese, Japanese and Danish; feature-level coverage Unknown (checked 2026-11-06) |
 | Network requirement | Compatible phone, Bluetooth/app setup, and internet for cloud AI functions |
 | Cloud dependency | Voice, conversation memory, and optional visual understanding can be processed by cloud AI providers |
 | Subscription | Complete current subscription and usage-limit terms not publicly confirmed |
 | Power and charging | 6,000 mAh battery, claimed up to 5 hours; 10 W wireless phone charging |
-| Last verified | 2026-09-09 |
+| Last verified | 2026-11-06 (price, orderable variants, listed languages and guide link); other facts 2026-09-09 |
 
 ### Official links
 
 - **Official website:** [LOOI](https://looirobot.com/)
 - **Official store:** [LOOI Robot](https://looirobot.com/products/looi-robot)
 - **Project repository:** Not publicly available
-- **Documentation:** [Help center](https://looirobot.com/pages/help-center)
+- **Documentation:** [Help center](https://looirobot.com/pages/guide)
 - **SDK/API:** Not publicly available
 - **Support:** [Contact and support](https://looirobot.com/pages/contact)
 - **Official videos:** [Product-page demonstrations](https://looirobot.com/products/looi-robot)
@@ -818,9 +894,10 @@ Check the compatibility list before purchase: the current page specifies iOS 17+
 
 ### Sources
 
+- [Current store variant data](https://looirobot.com/products/looi-robot.js) — named hardware prices and orderable variants, checked 2026-11-06.
 - [Official product page](https://looirobot.com/products/looi-robot) — price, ordering, phone requirements, motion, battery, charging, and advertised features.
 - [Official privacy policy](https://looirobot.com/pages/privacy-policy) — cloud AI data categories and optional image processing.
-- [Official help center](https://looirobot.com/pages/help-center) — setup and support entry points.
+- [Official help center](https://looirobot.com/pages/guide) — setup and support entry points.
 
 [↑ Back to comparison](#comparison)
 
@@ -889,7 +966,7 @@ An iPhone is required and is not included in the USD 299 reference price. The no
 
 - [US product listing](https://keyirobot.com/en-us/products/deskmate) — price, ordering and base-use subscription statement checked 2026-10-19; required phone, movement, cloud claims and power labels.
 - [Company history](https://keyirobot.com/about-us) — developer origin.
-- [Official launch/news index](https://keyirobot.com/blogs/news) — January 2026 introduction; [Japan presentation](https://makuake.keyirobot.com/) — phone compatibility context.
+- [Official launch/news index](https://keyirobot.com/blogs/news) — January 2026 introduction; [current product specifications](https://keyirobot.com/en-us/products/deskmate) — iPhone 12+ compatibility rechecked 2026-11-06.
 
 [↑ Back to comparison](#comparison)
 
@@ -1033,22 +1110,91 @@ The Standard Edition targets everyday use. The Programming Edition exposes Pytho
 
 [↑ Back to comparison](#comparison)
 
+<a id="inu"></a>
+
+## INU / イヌ
+
+<p align="center">
+  <a href="https://ludensai.com/inu/"><img src="assets/robots/inu.webp" width="760" alt="Ludens AI INU イヌ gray plush desktop companion responding to touch beside a laptop"></a>
+</p>
+<p align="center"><sub>Official press image © Ludens AI · <a href="https://prcdn.freetls.fastly.net/release_image/175570/3/175570-3-01d7ce375a5da307c8b4c2ef1b46d21d-1670x942.png">Source</a></sub></p>
+
+> A camera-free plush desk companion combining presence sensing, touch reactions and expressive head/tail movement.
+
+### Overview
+
+Ludens AI presents INU as a companion for time spent working or studying at a desk. It uses millimeter-wave radar, a microphone and touch sensors, with eye expressions, nonverbal sounds, head movement and a moving tail. The company claims habit adaptation and long-term memory through its Klara software; these capabilities have not been independently tested here.
+
+Japan crowdfunding began on October 16, 2026. Basic reactions work offline, while app features such as generated picture diaries require internet access. The campaign targets shipments from February 2027; this remains a development and crowdfunding offer.
+
+### Product information
+
+| Item | Details |
+|---|---|
+| Product name | INU / イヌ |
+| Developer / Organization | Ludens AI |
+| Country / Region | Japan; company lists Tokyo headquarters |
+| Product type | Crowdfunding plush desktop companion |
+| Availability | Japan crowdfunding through 2026-11-29; shipments targeted from February 2027 |
+| First released | Shown at CES 2026; Japan crowdfunding launched 2026-10-16; first delivery unverified |
+| Reference price | JPY 29,800 limited early tier; planned retail JPY 39,800 incl. tax; tier/destination conditions apply, checked 2026-11-06 |
+| AI capabilities | Presence sensing and habit/memory adaptation claimed; no camera or human-language conversation |
+| Movement | Four DoF covering head nods/turns and tail movement; no locomotion documented |
+| Open source | Unknown; no public robot source/license identified |
+| SDK/API | Unknown; no public programming interface identified |
+| Main functions | Nonverbal desk companionship, touch reactions, break cues and app diaries |
+| Supported languages | Robot is nonverbal; campaign lists Japanese/English app support |
+| Network requirement | Basic reactions offline; Wi-Fi/internet for diaries and selected app functions; Bluetooth available |
+| Cloud dependency | Basic reactions local; diary generation needs online services; complete processing boundary Unknown |
+| Subscription | Basic app functions advertised without a monthly fee; other service terms Unknown |
+| Power and charging | 4,800 mAh, USB-C; claimed typical 2–3 hours, up to 6 hours depending on use |
+| Last verified | 2026-11-06 |
+
+### Official links
+
+- **Official website:** [INU](https://ludensai.com/inu/)
+- **Official store:** [Kibidango campaign](https://kibidango.com/projects/2967) · [GREEN FUNDING campaign](https://greenfunding.jp/lab/projects/9555); crowdfunding, not normal retail
+- **Project repository:** Unknown
+- **Documentation:** [Campaign specifications and FAQ](https://kibidango.com/projects/2967)
+- **SDK/API:** Unknown
+- **Support:** [Ludens AI contact](https://ludensai.com/contact)
+- **Official videos:** [Official product demonstration](https://youtu.be/396TPj00Uv4)
+- **Press kit:** [Official launch release and downloadable images](https://prtimes.jp/main/html/rd/p/000000003.000175570.html)
+
+### Main features
+
+- Camera-free presence sensing and a Magic Key to switch sensors off.
+- Expressive head/tail motion and nonverbal reactions to care.
+- Offline basic interaction with optional connected app diaries and settings.
+
+### Notes
+
+The limited JPY 29,800 tier is distinct from the planned JPY 39,800 retail price; reward availability and shipping conditions can change. February 2027 is a creator estimate. Specifications remain provisional: the product site describes dual displays, while the current Japan campaign specifies one expressive display. The campaign says later production versions have longer fur than some early promotional images. No delivery, SDK or adaptation performance was tested.
+
+### Sources
+
+- [Official product page](https://ludensai.com/inu/) — purpose, four-DoF motion, adaptation claims and the website's display description.
+- [Ludens AI launch announcement, 2026-10-16](https://prtimes.jp/main/html/rd/p/000000003.000175570.html) — Tokyo organization, campaign dates, planned retail price, basic app fees and press image.
+- [Kibidango campaign](https://kibidango.com/projects/2967) · [GREEN FUNDING campaign](https://greenfunding.jp/lab/projects/9555) — live early tier, February 2027 target, sensors, app languages, battery and provisional specifications; checked 2026-11-06.
+
+[↑ Back to comparison](#comparison)
+
 <a id="project-ava"></a>
 
-## Razer Project AVA
+## Razer AVA / Project AVA
 
 <p align="center">
   <a href="https://www.razer.com/razer-ava"><img src="assets/robots/project-ava.webp" width="760" alt="Razer Project AVA cylindrical 3D hologram AI desk companion with green animated avatar"></a>
 </p>
 <p align="center"><sub>Official promotional image © Razer · <a href="https://assets2.razerzone.com/images/pnx.assets/158552b1fd4c18ce2f6850164fdc3104/razer-project-ava-ces-2026-hero-desktop.webp">Source</a></sub></p>
 
-> A Windows-connected holographic desk assistant that Razer is developing for personal organization, work tasks, and game coaching.
+> A Windows-connected holographic desk assistant that Razer is developing for personal organization, work tasks, and gaming companionship.
 
 ### Overview
 
 Project AVA began as a 2025 esports-coach concept and was reintroduced at CES 2026 as a physical desk companion with a 5.5-inch animated 3D avatar, HD camera, dual far-field microphones, speaker, eye tracking, facial animation, and PC Vision Mode. The enclosure is stationary: avatar animation is not mechanical robot movement.
 
-At GDC 2026, Razer announced an agentic version intended to plan and execute multi-step tasks across supported apps and services. Razer says the current demonstration uses Grok and that its architecture is intended to support other AI platforms at commercialization. These remain forward-looking product claims; the final hardware price, subscription terms, supported integrations, and shipping status are not yet established.
+At GDC 2026, Razer announced agentic multi-step workflows and local/cloud model routing. The current global FAQ now targets Early Access in early 2027 and mentions LLMs without naming a provider. Beta invitations are limited; final hardware price, subscription terms and shipping remain unconfirmed.
 
 ### Product information
 
@@ -1057,28 +1203,28 @@ At GDC 2026, Razer announced an agentic version intended to plan and execute mul
 | Product name | Razer Project AVA / Razer AVA |
 | Developer / Organization | Razer |
 | Country / Region | Singapore / USA |
-| Product type | Concept / planned commercial holographic desktop companion |
-| Availability | Concept; USD 20 refundable US reservation; official Chinese page targets H2 2026 release |
+| Product type | In-development holographic desktop companion |
+| Availability | In development; limited beta invitations; Early Access targeted for early 2027 |
 | First released | Esports-coach concept in 2025; physical desk-companion concept announced 2026-01-06 |
-| Reference price | Final price Unknown; USD 20 refundable reservation deposit in the US, checked 2026-09-20 |
+| Reference price | Final price Unknown; FAQ confirms existing USD 20 deposits remain refundable and creditable, checked 2026-11-06; new reservation availability not confirmed |
 | AI capabilities | Manufacturer claims camera/microphone context, preference learning, PC screen vision, multilingual interaction, and agentic multi-step workflows |
 | Movement | Animated 3D avatar with eye tracking, expressions, and lip sync; no mechanical motion or locomotion documented |
 | Open source | Unknown; no public AVA source release identified |
 | SDK/API | Not publicly available; supported third-party integrations remain product-dependent |
-| Main functions | Scheduling and personal assistance, work consultation/data analysis, translation, and real-time game coaching |
+| Main functions | Daily planning and conversation, work brainstorming, translation, and gaming companionship |
 | Supported languages | Multilingual text and two-way voice translation claimed; exact launch-language list Unknown |
 | Network requirement | Wired USB-C connection to a Windows PC is required; complete internet/offline boundary Unknown |
-| Cloud dependency | Razer announced routing between local and cloud models; current demonstration uses Grok |
+| Cloud dependency | Current FAQ mentions LLMs without naming a provider; local/cloud routing was announced at GDC 2026 |
 | Subscription | Unknown |
 | Power and charging | USB-C data and power; no battery documented |
-| Last verified | 2026-09-20 |
+| Last verified | 2026-11-06 (current global product FAQ); historical announcements are dated separately |
 
 ### Official links
 
 - **Official website:** [Razer AVA](https://www.razer.com/razer-ava) · [Chinese product page](https://cn.razerzone.com/concepts/project-ava)
-- **Official store:** Reservation is offered through the US product page; no normal retail listing yet
+- **Official store:** No normal retail listing confirmed; see the [current FAQ](https://www.razer.com/razer-ava) for beta and existing-deposit terms
 - **Project repository:** Not publicly available
-- **Documentation:** [Product page FAQ](https://cn.razerzone.com/concepts/project-ava)
+- **Documentation:** [Current global product FAQ](https://www.razer.com/razer-ava)
 - **SDK/API:** Not publicly available
 - **Support:** [Razer support](https://mysupport.razer.com/)
 - **Official videos:** [Product page media](https://www.razer.com/razer-ava)
@@ -1087,16 +1233,17 @@ At GDC 2026, Razer announced an agentic version intended to plan and execute mul
 ### Main features
 
 - 5.5-inch animated 3D avatar with HD camera, far-field microphones, speaker, and Chroma lighting.
-- PC Vision Mode for screen-aware assistance and game coaching.
+- PC Vision Mode for screen-aware assistance; current page emphasizes gaming companionship.
 - Announced agentic workflows and supported-app coordination for multi-step tasks.
 
 ### Notes
 
-AVA is included as an embodied desk-companion concept, not as proof of a shipping robot. Its visible motion is rendered avatar animation inside a stationary enclosure. The H2 2026 target and refundable reservation do not establish production, delivery, final capabilities, or final price.
+The current global FAQ supersedes the older H2 2026 target: Early Access is now expected in early 2027, with beta access limited to selected applicants. It confirms existing USD 20 deposits remain refundable and creditable, but does not establish that new reservations are open. AVA remains a scope-boundary example of an embodied desk companion: visible motion is avatar animation in a stationary enclosure, and neither shipping nor final capabilities have been verified.
 
 ### Sources
 
-- [Official Chinese product page and FAQ](https://cn.razerzone.com/concepts/project-ava) — hardware components, Windows/USB-C requirement, current model, reservation, and H2 2026 target.
+- [Current global product FAQ](https://www.razer.com/razer-ava) — early-2027 target, limited beta, existing-deposit terms and current LLM wording; checked 2026-11-06.
+- [Official Chinese product page and FAQ](https://cn.razerzone.com/concepts/project-ava) — hardware components, Windows/USB-C requirement, historical model/reservation wording and superseded H2 2026 target.
 - [CES 2026 announcement](https://www.razer.com/newsroom/product-news/project-ava) — physical companion concept, avatar, perception, and PC Vision Mode.
 - [GDC 2026 announcement](https://www.razer.com/newsroom/company-news/razer-at-gdc-2026) — agentic workflows, local/cloud routing, integrations, and beta statement.
 - [About Razer](https://www.razer.com/about-razer) — dual headquarters in Singapore and Irvine, California.
@@ -1268,9 +1415,9 @@ Seven trained moves are announced for launch, including walking, standing/sittin
 | Developer / Organization | Pollen Robotics / Hugging Face |
 | Country / Region | France; designed in Bordeaux |
 | Product type | Pre-order programmable biped desktop robot |
-| Availability | Pre-orders opened 2026-08-27; first deliveries targeted before Christmas 2026 |
+| Availability | Pre-order; current orders expected to ship after April 2027, first ordered first shipped (store notice checked 2026-11-06) |
 | First released | Announced and opened for pre-order on 2026-08-27 |
-| Reference price | USD 399 introductory price before taxes and shipping, checked 2026-09-09; EU store showed EUR 340 |
+| Reference price | USD 399 pre-order price before taxes/shipping; EU storefront EUR 340, checked 2026-11-06 |
 | AI capabilities | Onboard 50 Hz learned motion policies; camera and depth sensing; user-trainable behaviors |
 | Movement | 15-DOF biped walking, sitting/standing, fall recovery, kick/grab, and optional roller-skating |
 | Open source | Partial: complete software/simulation/training stack under Apache-2.0; mechanical and electronic design files are not open |
@@ -1281,7 +1428,7 @@ Seven trained moves are announced for launch, including walking, standing/sittin
 | Cloud dependency | Core motion is onboard; optional Hugging Face Jobs can be used for hosted training |
 | Subscription | No mandatory subscription announced |
 | Power and charging | Removable NP-F550 2,600 mAh battery; approximately one hour claimed runtime |
-| Last verified | 2026-09-09 |
+| Last verified | 2026-11-06 (store price and current-order shipping estimate); other facts 2026-09-09 |
 
 ### Official links
 
@@ -1302,7 +1449,7 @@ Seven trained moves are announced for launch, including walking, standing/sittin
 
 ### Notes
 
-This is a pre-order product, not evidence of delivered retail hardware. Launch was initially limited to selected North American, European, and Asian destinations, and tax/shipping vary. The similarly named [microduck.net](https://microduck.net/) describes itself as an unofficial community token inspired by the robot; it is not the official robot product site. Use Pollen Robotics and its GitHub repository for product facts.
+This remains a pre-order product. The launch-era target of first deliveries before Christmas 2026 does not apply to a new order: the current store notice expects orders placed now to ship after April 2027, in order of purchase. This is a manufacturer estimate, not verified fulfillment. Launch destinations are limited and taxes/shipping vary. The similarly named [microduck.net](https://microduck.net/) describes an unofficial community token; use Pollen Robotics and its repository for product facts.
 
 ### Sources
 
@@ -1361,7 +1508,7 @@ The DOLY-DIY repository provides mechanical files, electronics material, firmwar
 - **Documentation:** [DOLY-DIY documentation](https://robotdoly.github.io/DOLY-DIY/)
 - **SDK/API:** [Python and C++ resources](https://github.com/robotdoly/DOLY-DIY)
 - **Support:** [Doly support](https://doly.ai/support/)
-- **Official videos:** [Doly channel](https://www.youtube.com/@DolyRobot)
+- **Official videos:** [Doly channel](https://www.youtube.com/@robotdoly)
 - **Press kit:** Unknown
 
 ### Main features
